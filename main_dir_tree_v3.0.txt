@@ -1,0 +1,3027 @@
+.
+├── check_for_template.tcsh
+├── main_dir_tree_v3.0.txt
+├── NMT_v2.0_sym
+│   ├── CustomAtlases.niml
+│   ├── NMT_changelog.txt
+│   ├── NMT_v2.0_sym
+│   │   ├── CHARM_in_NMT_v2.0_sym.nii.gz
+│   │   ├── D99_atlas_in_NMT_v2.0_sym.nii.gz
+│   │   ├── NMT_v2.0_sym_brainmask.nii.gz
+│   │   ├── NMT_v2.0_sym_GM_cortical_mask.nii.gz
+│   │   ├── NMT_v2.0_sym.nii.gz
+│   │   ├── NMT_v2.0_sym_segmentation.nii.gz
+│   │   ├── NMT_v2.0_sym_SS.nii.gz
+│   │   ├── SARM_in_NMT_v2.0_sym.nii.gz
+│   │   ├── supplemental_CHARM
+│   │   │   ├── CHARM_1_in_NMT_v2.0_sym.nii.gz
+│   │   │   ├── CHARM_2_in_NMT_v2.0_sym.nii.gz
+│   │   │   ├── CHARM_3_in_NMT_v2.0_sym.nii.gz
+│   │   │   ├── CHARM_4_in_NMT_v2.0_sym.nii.gz
+│   │   │   ├── CHARM_5_in_NMT_v2.0_sym.nii.gz
+│   │   │   └── CHARM_6_in_NMT_v2.0_sym.nii.gz
+│   │   ├── supplemental_masks
+│   │   │   ├── NMT_v2.0_sym_cerebellum_mask.nii.gz
+│   │   │   ├── NMT_v2.0_sym_LR_brainmask.nii.gz
+│   │   │   └── NMT_v2.0_sym_ventricles.nii.gz
+│   │   ├── supplemental_SARM
+│   │   │   ├── SARM_1_in_NMT_v2.0_sym.nii.gz
+│   │   │   ├── SARM_2_in_NMT_v2.0_sym.nii.gz
+│   │   │   ├── SARM_3_in_NMT_v2.0_sym.nii.gz
+│   │   │   ├── SARM_4_in_NMT_v2.0_sym.nii.gz
+│   │   │   ├── SARM_5_in_NMT_v2.0_sym.nii.gz
+│   │   │   └── SARM_6_in_NMT_v2.0_sym.nii.gz
+│   │   ├── ttv1_b.nii.gz
+│   │   ├── ttv1_c.nii.gz
+│   │   └── ttv1.nii.gz
+│   ├── NMT_v2.0_sym_05mm
+│   │   ├── CHARM_in_NMT_v2.0_sym_05mm.nii.gz
+│   │   ├── D99_atlas_in_NMT_v2.0_sym_05mm.nii.gz
+│   │   ├── NMT_v2.0_sym_05mm_brainmask.nii.gz
+│   │   ├── NMT_v2.0_sym_05mm_GM_cortical_mask.nii.gz
+│   │   ├── NMT_v2.0_sym_05mm.nii.gz
+│   │   ├── NMT_v2.0_sym_05mm_segmentation.nii.gz
+│   │   ├── NMT_v2.0_sym_05mm_SS.nii.gz
+│   │   ├── SARM_in_NMT_v2.0_sym_05mm.nii.gz
+│   │   ├── supplemental_CHARM
+│   │   │   ├── CHARM_1_in_NMT_v2.0_sym_05mm.nii.gz
+│   │   │   ├── CHARM_2_in_NMT_v2.0_sym_05mm.nii.gz
+│   │   │   ├── CHARM_3_in_NMT_v2.0_sym_05mm.nii.gz
+│   │   │   ├── CHARM_4_in_NMT_v2.0_sym_05mm.nii.gz
+│   │   │   ├── CHARM_5_in_NMT_v2.0_sym_05mm.nii.gz
+│   │   │   └── CHARM_6_in_NMT_v2.0_sym_05mm.nii.gz
+│   │   ├── supplemental_masks
+│   │   │   ├── NMT_v2.0_sym_05mm_cerebellum_mask.nii.gz
+│   │   │   ├── NMT_v2.0_sym_05mm_LR_brainmask.nii.gz
+│   │   │   └── NMT_v2.0_sym_05mm_ventricles.nii.gz
+│   │   └── supplemental_SARM
+│   │       ├── SARM_1_in_NMT_v2.0_sym_05mm.nii.gz
+│   │       ├── SARM_2_in_NMT_v2.0_sym_05mm.nii.gz
+│   │       ├── SARM_3_in_NMT_v2.0_sym_05mm.nii.gz
+│   │       ├── SARM_4_in_NMT_v2.0_sym_05mm.nii.gz
+│   │       ├── SARM_5_in_NMT_v2.0_sym_05mm.nii.gz
+│   │       └── SARM_6_in_NMT_v2.0_sym_05mm.nii.gz
+│   ├── NMT_v2.0_sym_env.csh
+│   ├── NMT_v2.0_sym_fh
+│   │   ├── CHARM_in_NMT_v2.0_sym_fh.nii.gz
+│   │   ├── D99_atlas_in_NMT_v2.0_sym_fh.nii.gz
+│   │   ├── NMT_v2.0_sym_fh_brainmask.nii.gz
+│   │   ├── NMT_v2.0_sym_fh_GM_cortical_mask.nii.gz
+│   │   ├── NMT_v2.0_sym_fh.nii.gz
+│   │   ├── NMT_v2.0_sym_fh_segmentation.nii.gz
+│   │   ├── NMT_v2.0_sym_fh_SS.nii.gz
+│   │   ├── SARM_in_NMT_v2.0_sym_fh.nii.gz
+│   │   ├── supplemental_CHARM
+│   │   │   ├── CHARM_1_in_NMT_v2.0_sym_fh.nii.gz
+│   │   │   ├── CHARM_2_in_NMT_v2.0_sym_fh.nii.gz
+│   │   │   ├── CHARM_3_in_NMT_v2.0_sym_fh.nii.gz
+│   │   │   ├── CHARM_4_in_NMT_v2.0_sym_fh.nii.gz
+│   │   │   ├── CHARM_5_in_NMT_v2.0_sym_fh.nii.gz
+│   │   │   └── CHARM_6_in_NMT_v2.0_sym_fh.nii.gz
+│   │   ├── supplemental_masks
+│   │   │   ├── NMT_v2.0_sym_fh_cerebellum_mask.nii.gz
+│   │   │   ├── NMT_v2.0_sym_fh_LR_brainmask.nii.gz
+│   │   │   └── NMT_v2.0_sym_fh_ventricles.nii.gz
+│   │   └── supplemental_SARM
+│   │       ├── SARM_1_in_NMT_v2.0_sym_fh.nii.gz
+│   │       ├── SARM_2_in_NMT_v2.0_sym_fh.nii.gz
+│   │       ├── SARM_3_in_NMT_v2.0_sym_fh.nii.gz
+│   │       ├── SARM_4_in_NMT_v2.0_sym_fh.nii.gz
+│   │       ├── SARM_5_in_NMT_v2.0_sym_fh.nii.gz
+│   │       └── SARM_6_in_NMT_v2.0_sym_fh.nii.gz
+│   ├── NMT_v2.0_sym_surfaces
+│   │   ├── atlases
+│   │   │   ├── CHARM
+│   │   │   │   ├── Level_1
+│   │   │   │   │   ├── CHARM_1.Frontal.k1.gii
+│   │   │   │   │   ├── CHARM_1.Frontal.k1.niml.dset
+│   │   │   │   │   ├── CHARM_1.Occipital.k231.gii
+│   │   │   │   │   ├── CHARM_1.Occipital.k231.niml.dset
+│   │   │   │   │   ├── CHARM_1.Parietal.k90.gii
+│   │   │   │   │   ├── CHARM_1.Parietal.k90.niml.dset
+│   │   │   │   │   ├── CHARM_1.Temporal.k138.gii
+│   │   │   │   │   └── CHARM_1.Temporal.k138.niml.dset
+│   │   │   │   ├── Level_2
+│   │   │   │   │   ├── CHARM_2.ACgG.k2.gii
+│   │   │   │   │   ├── CHARM_2.ACgG.k2.niml.dset
+│   │   │   │   │   ├── CHARM_2.core-belt.k204.gii
+│   │   │   │   │   ├── CHARM_2.core-belt.k204.niml.dset
+│   │   │   │   │   ├── CHARM_2.floor_of_ls.k224.gii
+│   │   │   │   │   ├── CHARM_2.floor_of_ls.k224.niml.dset
+│   │   │   │   │   ├── CHARM_2.IPL.k112.gii
+│   │   │   │   │   ├── CHARM_2.IPL.k112.niml.dset
+│   │   │   │   │   ├── CHARM_2.ITC.k175.gii
+│   │   │   │   │   ├── CHARM_2.ITC.k175.niml.dset
+│   │   │   │   │   ├── CHARM_2.lat_PFC.k50.gii
+│   │   │   │   │   ├── CHARM_2.lat_PFC.k50.niml.dset
+│   │   │   │   │   ├── CHARM_2.motor.k77.gii
+│   │   │   │   │   ├── CHARM_2.motor.k77.niml.dset
+│   │   │   │   │   ├── CHARM_2.MT.k232.gii
+│   │   │   │   │   ├── CHARM_2.MT.k232.niml.dset
+│   │   │   │   │   ├── CHARM_2.MTL.k139.gii
+│   │   │   │   │   ├── CHARM_2.MTL.k139.niml.dset
+│   │   │   │   │   ├── CHARM_2.OFC.k16.gii
+│   │   │   │   │   ├── CHARM_2.OFC.k16.niml.dset
+│   │   │   │   │   ├── CHARM_2.PMC.k125.gii
+│   │   │   │   │   ├── CHARM_2.PMC.k125.niml.dset
+│   │   │   │   │   ├── CHARM_2.SI-SII.k91.gii
+│   │   │   │   │   ├── CHARM_2.SI-SII.k91.niml.dset
+│   │   │   │   │   ├── CHARM_2.SPL.k96.gii
+│   │   │   │   │   ├── CHARM_2.SPL.k96.niml.dset
+│   │   │   │   │   ├── CHARM_2.STG-STSd.k193.gii
+│   │   │   │   │   ├── CHARM_2.STG-STSd.k193.niml.dset
+│   │   │   │   │   ├── CHARM_2.TG.k165.gii
+│   │   │   │   │   ├── CHARM_2.TG.k165.niml.dset
+│   │   │   │   │   ├── CHARM_2.V1.k246.gii
+│   │   │   │   │   ├── CHARM_2.V1.k246.niml.dset
+│   │   │   │   │   ├── CHARM_2.V2-V4.k233.gii
+│   │   │   │   │   └── CHARM_2.V2-V4.k233.niml.dset
+│   │   │   │   ├── Level_3
+│   │   │   │   │   ├── CHARM_3.ACC.k3.gii
+│   │   │   │   │   ├── CHARM_3.ACC.k3.niml.dset
+│   │   │   │   │   ├── CHARM_3.area_5.k102.gii
+│   │   │   │   │   ├── CHARM_3.area_5.k102.niml.dset
+│   │   │   │   │   ├── CHARM_3.area_7_in_IPL.k120.gii
+│   │   │   │   │   ├── CHARM_3.area_7_in_IPL.k120.niml.dset
+│   │   │   │   │   ├── CHARM_3.area_7m.k126.gii
+│   │   │   │   │   ├── CHARM_3.area_7m.k126.niml.dset
+│   │   │   │   │   ├── CHARM_3.area_8A.k51.gii
+│   │   │   │   │   ├── CHARM_3.area_8A.k51.niml.dset
+│   │   │   │   │   ├── CHARM_3.belt.k205.gii
+│   │   │   │   │   ├── CHARM_3.belt.k205.niml.dset
+│   │   │   │   │   ├── CHARM_3.caudal_OFC.k37.gii
+│   │   │   │   │   ├── CHARM_3.caudal_OFC.k37.niml.dset
+│   │   │   │   │   ├── CHARM_3.core.k219.gii
+│   │   │   │   │   ├── CHARM_3.core.k219.niml.dset
+│   │   │   │   │   ├── CHARM_3.dlPFC.k54.gii
+│   │   │   │   │   ├── CHARM_3.dlPFC.k54.niml.dset
+│   │   │   │   │   ├── CHARM_3.floor_of_ls.k224.gii
+│   │   │   │   │   ├── CHARM_3.floor_of_ls.k224.niml.dset
+│   │   │   │   │   ├── CHARM_3.lat_IPS.k113.gii
+│   │   │   │   │   ├── CHARM_3.lat_IPS.k113.niml.dset
+│   │   │   │   │   ├── CHARM_3.lat_OFC.k25.gii
+│   │   │   │   │   ├── CHARM_3.lat_OFC.k25.niml.dset
+│   │   │   │   │   ├── CHARM_3.M1-PM.k78.gii
+│   │   │   │   │   ├── CHARM_3.M1-PM.k78.niml.dset
+│   │   │   │   │   ├── CHARM_3.MCC.k11.gii
+│   │   │   │   │   ├── CHARM_3.MCC.k11.niml.dset
+│   │   │   │   │   ├── CHARM_3.med_OFC.k17.gii
+│   │   │   │   │   ├── CHARM_3.med_OFC.k17.niml.dset
+│   │   │   │   │   ├── CHARM_3.MST.k119.gii
+│   │   │   │   │   ├── CHARM_3.MST.k119.niml.dset
+│   │   │   │   │   ├── CHARM_3.MT.k232.gii
+│   │   │   │   │   ├── CHARM_3.MT.k232.niml.dset
+│   │   │   │   │   ├── CHARM_3.paraHipp.k148.gii
+│   │   │   │   │   ├── CHARM_3.paraHipp.k148.niml.dset
+│   │   │   │   │   ├── CHARM_3.PCgG.k127.gii
+│   │   │   │   │   ├── CHARM_3.PCgG.k127.niml.dset
+│   │   │   │   │   ├── CHARM_3.Rh.k153.gii
+│   │   │   │   │   ├── CHARM_3.Rh.k153.niml.dset
+│   │   │   │   │   ├── CHARM_3.RTp.k218.gii
+│   │   │   │   │   ├── CHARM_3.RTp.k218.niml.dset
+│   │   │   │   │   ├── CHARM_3.SII.k95.gii
+│   │   │   │   │   ├── CHARM_3.SII.k95.niml.dset
+│   │   │   │   │   ├── CHARM_3.SI.k92.gii
+│   │   │   │   │   ├── CHARM_3.SI.k92.niml.dset
+│   │   │   │   │   ├── CHARM_3.SMA-preSMA.k87.gii
+│   │   │   │   │   ├── CHARM_3.SMA-preSMA.k87.niml.dset
+│   │   │   │   │   ├── CHARM_3.STGc.k199.gii
+│   │   │   │   │   ├── CHARM_3.STGc.k199.niml.dset
+│   │   │   │   │   ├── CHARM_3.STGr-STSd.k194.gii
+│   │   │   │   │   ├── CHARM_3.STGr-STSd.k194.niml.dset
+│   │   │   │   │   ├── CHARM_3.STSf.k188.gii
+│   │   │   │   │   ├── CHARM_3.STSf.k188.niml.dset
+│   │   │   │   │   ├── CHARM_3.TE.k177.gii
+│   │   │   │   │   ├── CHARM_3.TE.k177.niml.dset
+│   │   │   │   │   ├── CHARM_3.TEO.k176.gii
+│   │   │   │   │   ├── CHARM_3.TEO.k176.niml.dset
+│   │   │   │   │   ├── CHARM_3.TG.k165.gii
+│   │   │   │   │   ├── CHARM_3.TG.k165.niml.dset
+│   │   │   │   │   ├── CHARM_3.V1.k246.gii
+│   │   │   │   │   ├── CHARM_3.V1.k246.niml.dset
+│   │   │   │   │   ├── CHARM_3.V2-V3.k237.gii
+│   │   │   │   │   ├── CHARM_3.V2-V3.k237.niml.dset
+│   │   │   │   │   ├── CHARM_3.V4.k234.gii
+│   │   │   │   │   ├── CHARM_3.V4.k234.niml.dset
+│   │   │   │   │   ├── CHARM_3.V6-V6A.k97.gii
+│   │   │   │   │   ├── CHARM_3.V6-V6A.k97.niml.dset
+│   │   │   │   │   ├── CHARM_3.vlPFC.k64.gii
+│   │   │   │   │   ├── CHARM_3.vlPFC.k64.niml.dset
+│   │   │   │   │   ├── CHARM_3.vm_IPS.k107.gii
+│   │   │   │   │   └── CHARM_3.vm_IPS.k107.niml.dset
+│   │   │   │   ├── Level_4
+│   │   │   │   │   ├── CHARM_4.area_10.k18.gii
+│   │   │   │   │   ├── CHARM_4.area_10.k18.niml.dset
+│   │   │   │   │   ├── CHARM_4.area_12m-o.k34.gii
+│   │   │   │   │   ├── CHARM_4.area_12m-o.k34.niml.dset
+│   │   │   │   │   ├── CHARM_4.area_14.k22.gii
+│   │   │   │   │   ├── CHARM_4.area_14.k22.niml.dset
+│   │   │   │   │   ├── CHARM_4.area_24.k6.gii
+│   │   │   │   │   ├── CHARM_4.area_24.k6.niml.dset
+│   │   │   │   │   ├── CHARM_4.area_25.k5.gii
+│   │   │   │   │   ├── CHARM_4.area_25.k5.niml.dset
+│   │   │   │   │   ├── CHARM_4.area_32.k4.gii
+│   │   │   │   │   ├── CHARM_4.area_32.k4.niml.dset
+│   │   │   │   │   ├── CHARM_4.area_5.k102.gii
+│   │   │   │   │   ├── CHARM_4.area_5.k102.niml.dset
+│   │   │   │   │   ├── CHARM_4.area_7_in_IPL.k120.gii
+│   │   │   │   │   ├── CHARM_4.area_7_in_IPL.k120.niml.dset
+│   │   │   │   │   ├── CHARM_4.area_7m.k126.gii
+│   │   │   │   │   ├── CHARM_4.area_7m.k126.niml.dset
+│   │   │   │   │   ├── CHARM_4.area_8A.k51.gii
+│   │   │   │   │   ├── CHARM_4.area_8A.k51.niml.dset
+│   │   │   │   │   ├── CHARM_4.area_8B.k55.gii
+│   │   │   │   │   ├── CHARM_4.area_8B.k55.niml.dset
+│   │   │   │   │   ├── CHARM_4.areas_11-13.k26.gii
+│   │   │   │   │   ├── CHARM_4.areas_11-13.k26.niml.dset
+│   │   │   │   │   ├── CHARM_4.caudal_vlPFC.k72.gii
+│   │   │   │   │   ├── CHARM_4.caudal_vlPFC.k72.niml.dset
+│   │   │   │   │   ├── CHARM_4.cl_OFC.k47.gii
+│   │   │   │   │   ├── CHARM_4.cl_OFC.k47.niml.dset
+│   │   │   │   │   ├── CHARM_4.core.k219.gii
+│   │   │   │   │   ├── CHARM_4.core.k219.niml.dset
+│   │   │   │   │   ├── CHARM_4.ERh.k154.gii
+│   │   │   │   │   ├── CHARM_4.ERh.k154.niml.dset
+│   │   │   │   │   ├── CHARM_4.gyral_TE.k178.gii
+│   │   │   │   │   ├── CHARM_4.gyral_TE.k178.niml.dset
+│   │   │   │   │   ├── CHARM_4.Ins-Pi.k225.gii
+│   │   │   │   │   ├── CHARM_4.Ins-Pi.k225.niml.dset
+│   │   │   │   │   ├── CHARM_4.lat_belt.k206.gii
+│   │   │   │   │   ├── CHARM_4.lat_belt.k206.niml.dset
+│   │   │   │   │   ├── CHARM_4.lat_IPS.k113.gii
+│   │   │   │   │   ├── CHARM_4.lat_IPS.k113.niml.dset
+│   │   │   │   │   ├── CHARM_4.M1.k79.gii
+│   │   │   │   │   ├── CHARM_4.M1.k79.niml.dset
+│   │   │   │   │   ├── CHARM_4.MCC.k11.gii
+│   │   │   │   │   ├── CHARM_4.MCC.k11.niml.dset
+│   │   │   │   │   ├── CHARM_4.med_belt.k213.gii
+│   │   │   │   │   ├── CHARM_4.med_belt.k213.niml.dset
+│   │   │   │   │   ├── CHARM_4.MST.k119.gii
+│   │   │   │   │   ├── CHARM_4.MST.k119.niml.dset
+│   │   │   │   │   ├── CHARM_4.MT.k232.gii
+│   │   │   │   │   ├── CHARM_4.MT.k232.niml.dset
+│   │   │   │   │   ├── CHARM_4.OFa-p.k38.gii
+│   │   │   │   │   ├── CHARM_4.OFa-p.k38.niml.dset
+│   │   │   │   │   ├── CHARM_4.OLF.k44.gii
+│   │   │   │   │   ├── CHARM_4.OLF.k44.niml.dset
+│   │   │   │   │   ├── CHARM_4.paraHipp.k148.gii
+│   │   │   │   │   ├── CHARM_4.paraHipp.k148.niml.dset
+│   │   │   │   │   ├── CHARM_4.PCC.k128.gii
+│   │   │   │   │   ├── CHARM_4.PCC.k128.niml.dset
+│   │   │   │   │   ├── CHARM_4.PM.k80.gii
+│   │   │   │   │   ├── CHARM_4.PM.k80.niml.dset
+│   │   │   │   │   ├── CHARM_4.PRh.k160.gii
+│   │   │   │   │   ├── CHARM_4.PRh.k160.niml.dset
+│   │   │   │   │   ├── CHARM_4.Ri.k230.gii
+│   │   │   │   │   ├── CHARM_4.Ri.k230.niml.dset
+│   │   │   │   │   ├── CHARM_4.rostral_dlPFC.k59.gii
+│   │   │   │   │   ├── CHARM_4.rostral_dlPFC.k59.niml.dset
+│   │   │   │   │   ├── CHARM_4.rostral_vlPFC.k65.gii
+│   │   │   │   │   ├── CHARM_4.rostral_vlPFC.k65.niml.dset
+│   │   │   │   │   ├── CHARM_4.RSC.k135.gii
+│   │   │   │   │   ├── CHARM_4.RSC.k135.niml.dset
+│   │   │   │   │   ├── CHARM_4.RTp.k218.gii
+│   │   │   │   │   ├── CHARM_4.RTp.k218.niml.dset
+│   │   │   │   │   ├── CHARM_4.SII.k95.gii
+│   │   │   │   │   ├── CHARM_4.SII.k95.niml.dset
+│   │   │   │   │   ├── CHARM_4.SI.k92.gii
+│   │   │   │   │   ├── CHARM_4.SI.k92.niml.dset
+│   │   │   │   │   ├── CHARM_4.SMA-preSMA.k87.gii
+│   │   │   │   │   ├── CHARM_4.SMA-preSMA.k87.niml.dset
+│   │   │   │   │   ├── CHARM_4.STGc.k199.gii
+│   │   │   │   │   ├── CHARM_4.STGc.k199.niml.dset
+│   │   │   │   │   ├── CHARM_4.STGr.k198.gii
+│   │   │   │   │   ├── CHARM_4.STGr.k198.niml.dset
+│   │   │   │   │   ├── CHARM_4.STSd.k195.gii
+│   │   │   │   │   ├── CHARM_4.STSd.k195.niml.dset
+│   │   │   │   │   ├── CHARM_4.STSf.k188.gii
+│   │   │   │   │   ├── CHARM_4.STSf.k188.niml.dset
+│   │   │   │   │   ├── CHARM_4.TE_in_STSv.k185.gii
+│   │   │   │   │   ├── CHARM_4.TE_in_STSv.k185.niml.dset
+│   │   │   │   │   ├── CHARM_4.TEO.k176.gii
+│   │   │   │   │   ├── CHARM_4.TEO.k176.niml.dset
+│   │   │   │   │   ├── CHARM_4.TGa.k166.gii
+│   │   │   │   │   ├── CHARM_4.TGa.k166.niml.dset
+│   │   │   │   │   ├── CHARM_4.TGg-TGd.k167.gii
+│   │   │   │   │   ├── CHARM_4.TGg-TGd.k167.niml.dset
+│   │   │   │   │   ├── CHARM_4.V1.k246.gii
+│   │   │   │   │   ├── CHARM_4.V1.k246.niml.dset
+│   │   │   │   │   ├── CHARM_4.V2.k243.gii
+│   │   │   │   │   ├── CHARM_4.V2.k243.niml.dset
+│   │   │   │   │   ├── CHARM_4.V3.k238.gii
+│   │   │   │   │   ├── CHARM_4.V3.k238.niml.dset
+│   │   │   │   │   ├── CHARM_4.V4.k234.gii
+│   │   │   │   │   ├── CHARM_4.V4.k234.niml.dset
+│   │   │   │   │   ├── CHARM_4.V6A.k99.gii
+│   │   │   │   │   ├── CHARM_4.V6A.k99.niml.dset
+│   │   │   │   │   ├── CHARM_4.V6.k98.gii
+│   │   │   │   │   ├── CHARM_4.V6.k98.niml.dset
+│   │   │   │   │   ├── CHARM_4.vm_IPS.k107.gii
+│   │   │   │   │   └── CHARM_4.vm_IPS.k107.niml.dset
+│   │   │   │   ├── Level_5
+│   │   │   │   │   ├── CHARM_5.AI.k223.gii
+│   │   │   │   │   ├── CHARM_5.AI.k223.niml.dset
+│   │   │   │   │   ├── CHARM_5.AIP.k114.gii
+│   │   │   │   │   ├── CHARM_5.AIP.k114.niml.dset
+│   │   │   │   │   ├── CHARM_5.AL-RTL.k210.gii
+│   │   │   │   │   ├── CHARM_5.AL-RTL.k210.niml.dset
+│   │   │   │   │   ├── CHARM_5.ant_STSf.k189.gii
+│   │   │   │   │   ├── CHARM_5.ant_STSf.k189.niml.dset
+│   │   │   │   │   ├── CHARM_5.ant_TE.k182.gii
+│   │   │   │   │   ├── CHARM_5.ant_TE.k182.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_10.k18.gii
+│   │   │   │   │   ├── CHARM_5.area_10.k18.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_11.k27.gii
+│   │   │   │   │   ├── CHARM_5.area_11.k27.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_12m-o.k34.gii
+│   │   │   │   │   ├── CHARM_5.area_12m-o.k34.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_12r-l.k69.gii
+│   │   │   │   │   ├── CHARM_5.area_12r-l.k69.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_13.k30.gii
+│   │   │   │   │   ├── CHARM_5.area_13.k30.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_14.k22.gii
+│   │   │   │   │   ├── CHARM_5.area_14.k22.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_23.k130.gii
+│   │   │   │   │   ├── CHARM_5.area_23.k130.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_24a-b.k7.gii
+│   │   │   │   │   ├── CHARM_5.area_24a-b.k7.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_24a-b_prime.k12.gii
+│   │   │   │   │   ├── CHARM_5.area_24a-b_prime.k12.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_24c.k10.gii
+│   │   │   │   │   ├── CHARM_5.area_24c.k10.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_24c_prime.k15.gii
+│   │   │   │   │   ├── CHARM_5.area_24c_prime.k15.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_25.k5.gii
+│   │   │   │   │   ├── CHARM_5.area_25.k5.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_29.k136.gii
+│   │   │   │   │   ├── CHARM_5.area_29.k136.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_30.k137.gii
+│   │   │   │   │   ├── CHARM_5.area_30.k137.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_31.k129.gii
+│   │   │   │   │   ├── CHARM_5.area_31.k129.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_32.k4.gii
+│   │   │   │   │   ├── CHARM_5.area_32.k4.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_35.k161.gii
+│   │   │   │   │   ├── CHARM_5.area_35.k161.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_36.k162.gii
+│   │   │   │   │   ├── CHARM_5.area_36.k162.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_3a-b.k93.gii
+│   │   │   │   │   ├── CHARM_5.area_3a-b.k93.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_44.k76.gii
+│   │   │   │   │   ├── CHARM_5.area_44.k76.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_45.k73.gii
+│   │   │   │   │   ├── CHARM_5.area_45.k73.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_46d.k63.gii
+│   │   │   │   │   ├── CHARM_5.area_46d.k63.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_46v-f.k66.gii
+│   │   │   │   │   ├── CHARM_5.area_46v-f.k66.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_5d.k103.gii
+│   │   │   │   │   ├── CHARM_5.area_5d.k103.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_7a-b.k121.gii
+│   │   │   │   │   ├── CHARM_5.area_7a-b.k121.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_7m.k126.gii
+│   │   │   │   │   ├── CHARM_5.area_7m.k126.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_7op.k124.gii
+│   │   │   │   │   ├── CHARM_5.area_7op.k124.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_8A.k51.gii
+│   │   │   │   │   ├── CHARM_5.area_8A.k51.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_8B.k55.gii
+│   │   │   │   │   ├── CHARM_5.area_8B.k55.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_9.k60.gii
+│   │   │   │   │   ├── CHARM_5.area_9.k60.niml.dset
+│   │   │   │   │   ├── CHARM_5.areas_1-2.k94.gii
+│   │   │   │   │   ├── CHARM_5.areas_1-2.k94.niml.dset
+│   │   │   │   │   ├── CHARM_5.area_v23.k134.gii
+│   │   │   │   │   ├── CHARM_5.area_v23.k134.niml.dset
+│   │   │   │   │   ├── CHARM_5.caudal_ERh.k155.gii
+│   │   │   │   │   ├── CHARM_5.caudal_ERh.k155.niml.dset
+│   │   │   │   │   ├── CHARM_5.CL-ML.k207.gii
+│   │   │   │   │   ├── CHARM_5.CL-ML.k207.niml.dset
+│   │   │   │   │   ├── CHARM_5.CM.k214.gii
+│   │   │   │   │   ├── CHARM_5.CM.k214.niml.dset
+│   │   │   │   │   ├── CHARM_5.FST.k192.gii
+│   │   │   │   │   ├── CHARM_5.FST.k192.niml.dset
+│   │   │   │   │   ├── CHARM_5.fundus_IPS.k109.gii
+│   │   │   │   │   ├── CHARM_5.fundus_IPS.k109.niml.dset
+│   │   │   │   │   ├── CHARM_5.G.k48.gii
+│   │   │   │   │   ├── CHARM_5.G.k48.niml.dset
+│   │   │   │   │   ├── CHARM_5.Iam-Iapm.k39.gii
+│   │   │   │   │   ├── CHARM_5.Iam-Iapm.k39.niml.dset
+│   │   │   │   │   ├── CHARM_5.Ins.k227.gii
+│   │   │   │   │   ├── CHARM_5.Ins.k227.niml.dset
+│   │   │   │   │   ├── CHARM_5.lat_Ia.k40.gii
+│   │   │   │   │   ├── CHARM_5.lat_Ia.k40.niml.dset
+│   │   │   │   │   ├── CHARM_5.LIP.k115.gii
+│   │   │   │   │   ├── CHARM_5.LIP.k115.niml.dset
+│   │   │   │   │   ├── CHARM_5.LOP.k118.gii
+│   │   │   │   │   ├── CHARM_5.LOP.k118.niml.dset
+│   │   │   │   │   ├── CHARM_5.M1.k79.gii
+│   │   │   │   │   ├── CHARM_5.M1.k79.niml.dset
+│   │   │   │   │   ├── CHARM_5.mid_ERh.k158.gii
+│   │   │   │   │   ├── CHARM_5.mid_ERh.k158.niml.dset
+│   │   │   │   │   ├── CHARM_5.MIP.k108.gii
+│   │   │   │   │   ├── CHARM_5.MIP.k108.niml.dset
+│   │   │   │   │   ├── CHARM_5.MST.k119.gii
+│   │   │   │   │   ├── CHARM_5.MST.k119.niml.dset
+│   │   │   │   │   ├── CHARM_5.MT.k232.gii
+│   │   │   │   │   ├── CHARM_5.MT.k232.niml.dset
+│   │   │   │   │   ├── CHARM_5.OLF.k44.gii
+│   │   │   │   │   ├── CHARM_5.OLF.k44.niml.dset
+│   │   │   │   │   ├── CHARM_5.parabelt.k201.gii
+│   │   │   │   │   ├── CHARM_5.parabelt.k201.niml.dset
+│   │   │   │   │   ├── CHARM_5.PEa.k106.gii
+│   │   │   │   │   ├── CHARM_5.PEa.k106.niml.dset
+│   │   │   │   │   ├── CHARM_5.Pi.k226.gii
+│   │   │   │   │   ├── CHARM_5.Pi.k226.niml.dset
+│   │   │   │   │   ├── CHARM_5.PMd.k81.gii
+│   │   │   │   │   ├── CHARM_5.PMd.k81.niml.dset
+│   │   │   │   │   ├── CHARM_5.PMv.k84.gii
+│   │   │   │   │   ├── CHARM_5.PMv.k84.niml.dset
+│   │   │   │   │   ├── CHARM_5.post_TE.k179.gii
+│   │   │   │   │   ├── CHARM_5.post_TE.k179.niml.dset
+│   │   │   │   │   ├── CHARM_5.PrCO.k49.gii
+│   │   │   │   │   ├── CHARM_5.PrCO.k49.niml.dset
+│   │   │   │   │   ├── CHARM_5.preSMA.k88.gii
+│   │   │   │   │   ├── CHARM_5.preSMA.k88.niml.dset
+│   │   │   │   │   ├── CHARM_5.Ri.k230.gii
+│   │   │   │   │   ├── CHARM_5.Ri.k230.niml.dset
+│   │   │   │   │   ├── CHARM_5.RM-RTM.k215.gii
+│   │   │   │   │   ├── CHARM_5.RM-RTM.k215.niml.dset
+│   │   │   │   │   ├── CHARM_5.rostral_ERh.k159.gii
+│   │   │   │   │   ├── CHARM_5.rostral_ERh.k159.niml.dset
+│   │   │   │   │   ├── CHARM_5.R-RT.k220.gii
+│   │   │   │   │   ├── CHARM_5.R-RT.k220.niml.dset
+│   │   │   │   │   ├── CHARM_5.RTp.k218.gii
+│   │   │   │   │   ├── CHARM_5.RTp.k218.niml.dset
+│   │   │   │   │   ├── CHARM_5.SII.k95.gii
+│   │   │   │   │   ├── CHARM_5.SII.k95.niml.dset
+│   │   │   │   │   ├── CHARM_5.SMA.k89.gii
+│   │   │   │   │   ├── CHARM_5.SMA.k89.niml.dset
+│   │   │   │   │   ├── CHARM_5.STGr.k198.gii
+│   │   │   │   │   ├── CHARM_5.STGr.k198.niml.dset
+│   │   │   │   │   ├── CHARM_5.TAa.k197.gii
+│   │   │   │   │   ├── CHARM_5.TAa.k197.niml.dset
+│   │   │   │   │   ├── CHARM_5.TE_in_STSv.k185.gii
+│   │   │   │   │   ├── CHARM_5.TE_in_STSv.k185.niml.dset
+│   │   │   │   │   ├── CHARM_5.TEO.k176.gii
+│   │   │   │   │   ├── CHARM_5.TEO.k176.niml.dset
+│   │   │   │   │   ├── CHARM_5.TF-TFO.k149.gii
+│   │   │   │   │   ├── CHARM_5.TF-TFO.k149.niml.dset
+│   │   │   │   │   ├── CHARM_5.TGa.k166.gii
+│   │   │   │   │   ├── CHARM_5.TGa.k166.niml.dset
+│   │   │   │   │   ├── CHARM_5.TGd.k168.gii
+│   │   │   │   │   ├── CHARM_5.TGd.k168.niml.dset
+│   │   │   │   │   ├── CHARM_5.TGg.k171.gii
+│   │   │   │   │   ├── CHARM_5.TGg.k171.niml.dset
+│   │   │   │   │   ├── CHARM_5.TH.k152.gii
+│   │   │   │   │   ├── CHARM_5.TH.k152.niml.dset
+│   │   │   │   │   ├── CHARM_5.TPO.k196.gii
+│   │   │   │   │   ├── CHARM_5.TPO.k196.niml.dset
+│   │   │   │   │   ├── CHARM_5.Tpt.k200.gii
+│   │   │   │   │   ├── CHARM_5.Tpt.k200.niml.dset
+│   │   │   │   │   ├── CHARM_5.V1.k246.gii
+│   │   │   │   │   ├── CHARM_5.V1.k246.niml.dset
+│   │   │   │   │   ├── CHARM_5.V2.k243.gii
+│   │   │   │   │   ├── CHARM_5.V2.k243.niml.dset
+│   │   │   │   │   ├── CHARM_5.V3d-V3A.k239.gii
+│   │   │   │   │   ├── CHARM_5.V3d-V3A.k239.niml.dset
+│   │   │   │   │   ├── CHARM_5.V3v.k242.gii
+│   │   │   │   │   ├── CHARM_5.V3v.k242.niml.dset
+│   │   │   │   │   ├── CHARM_5.V4d.k235.gii
+│   │   │   │   │   ├── CHARM_5.V4d.k235.niml.dset
+│   │   │   │   │   ├── CHARM_5.V4v.k236.gii
+│   │   │   │   │   ├── CHARM_5.V4v.k236.niml.dset
+│   │   │   │   │   ├── CHARM_5.V6A.k99.gii
+│   │   │   │   │   ├── CHARM_5.V6A.k99.niml.dset
+│   │   │   │   │   ├── CHARM_5.V6.k98.gii
+│   │   │   │   │   └── CHARM_5.V6.k98.niml.dset
+│   │   │   │   └── Level_6
+│   │   │   │       ├── CHARM_6.AI.k223.gii
+│   │   │   │       ├── CHARM_6.AI.k223.niml.dset
+│   │   │   │       ├── CHARM_6.AIP.k114.gii
+│   │   │   │       ├── CHARM_6.AIP.k114.niml.dset
+│   │   │   │       ├── CHARM_6.AL.k211.gii
+│   │   │   │       ├── CHARM_6.AL.k211.niml.dset
+│   │   │   │       ├── CHARM_6.AON-TTv.k45.gii
+│   │   │   │       ├── CHARM_6.AON-TTv.k45.niml.dset
+│   │   │   │       ├── CHARM_6.area_10mc.k20.gii
+│   │   │   │       ├── CHARM_6.area_10mc.k20.niml.dset
+│   │   │   │       ├── CHARM_6.area_10mr.k19.gii
+│   │   │   │       ├── CHARM_6.area_10mr.k19.niml.dset
+│   │   │   │       ├── CHARM_6.area_10o.k21.gii
+│   │   │   │       ├── CHARM_6.area_10o.k21.niml.dset
+│   │   │   │       ├── CHARM_6.area_11l.k29.gii
+│   │   │   │       ├── CHARM_6.area_11l.k29.niml.dset
+│   │   │   │       ├── CHARM_6.area_11m.k28.gii
+│   │   │   │       ├── CHARM_6.area_11m.k28.niml.dset
+│   │   │   │       ├── CHARM_6.area_12l.k70.gii
+│   │   │   │       ├── CHARM_6.area_12l.k70.niml.dset
+│   │   │   │       ├── CHARM_6.area_12m.k35.gii
+│   │   │   │       ├── CHARM_6.area_12m.k35.niml.dset
+│   │   │   │       ├── CHARM_6.area_12o.k36.gii
+│   │   │   │       ├── CHARM_6.area_12o.k36.niml.dset
+│   │   │   │       ├── CHARM_6.area_12r.k71.gii
+│   │   │   │       ├── CHARM_6.area_12r.k71.niml.dset
+│   │   │   │       ├── CHARM_6.area_13a-b.k31.gii
+│   │   │   │       ├── CHARM_6.area_13a-b.k31.niml.dset
+│   │   │   │       ├── CHARM_6.area_13l.k33.gii
+│   │   │   │       ├── CHARM_6.area_13l.k33.niml.dset
+│   │   │   │       ├── CHARM_6.area_13m.k32.gii
+│   │   │   │       ├── CHARM_6.area_13m.k32.niml.dset
+│   │   │   │       ├── CHARM_6.area_14c.k24.gii
+│   │   │   │       ├── CHARM_6.area_14c.k24.niml.dset
+│   │   │   │       ├── CHARM_6.area_14r.k23.gii
+│   │   │   │       ├── CHARM_6.area_14r.k23.niml.dset
+│   │   │   │       ├── CHARM_6.area_23a.k131.gii
+│   │   │   │       ├── CHARM_6.area_23a.k131.niml.dset
+│   │   │   │       ├── CHARM_6.area_23b.k132.gii
+│   │   │   │       ├── CHARM_6.area_23b.k132.niml.dset
+│   │   │   │       ├── CHARM_6.area_23c.k133.gii
+│   │   │   │       ├── CHARM_6.area_23c.k133.niml.dset
+│   │   │   │       ├── CHARM_6.area_24a.k8.gii
+│   │   │   │       ├── CHARM_6.area_24a.k8.niml.dset
+│   │   │   │       ├── CHARM_6.area_24a_prime.k13.gii
+│   │   │   │       ├── CHARM_6.area_24a_prime.k13.niml.dset
+│   │   │   │       ├── CHARM_6.area_24b.k9.gii
+│   │   │   │       ├── CHARM_6.area_24b.k9.niml.dset
+│   │   │   │       ├── CHARM_6.area_24b_prime.k14.gii
+│   │   │   │       ├── CHARM_6.area_24b_prime.k14.niml.dset
+│   │   │   │       ├── CHARM_6.area_24c.k10.gii
+│   │   │   │       ├── CHARM_6.area_24c.k10.niml.dset
+│   │   │   │       ├── CHARM_6.area_24c_prime.k15.gii
+│   │   │   │       ├── CHARM_6.area_24c_prime.k15.niml.dset
+│   │   │   │       ├── CHARM_6.area_25.k5.gii
+│   │   │   │       ├── CHARM_6.area_25.k5.niml.dset
+│   │   │   │       ├── CHARM_6.area_29.k136.gii
+│   │   │   │       ├── CHARM_6.area_29.k136.niml.dset
+│   │   │   │       ├── CHARM_6.area_30.k137.gii
+│   │   │   │       ├── CHARM_6.area_30.k137.niml.dset
+│   │   │   │       ├── CHARM_6.area_31.k129.gii
+│   │   │   │       ├── CHARM_6.area_31.k129.niml.dset
+│   │   │   │       ├── CHARM_6.area_32.k4.gii
+│   │   │   │       ├── CHARM_6.area_32.k4.niml.dset
+│   │   │   │       ├── CHARM_6.area_35.k161.gii
+│   │   │   │       ├── CHARM_6.area_35.k161.niml.dset
+│   │   │   │       ├── CHARM_6.area_36c.k163.gii
+│   │   │   │       ├── CHARM_6.area_36c.k163.niml.dset
+│   │   │   │       ├── CHARM_6.area_36r-p.k164.gii
+│   │   │   │       ├── CHARM_6.area_36r-p.k164.niml.dset
+│   │   │   │       ├── CHARM_6.area_3a-b.k93.gii
+│   │   │   │       ├── CHARM_6.area_3a-b.k93.niml.dset
+│   │   │   │       ├── CHARM_6.area_44.k76.gii
+│   │   │   │       ├── CHARM_6.area_44.k76.niml.dset
+│   │   │   │       ├── CHARM_6.area_45a.k74.gii
+│   │   │   │       ├── CHARM_6.area_45a.k74.niml.dset
+│   │   │   │       ├── CHARM_6.area_45b.k75.gii
+│   │   │   │       ├── CHARM_6.area_45b.k75.niml.dset
+│   │   │   │       ├── CHARM_6.area_46d.k63.gii
+│   │   │   │       ├── CHARM_6.area_46d.k63.niml.dset
+│   │   │   │       ├── CHARM_6.area_46f.k67.gii
+│   │   │   │       ├── CHARM_6.area_46f.k67.niml.dset
+│   │   │   │       ├── CHARM_6.area_46v.k68.gii
+│   │   │   │       ├── CHARM_6.area_46v.k68.niml.dset
+│   │   │   │       ├── CHARM_6.area_7a.k122.gii
+│   │   │   │       ├── CHARM_6.area_7a.k122.niml.dset
+│   │   │   │       ├── CHARM_6.area_7b.k123.gii
+│   │   │   │       ├── CHARM_6.area_7b.k123.niml.dset
+│   │   │   │       ├── CHARM_6.area_7m.k126.gii
+│   │   │   │       ├── CHARM_6.area_7m.k126.niml.dset
+│   │   │   │       ├── CHARM_6.area_7op.k124.gii
+│   │   │   │       ├── CHARM_6.area_7op.k124.niml.dset
+│   │   │   │       ├── CHARM_6.area_8Ad.k52.gii
+│   │   │   │       ├── CHARM_6.area_8Ad.k52.niml.dset
+│   │   │   │       ├── CHARM_6.area_8Av.k53.gii
+│   │   │   │       ├── CHARM_6.area_8Av.k53.niml.dset
+│   │   │   │       ├── CHARM_6.area_8Bd.k56.gii
+│   │   │   │       ├── CHARM_6.area_8Bd.k56.niml.dset
+│   │   │   │       ├── CHARM_6.area_8Bm.k57.gii
+│   │   │   │       ├── CHARM_6.area_8Bm.k57.niml.dset
+│   │   │   │       ├── CHARM_6.area_8Bs.k58.gii
+│   │   │   │       ├── CHARM_6.area_8Bs.k58.niml.dset
+│   │   │   │       ├── CHARM_6.area_9d.k61.gii
+│   │   │   │       ├── CHARM_6.area_9d.k61.niml.dset
+│   │   │   │       ├── CHARM_6.area_9m.k62.gii
+│   │   │   │       ├── CHARM_6.area_9m.k62.niml.dset
+│   │   │   │       ├── CHARM_6.areas_1-2.k94.gii
+│   │   │   │       ├── CHARM_6.areas_1-2.k94.niml.dset
+│   │   │   │       ├── CHARM_6.area_v23.k134.gii
+│   │   │   │       ├── CHARM_6.area_v23.k134.niml.dset
+│   │   │   │       ├── CHARM_6.clearly_V2.k245.gii
+│   │   │   │       ├── CHARM_6.clearly_V2.k245.niml.dset
+│   │   │   │       ├── CHARM_6.CL.k208.gii
+│   │   │   │       ├── CHARM_6.CL.k208.niml.dset
+│   │   │   │       ├── CHARM_6.CM.k214.gii
+│   │   │   │       ├── CHARM_6.CM.k214.niml.dset
+│   │   │   │       ├── CHARM_6.CPB.k202.gii
+│   │   │   │       ├── CHARM_6.CPB.k202.niml.dset
+│   │   │   │       ├── CHARM_6.EC.k156.gii
+│   │   │   │       ├── CHARM_6.EC.k156.niml.dset
+│   │   │   │       ├── CHARM_6.ECL.k157.gii
+│   │   │   │       ├── CHARM_6.ECL.k157.niml.dset
+│   │   │   │       ├── CHARM_6.F4.k85.gii
+│   │   │   │       ├── CHARM_6.F4.k85.niml.dset
+│   │   │   │       ├── CHARM_6.F5.k86.gii
+│   │   │   │       ├── CHARM_6.F5.k86.niml.dset
+│   │   │   │       ├── CHARM_6.FST.k192.gii
+│   │   │   │       ├── CHARM_6.FST.k192.niml.dset
+│   │   │   │       ├── CHARM_6.G.k48.gii
+│   │   │   │       ├── CHARM_6.G.k48.niml.dset
+│   │   │   │       ├── CHARM_6.Ia-Id.k228.gii
+│   │   │   │       ├── CHARM_6.Ia-Id.k228.niml.dset
+│   │   │   │       ├── CHARM_6.Iai.k41.gii
+│   │   │   │       ├── CHARM_6.Iai.k41.niml.dset
+│   │   │   │       ├── CHARM_6.Ial.k42.gii
+│   │   │   │       ├── CHARM_6.Ial.k42.niml.dset
+│   │   │   │       ├── CHARM_6.Iam-Iapm.k39.gii
+│   │   │   │       ├── CHARM_6.Iam-Iapm.k39.niml.dset
+│   │   │   │       ├── CHARM_6.Iapl.k43.gii
+│   │   │   │       ├── CHARM_6.Iapl.k43.niml.dset
+│   │   │   │       ├── CHARM_6.Ig.k229.gii
+│   │   │   │       ├── CHARM_6.Ig.k229.niml.dset
+│   │   │   │       ├── CHARM_6.IPa.k190.gii
+│   │   │   │       ├── CHARM_6.IPa.k190.niml.dset
+│   │   │   │       ├── CHARM_6.LIPd.k116.gii
+│   │   │   │       ├── CHARM_6.LIPd.k116.niml.dset
+│   │   │   │       ├── CHARM_6.LIPv.k117.gii
+│   │   │   │       ├── CHARM_6.LIPv.k117.niml.dset
+│   │   │   │       ├── CHARM_6.LOP.k118.gii
+│   │   │   │       ├── CHARM_6.LOP.k118.niml.dset
+│   │   │   │       ├── CHARM_6.M1.k79.gii
+│   │   │   │       ├── CHARM_6.M1.k79.niml.dset
+│   │   │   │       ├── CHARM_6.mid_ERh.k158.gii
+│   │   │   │       ├── CHARM_6.mid_ERh.k158.niml.dset
+│   │   │   │       ├── CHARM_6.MIP.k108.gii
+│   │   │   │       ├── CHARM_6.MIP.k108.niml.dset
+│   │   │   │       ├── CHARM_6.ML.k209.gii
+│   │   │   │       ├── CHARM_6.ML.k209.niml.dset
+│   │   │   │       ├── CHARM_6.MST.k119.gii
+│   │   │   │       ├── CHARM_6.MST.k119.niml.dset
+│   │   │   │       ├── CHARM_6.MT.k232.gii
+│   │   │   │       ├── CHARM_6.MT.k232.niml.dset
+│   │   │   │       ├── CHARM_6.OT-Pir.k46.gii
+│   │   │   │       ├── CHARM_6.OT-Pir.k46.niml.dset
+│   │   │   │       ├── CHARM_6.PEa.k106.gii
+│   │   │   │       ├── CHARM_6.PEa.k106.niml.dset
+│   │   │   │       ├── CHARM_6.PEc-PEci.k104.gii
+│   │   │   │       ├── CHARM_6.PEc-PEci.k104.niml.dset
+│   │   │   │       ├── CHARM_6.PE.k105.gii
+│   │   │   │       ├── CHARM_6.PE.k105.niml.dset
+│   │   │   │       ├── CHARM_6.PGa.k191.gii
+│   │   │   │       ├── CHARM_6.PGa.k191.niml.dset
+│   │   │   │       ├── CHARM_6.Pi.k226.gii
+│   │   │   │       ├── CHARM_6.Pi.k226.niml.dset
+│   │   │   │       ├── CHARM_6.PIP.k111.gii
+│   │   │   │       ├── CHARM_6.PIP.k111.niml.dset
+│   │   │   │       ├── CHARM_6.PMdc.k82.gii
+│   │   │   │       ├── CHARM_6.PMdc.k82.niml.dset
+│   │   │   │       ├── CHARM_6.PMdr.k83.gii
+│   │   │   │       ├── CHARM_6.PMdr.k83.niml.dset
+│   │   │   │       ├── CHARM_6.possibly_V2.k244.gii
+│   │   │   │       ├── CHARM_6.possibly_V2.k244.niml.dset
+│   │   │   │       ├── CHARM_6.PrCO.k49.gii
+│   │   │   │       ├── CHARM_6.PrCO.k49.niml.dset
+│   │   │   │       ├── CHARM_6.preSMA.k88.gii
+│   │   │   │       ├── CHARM_6.preSMA.k88.niml.dset
+│   │   │   │       ├── CHARM_6.Ri.k230.gii
+│   │   │   │       ├── CHARM_6.Ri.k230.niml.dset
+│   │   │   │       ├── CHARM_6.R.k221.gii
+│   │   │   │       ├── CHARM_6.R.k221.niml.dset
+│   │   │   │       ├── CHARM_6.RM.k216.gii
+│   │   │   │       ├── CHARM_6.RM.k216.niml.dset
+│   │   │   │       ├── CHARM_6.rostral_ERh.k159.gii
+│   │   │   │       ├── CHARM_6.rostral_ERh.k159.niml.dset
+│   │   │   │       ├── CHARM_6.RPB.k203.gii
+│   │   │   │       ├── CHARM_6.RPB.k203.niml.dset
+│   │   │   │       ├── CHARM_6.RT.k222.gii
+│   │   │   │       ├── CHARM_6.RT.k222.niml.dset
+│   │   │   │       ├── CHARM_6.RTL.k212.gii
+│   │   │   │       ├── CHARM_6.RTL.k212.niml.dset
+│   │   │   │       ├── CHARM_6.RTM.k217.gii
+│   │   │   │       ├── CHARM_6.RTM.k217.niml.dset
+│   │   │   │       ├── CHARM_6.RTp.k218.gii
+│   │   │   │       ├── CHARM_6.RTp.k218.niml.dset
+│   │   │   │       ├── CHARM_6.SII.k95.gii
+│   │   │   │       ├── CHARM_6.SII.k95.niml.dset
+│   │   │   │       ├── CHARM_6.SMA.k89.gii
+│   │   │   │       ├── CHARM_6.SMA.k89.niml.dset
+│   │   │   │       ├── CHARM_6.STGr.k198.gii
+│   │   │   │       ├── CHARM_6.STGr.k198.niml.dset
+│   │   │   │       ├── CHARM_6.TAa.k197.gii
+│   │   │   │       ├── CHARM_6.TAa.k197.niml.dset
+│   │   │   │       ├── CHARM_6.TEad.k184.gii
+│   │   │   │       ├── CHARM_6.TEad.k184.niml.dset
+│   │   │   │       ├── CHARM_6.TEa.k187.gii
+│   │   │   │       ├── CHARM_6.TEa.k187.niml.dset
+│   │   │   │       ├── CHARM_6.TEav.k183.gii
+│   │   │   │       ├── CHARM_6.TEav.k183.niml.dset
+│   │   │   │       ├── CHARM_6.TEm.k186.gii
+│   │   │   │       ├── CHARM_6.TEm.k186.niml.dset
+│   │   │   │       ├── CHARM_6.TEO.k176.gii
+│   │   │   │       ├── CHARM_6.TEO.k176.niml.dset
+│   │   │   │       ├── CHARM_6.TEpd.k181.gii
+│   │   │   │       ├── CHARM_6.TEpd.k181.niml.dset
+│   │   │   │       ├── CHARM_6.TEpv.k180.gii
+│   │   │   │       ├── CHARM_6.TEpv.k180.niml.dset
+│   │   │   │       ├── CHARM_6.TF.k151.gii
+│   │   │   │       ├── CHARM_6.TF.k151.niml.dset
+│   │   │   │       ├── CHARM_6.TFO.k150.gii
+│   │   │   │       ├── CHARM_6.TFO.k150.niml.dset
+│   │   │   │       ├── CHARM_6.TGa.k166.gii
+│   │   │   │       ├── CHARM_6.TGa.k166.niml.dset
+│   │   │   │       ├── CHARM_6.TGdd.k169.gii
+│   │   │   │       ├── CHARM_6.TGdd.k169.niml.dset
+│   │   │   │       ├── CHARM_6.TGdg.k172.gii
+│   │   │   │       ├── CHARM_6.TGdg.k172.niml.dset
+│   │   │   │       ├── CHARM_6.TGsts.k174.gii
+│   │   │   │       ├── CHARM_6.TGsts.k174.niml.dset
+│   │   │   │       ├── CHARM_6.TGvd.k170.gii
+│   │   │   │       ├── CHARM_6.TGvd.k170.niml.dset
+│   │   │   │       ├── CHARM_6.TGvg.k173.gii
+│   │   │   │       ├── CHARM_6.TGvg.k173.niml.dset
+│   │   │   │       ├── CHARM_6.TH.k152.gii
+│   │   │   │       ├── CHARM_6.TH.k152.niml.dset
+│   │   │   │       ├── CHARM_6.TPO.k196.gii
+│   │   │   │       ├── CHARM_6.TPO.k196.niml.dset
+│   │   │   │       ├── CHARM_6.Tpt.k200.gii
+│   │   │   │       ├── CHARM_6.Tpt.k200.niml.dset
+│   │   │   │       ├── CHARM_6.V1.k246.gii
+│   │   │   │       ├── CHARM_6.V1.k246.niml.dset
+│   │   │   │       ├── CHARM_6.V3A.k240.gii
+│   │   │   │       ├── CHARM_6.V3A.k240.niml.dset
+│   │   │   │       ├── CHARM_6.V3d.k241.gii
+│   │   │   │       ├── CHARM_6.V3d.k241.niml.dset
+│   │   │   │       ├── CHARM_6.V3v.k242.gii
+│   │   │   │       ├── CHARM_6.V3v.k242.niml.dset
+│   │   │   │       ├── CHARM_6.V4d.k235.gii
+│   │   │   │       ├── CHARM_6.V4d.k235.niml.dset
+│   │   │   │       ├── CHARM_6.V4v.k236.gii
+│   │   │   │       ├── CHARM_6.V4v.k236.niml.dset
+│   │   │   │       ├── CHARM_6.V6Ad.k101.gii
+│   │   │   │       ├── CHARM_6.V6Ad.k101.niml.dset
+│   │   │   │       ├── CHARM_6.V6Av.k100.gii
+│   │   │   │       ├── CHARM_6.V6Av.k100.niml.dset
+│   │   │   │       ├── CHARM_6.V6.k98.gii
+│   │   │   │       ├── CHARM_6.V6.k98.niml.dset
+│   │   │   │       ├── CHARM_6.VIP.k110.gii
+│   │   │   │       └── CHARM_6.VIP.k110.niml.dset
+│   │   │   └── SARM
+│   │   │       ├── Level_1
+│   │   │       │   ├── SARM_1.di.k74.gii
+│   │   │       │   ├── SARM_1.di.k74.niml.dset
+│   │   │       │   ├── SARM_1.mes.k162.gii
+│   │   │       │   ├── SARM_1.mes.k162.niml.dset
+│   │   │       │   ├── SARM_1.met.k204.gii
+│   │   │       │   ├── SARM_1.met.k204.niml.dset
+│   │   │       │   ├── SARM_1.myel.k279.gii
+│   │   │       │   ├── SARM_1.myel.k279.niml.dset
+│   │   │       │   ├── SARM_1.tel.k1.gii
+│   │   │       │   └── SARM_1.tel.k1.niml.dset
+│   │   │       ├── Level_2
+│   │   │       │   ├── SARM_2.Amy.k16.gii
+│   │   │       │   ├── SARM_2.Amy.k16.niml.dset
+│   │   │       │   ├── SARM_2.BG.k42.gii
+│   │   │       │   ├── SARM_2.BG.k42.niml.dset
+│   │   │       │   ├── SARM_2.Cb.k241.gii
+│   │   │       │   ├── SARM_2.Cb.k241.niml.dset
+│   │   │       │   ├── SARM_2.DSP.k61.gii
+│   │   │       │   ├── SARM_2.DSP.k61.niml.dset
+│   │   │       │   ├── SARM_2.EpiThal.k153.gii
+│   │   │       │   ├── SARM_2.EpiThal.k153.niml.dset
+│   │   │       │   ├── SARM_2.Hy.k75.gii
+│   │   │       │   ├── SARM_2.Hy.k75.niml.dset
+│   │   │       │   ├── SARM_2.LVPal.k2.gii
+│   │   │       │   ├── SARM_2.LVPal.k2.niml.dset
+│   │   │       │   ├── SARM_2.Med.k280.gii
+│   │   │       │   ├── SARM_2.Med.k280.niml.dset
+│   │   │       │   ├── SARM_2.Mid.k163.gii
+│   │   │       │   ├── SARM_2.Mid.k163.niml.dset
+│   │   │       │   ├── SARM_2.MPal.k10.gii
+│   │   │       │   ├── SARM_2.MPal.k10.niml.dset
+│   │   │       │   ├── SARM_2.POC.k69.gii
+│   │   │       │   ├── SARM_2.POC.k69.niml.dset
+│   │   │       │   ├── SARM_2.Pons.k205.gii
+│   │   │       │   ├── SARM_2.Pons.k205.niml.dset
+│   │   │       │   ├── SARM_2.PreThal.k103.gii
+│   │   │       │   ├── SARM_2.PreThal.k103.niml.dset
+│   │   │       │   ├── SARM_2.PrT.k156.gii
+│   │   │       │   ├── SARM_2.PrT.k156.niml.dset
+│   │   │       │   ├── SARM_2.Thal.k105.gii
+│   │   │       │   └── SARM_2.Thal.k105.niml.dset
+│   │   │       ├── Level_3
+│   │   │       │   ├── SARM_3.CbCx.k251.gii
+│   │   │       │   ├── SARM_3.CbCx.k251.niml.dset
+│   │   │       │   ├── SARM_3.DCb.k245.gii
+│   │   │       │   ├── SARM_3.DCb.k245.niml.dset
+│   │   │       │   ├── SARM_3.DMed.k281.gii
+│   │   │       │   ├── SARM_3.DMed.k281.niml.dset
+│   │   │       │   ├── SARM_3.DMid.k164.gii
+│   │   │       │   ├── SARM_3.DMid.k164.niml.dset
+│   │   │       │   ├── SARM_3.DPons.k206.gii
+│   │   │       │   ├── SARM_3.DPons.k206.niml.dset
+│   │   │       │   ├── SARM_3.DSP.k61.gii
+│   │   │       │   ├── SARM_3.DSP.k61.niml.dset
+│   │   │       │   ├── SARM_3.EpiThal.k153.gii
+│   │   │       │   ├── SARM_3.EpiThal.k153.niml.dset
+│   │   │       │   ├── SARM_3.f.k15.gii
+│   │   │       │   ├── SARM_3.f.k15.niml.dset
+│   │   │       │   ├── SARM_3.GThal.k150.gii
+│   │   │       │   ├── SARM_3.GThal.k150.niml.dset
+│   │   │       │   ├── SARM_3.HF.k11.gii
+│   │   │       │   ├── SARM_3.HF.k11.niml.dset
+│   │   │       │   ├── SARM_3.IMed.k299.gii
+│   │   │       │   ├── SARM_3.IMed.k299.niml.dset
+│   │   │       │   ├── SARM_3.LMid.k173.gii
+│   │   │       │   ├── SARM_3.LMid.k173.niml.dset
+│   │   │       │   ├── SARM_3.LPal.k3.gii
+│   │   │       │   ├── SARM_3.LPal.k3.niml.dset
+│   │   │       │   ├── SARM_3.LPons.k219.gii
+│   │   │       │   ├── SARM_3.LPons.k219.niml.dset
+│   │   │       │   ├── SARM_3.MLThal.k120.gii
+│   │   │       │   ├── SARM_3.MLThal.k120.niml.dset
+│   │   │       │   ├── SARM_3.MMid.k185.gii
+│   │   │       │   ├── SARM_3.MMid.k185.niml.dset
+│   │   │       │   ├── SARM_3.MThal.k107.gii
+│   │   │       │   ├── SARM_3.MThal.k107.niml.dset
+│   │   │       │   ├── SARM_3.pAmy.k17.gii
+│   │   │       │   ├── SARM_3.pAmy.k17.niml.dset
+│   │   │       │   ├── SARM_3.Pd.k54.gii
+│   │   │       │   ├── SARM_3.Pd.k54.niml.dset
+│   │   │       │   ├── SARM_3.PHy.k92.gii
+│   │   │       │   ├── SARM_3.PHy.k92.niml.dset
+│   │   │       │   ├── SARM_3.Pit.k100.gii
+│   │   │       │   ├── SARM_3.Pit.k100.niml.dset
+│   │   │       │   ├── SARM_3.POC.k69.gii
+│   │   │       │   ├── SARM_3.POC.k69.niml.dset
+│   │   │       │   ├── SARM_3.PrT.k156.gii
+│   │   │       │   ├── SARM_3.PrT.k156.niml.dset
+│   │   │       │   ├── SARM_3.PThal.k141.gii
+│   │   │       │   ├── SARM_3.PThal.k141.niml.dset
+│   │   │       │   ├── SARM_3.Rt.k106.gii
+│   │   │       │   ├── SARM_3.Rt.k106.niml.dset
+│   │   │       │   ├── SARM_3.spAmy.k32.gii
+│   │   │       │   ├── SARM_3.spAmy.k32.niml.dset
+│   │   │       │   ├── SARM_3.Str.k43.gii
+│   │   │       │   ├── SARM_3.Str.k43.niml.dset
+│   │   │       │   ├── SARM_3.THy.k76.gii
+│   │   │       │   ├── SARM_3.THy.k76.niml.dset
+│   │   │       │   ├── SARM_3.VMed.k311.gii
+│   │   │       │   ├── SARM_3.VMed.k311.niml.dset
+│   │   │       │   ├── SARM_3.VMid.k193.gii
+│   │   │       │   ├── SARM_3.VMid.k193.niml.dset
+│   │   │       │   ├── SARM_3.VPal.k5.gii
+│   │   │       │   ├── SARM_3.VPal.k5.niml.dset
+│   │   │       │   ├── SARM_3.VPons.k224.gii
+│   │   │       │   ├── SARM_3.VPons.k224.niml.dset
+│   │   │       │   ├── SARM_3.VThal.k128.gii
+│   │   │       │   ├── SARM_3.VThal.k128.niml.dset
+│   │   │       │   ├── SARM_3.wmCB.k242.gii
+│   │   │       │   ├── SARM_3.wmCB.k242.niml.dset
+│   │   │       │   ├── SARM_3.ZI-H.k104.gii
+│   │   │       │   └── SARM_3.ZI-H.k104.niml.dset
+│   │   │       ├── Level_4
+│   │   │       │   ├── SARM_4.A+.k108.gii
+│   │   │       │   ├── SARM_4.A+.k108.niml.dset
+│   │   │       │   ├── SARM_4.BR.k62.gii
+│   │   │       │   ├── SARM_4.BR.k62.niml.dset
+│   │   │       │   ├── SARM_4.C5.k287.gii
+│   │   │       │   ├── SARM_4.C5.k287.niml.dset
+│   │   │       │   ├── SARM_4.CbThal.k132.gii
+│   │   │       │   ├── SARM_4.CbThal.k132.niml.dset
+│   │   │       │   ├── SARM_4.Cl.k4.gii
+│   │   │       │   ├── SARM_4.Cl.k4.niml.dset
+│   │   │       │   ├── SARM_4.Co.k165.gii
+│   │   │       │   ├── SARM_4.Co.k165.niml.dset
+│   │   │       │   ├── SARM_4.DA_Mid.k197.gii
+│   │   │       │   ├── SARM_4.DA_Mid.k197.niml.dset
+│   │   │       │   ├── SARM_4.DCb.k245.gii
+│   │   │       │   ├── SARM_4.DCb.k245.niml.dset
+│   │   │       │   ├── SARM_4.DLG.k151.gii
+│   │   │       │   ├── SARM_4.DLG.k151.niml.dset
+│   │   │       │   ├── SARM_4.DPHy.k93.gii
+│   │   │       │   ├── SARM_4.DPHy.k93.niml.dset
+│   │   │       │   ├── SARM_4.DStr.k44.gii
+│   │   │       │   ├── SARM_4.DStr.k44.niml.dset
+│   │   │       │   ├── SARM_4.DTHy.k83.gii
+│   │   │       │   ├── SARM_4.DTHy.k83.niml.dset
+│   │   │       │   ├── SARM_4.En.k6.gii
+│   │   │       │   ├── SARM_4.En.k6.niml.dset
+│   │   │       │   ├── SARM_4.f.k15.gii
+│   │   │       │   ├── SARM_4.f.k15.niml.dset
+│   │   │       │   ├── SARM_4.Fl-PFl.k252.gii
+│   │   │       │   ├── SARM_4.Fl-PFl.k252.niml.dset
+│   │   │       │   ├── SARM_4.Hb.k155.gii
+│   │   │       │   ├── SARM_4.Hb.k155.niml.dset
+│   │   │       │   ├── SARM_4.HF.k11.gii
+│   │   │       │   ├── SARM_4.HF.k11.niml.dset
+│   │   │       │   ├── SARM_4.ICbCx.k268.gii
+│   │   │       │   ├── SARM_4.ICbCx.k268.niml.dset
+│   │   │       │   ├── SARM_4.ILThal.k112.gii
+│   │   │       │   ├── SARM_4.ILThal.k112.niml.dset
+│   │   │       │   ├── SARM_4.LCbCx.k276.gii
+│   │   │       │   ├── SARM_4.LCbCx.k276.niml.dset
+│   │   │       │   ├── SARM_4.LD.k143.gii
+│   │   │       │   ├── SARM_4.LD.k143.niml.dset
+│   │   │       │   ├── SARM_4.LGR.k212.gii
+│   │   │       │   ├── SARM_4.LGR.k212.niml.dset
+│   │   │       │   ├── SARM_4.ll+.k220.gii
+│   │   │       │   ├── SARM_4.ll+.k220.niml.dset
+│   │   │       │   ├── SARM_4.lpAmy.k22.gii
+│   │   │       │   ├── SARM_4.lpAmy.k22.niml.dset
+│   │   │       │   ├── SARM_4.LP.k142.gii
+│   │   │       │   ├── SARM_4.LP.k142.niml.dset
+│   │   │       │   ├── SARM_4.mAmy.k35.gii
+│   │   │       │   ├── SARM_4.mAmy.k35.niml.dset
+│   │   │       │   ├── SARM_4.MD.k119.gii
+│   │   │       │   ├── SARM_4.MD.k119.niml.dset
+│   │   │       │   ├── SARM_4.MedMC.k300.gii
+│   │   │       │   ├── SARM_4.MedMC.k300.niml.dset
+│   │   │       │   ├── SARM_4.MedRaphe.k308.gii
+│   │   │       │   ├── SARM_4.MedRaphe.k308.niml.dset
+│   │   │       │   ├── SARM_4.MedRet.k303.gii
+│   │   │       │   ├── SARM_4.MedRet.k303.niml.dset
+│   │   │       │   ├── SARM_4.MG.k152.gii
+│   │   │       │   ├── SARM_4.MG.k152.niml.dset
+│   │   │       │   ├── SARM_4.MLThal.k120.gii
+│   │   │       │   ├── SARM_4.MLThal.k120.niml.dset
+│   │   │       │   ├── SARM_4.MTHy.k77.gii
+│   │   │       │   ├── SARM_4.MTHy.k77.niml.dset
+│   │   │       │   ├── SARM_4.OC+.k186.gii
+│   │   │       │   ├── SARM_4.OC+.k186.niml.dset
+│   │   │       │   ├── SARM_4.opt.k70.gii
+│   │   │       │   ├── SARM_4.opt.k70.niml.dset
+│   │   │       │   ├── SARM_4.PAGR.k170.gii
+│   │   │       │   ├── SARM_4.PAGR.k170.niml.dset
+│   │   │       │   ├── SARM_4.PBC.k207.gii
+│   │   │       │   ├── SARM_4.PBC.k207.niml.dset
+│   │   │       │   ├── SARM_4.pdAmy.k38.gii
+│   │   │       │   ├── SARM_4.pdAmy.k38.niml.dset
+│   │   │       │   ├── SARM_4.Pd.k54.gii
+│   │   │       │   ├── SARM_4.Pd.k54.niml.dset
+│   │   │       │   ├── SARM_4.Pi.k154.gii
+│   │   │       │   ├── SARM_4.Pi.k154.niml.dset
+│   │   │       │   ├── SARM_4.Pir.k9.gii
+│   │   │       │   ├── SARM_4.Pir.k9.niml.dset
+│   │   │       │   ├── SARM_4.Pit.k100.gii
+│   │   │       │   ├── SARM_4.Pit.k100.niml.dset
+│   │   │       │   ├── SARM_4.Pn+.k235.gii
+│   │   │       │   ├── SARM_4.Pn+.k235.niml.dset
+│   │   │       │   ├── SARM_4.PNThal.k129.gii
+│   │   │       │   ├── SARM_4.PNThal.k129.niml.dset
+│   │   │       │   ├── SARM_4.POR.k71.gii
+│   │   │       │   ├── SARM_4.POR.k71.niml.dset
+│   │   │       │   ├── SARM_4.PreCbMed.k312.gii
+│   │   │       │   ├── SARM_4.PreCbMed.k312.niml.dset
+│   │   │       │   ├── SARM_4.PrT.k156.gii
+│   │   │       │   ├── SARM_4.PrT.k156.niml.dset
+│   │   │       │   ├── SARM_4.Pul.k144.gii
+│   │   │       │   ├── SARM_4.Pul.k144.niml.dset
+│   │   │       │   ├── SARM_4.raphe_Mid.k189.gii
+│   │   │       │   ├── SARM_4.raphe_Mid.k189.niml.dset
+│   │   │       │   ├── SARM_4.retPons.k225.gii
+│   │   │       │   ├── SARM_4.retPons.k225.niml.dset
+│   │   │       │   ├── SARM_4.R+.k194.gii
+│   │   │       │   ├── SARM_4.R+.k194.niml.dset
+│   │   │       │   ├── SARM_4.Rt.k106.gii
+│   │   │       │   ├── SARM_4.Rt.k106.niml.dset
+│   │   │       │   ├── SARM_4.RtMid.k182.gii
+│   │   │       │   ├── SARM_4.RtMid.k182.niml.dset
+│   │   │       │   ├── SARM_4.SDBR.k66.gii
+│   │   │       │   ├── SARM_4.SDBR.k66.niml.dset
+│   │   │       │   ├── SARM_4.SO-ml.k231.gii
+│   │   │       │   ├── SARM_4.SO-ml.k231.niml.dset
+│   │   │       │   ├── SARM_4.SpThal.k136.gii
+│   │   │       │   ├── SARM_4.SpThal.k136.niml.dset
+│   │   │       │   ├── SARM_4.stAmy.k33.gii
+│   │   │       │   ├── SARM_4.stAmy.k33.niml.dset
+│   │   │       │   ├── SARM_4.ST.k65.gii
+│   │   │       │   ├── SARM_4.ST.k65.niml.dset
+│   │   │       │   ├── SARM_4.SVC.k294.gii
+│   │   │       │   ├── SARM_4.SVC.k294.niml.dset
+│   │   │       │   ├── SARM_4.TgMid.k174.gii
+│   │   │       │   ├── SARM_4.TgMid.k174.niml.dset
+│   │   │       │   ├── SARM_4.tgPons.k216.gii
+│   │   │       │   ├── SARM_4.tgPons.k216.niml.dset
+│   │   │       │   ├── SARM_4.VCbCx.k255.gii
+│   │   │       │   ├── SARM_4.VCbCx.k255.niml.dset
+│   │   │       │   ├── SARM_4.VCC.k282.gii
+│   │   │       │   ├── SARM_4.VCC.k282.niml.dset
+│   │   │       │   ├── SARM_4.vmt.k315.gii
+│   │   │       │   ├── SARM_4.vmt.k315.niml.dset
+│   │   │       │   ├── SARM_4.vpAmy.k18.gii
+│   │   │       │   ├── SARM_4.vpAmy.k18.niml.dset
+│   │   │       │   ├── SARM_4.VPHy.k95.gii
+│   │   │       │   ├── SARM_4.VPHy.k95.niml.dset
+│   │   │       │   ├── SARM_4.VStr.k51.gii
+│   │   │       │   ├── SARM_4.VStr.k51.niml.dset
+│   │   │       │   ├── SARM_4.VTHy.k79.gii
+│   │   │       │   ├── SARM_4.VTHy.k79.niml.dset
+│   │   │       │   ├── SARM_4.wmCB.k242.gii
+│   │   │       │   ├── SARM_4.wmCB.k242.niml.dset
+│   │   │       │   ├── SARM_4.ZI-H.k104.gii
+│   │   │       │   └── SARM_4.ZI-H.k104.niml.dset
+│   │   │       ├── Level_5
+│   │   │       │   ├── SARM_5.AA.k37.gii
+│   │   │       │   ├── SARM_5.AA.k37.niml.dset
+│   │   │       │   ├── SARM_5.Acb.k52.gii
+│   │   │       │   ├── SARM_5.Acb.k52.niml.dset
+│   │   │       │   ├── SARM_5.ac.k59.gii
+│   │   │       │   ├── SARM_5.ac.k59.niml.dset
+│   │   │       │   ├── SARM_5.AHi.k21.gii
+│   │   │       │   ├── SARM_5.AHi.k21.niml.dset
+│   │   │       │   ├── SARM_5.AH.k85.gii
+│   │   │       │   ├── SARM_5.AH.k85.niml.dset
+│   │   │       │   ├── SARM_5.APir.k26.gii
+│   │   │       │   ├── SARM_5.APir.k26.niml.dset
+│   │   │       │   ├── SARM_5.APit.k101.gii
+│   │   │       │   ├── SARM_5.APit.k101.niml.dset
+│   │   │       │   ├── SARM_5.APul.k145.gii
+│   │   │       │   ├── SARM_5.APul.k145.niml.dset
+│   │   │       │   ├── SARM_5.Arc.k82.gii
+│   │   │       │   ├── SARM_5.Arc.k82.niml.dset
+│   │   │       │   ├── SARM_5.AR.k109.gii
+│   │   │       │   ├── SARM_5.AR.k109.niml.dset
+│   │   │       │   ├── SARM_5.ASt.k49.gii
+│   │   │       │   ├── SARM_5.ASt.k49.niml.dset
+│   │   │       │   ├── SARM_5.ATg.k181.gii
+│   │   │       │   ├── SARM_5.ATg.k181.niml.dset
+│   │   │       │   ├── SARM_5.AVCbCx.k256.gii
+│   │   │       │   ├── SARM_5.AVCbCx.k256.niml.dset
+│   │   │       │   ├── SARM_5.BL.k27.gii
+│   │   │       │   ├── SARM_5.BL.k27.niml.dset
+│   │   │       │   ├── SARM_5.BM.k19.gii
+│   │   │       │   ├── SARM_5.BM.k19.niml.dset
+│   │   │       │   ├── SARM_5.BR.k62.gii
+│   │   │       │   ├── SARM_5.BR.k62.niml.dset
+│   │   │       │   ├── SARM_5.bsc.k149.gii
+│   │   │       │   ├── SARM_5.bsc.k149.niml.dset
+│   │   │       │   ├── SARM_5.Cd.k45.gii
+│   │   │       │   ├── SARM_5.Cd.k45.niml.dset
+│   │   │       │   ├── SARM_5.Ce.k34.gii
+│   │   │       │   ├── SARM_5.Ce.k34.niml.dset
+│   │   │       │   ├── SARM_5.CG.k215.gii
+│   │   │       │   ├── SARM_5.CG.k215.niml.dset
+│   │   │       │   ├── SARM_5.Cl.k4.gii
+│   │   │       │   ├── SARM_5.Cl.k4.niml.dset
+│   │   │       │   ├── SARM_5.CL-PC.k113.gii
+│   │   │       │   ├── SARM_5.CL-PC.k113.niml.dset
+│   │   │       │   ├── SARM_5.CM.k126.gii
+│   │   │       │   ├── SARM_5.CM.k126.niml.dset
+│   │   │       │   ├── SARM_5.CMn-PF.k114.gii
+│   │   │       │   ├── SARM_5.CMn-PF.k114.niml.dset
+│   │   │       │   ├── SARM_5.CnF.k178.gii
+│   │   │       │   ├── SARM_5.CnF.k178.niml.dset
+│   │   │       │   ├── SARM_5.cp.k203.gii
+│   │   │       │   ├── SARM_5.cp.k203.niml.dset
+│   │   │       │   ├── SARM_5.cst.k318.gii
+│   │   │       │   ├── SARM_5.cst.k318.niml.dset
+│   │   │       │   ├── SARM_5.CuGr.k295.gii
+│   │   │       │   ├── SARM_5.CuGr.k295.niml.dset
+│   │   │       │   ├── SARM_5.DEn.k7.gii
+│   │   │       │   ├── SARM_5.DEn.k7.niml.dset
+│   │   │       │   ├── SARM_5.DLG.k151.gii
+│   │   │       │   ├── SARM_5.DLG.k151.niml.dset
+│   │   │       │   ├── SARM_5.DLL.k222.gii
+│   │   │       │   ├── SARM_5.DLL.k222.niml.dset
+│   │   │       │   ├── SARM_5.DM.k86.gii
+│   │   │       │   ├── SARM_5.DM.k86.niml.dset
+│   │   │       │   ├── SARM_5.DPGi.k305.gii
+│   │   │       │   ├── SARM_5.DPGi.k305.niml.dset
+│   │   │       │   ├── SARM_5.DR.k191.gii
+│   │   │       │   ├── SARM_5.DR.k191.niml.dset
+│   │   │       │   ├── SARM_5.DVC.k284.gii
+│   │   │       │   ├── SARM_5.DVC.k284.niml.dset
+│   │   │       │   ├── SARM_5.EA.k39.gii
+│   │   │       │   ├── SARM_5.EA.k39.niml.dset
+│   │   │       │   ├── SARM_5.Fas.k250.gii
+│   │   │       │   ├── SARM_5.Fas.k250.niml.dset
+│   │   │       │   ├── SARM_5.fi.k14.gii
+│   │   │       │   ├── SARM_5.fi.k14.niml.dset
+│   │   │       │   ├── SARM_5.f.k15.gii
+│   │   │       │   ├── SARM_5.f.k15.niml.dset
+│   │   │       │   ├── SARM_5.Fl-PFl.k252.gii
+│   │   │       │   ├── SARM_5.Fl-PFl.k252.niml.dset
+│   │   │       │   ├── SARM_5.Gi.k306.gii
+│   │   │       │   ├── SARM_5.Gi.k306.niml.dset
+│   │   │       │   ├── SARM_5.GP.k55.gii
+│   │   │       │   ├── SARM_5.GP.k55.niml.dset
+│   │   │       │   ├── SARM_5.Hb.k155.gii
+│   │   │       │   ├── SARM_5.Hb.k155.niml.dset
+│   │   │       │   ├── SARM_5.Hi.k12.gii
+│   │   │       │   ├── SARM_5.Hi.k12.niml.dset
+│   │   │       │   ├── SARM_5.IAM.k125.gii
+│   │   │       │   ├── SARM_5.IAM.k125.niml.dset
+│   │   │       │   ├── SARM_5.ICbCx.k268.gii
+│   │   │       │   ├── SARM_5.ICbCx.k268.niml.dset
+│   │   │       │   ├── SARM_5.ic.k50.gii
+│   │   │       │   ├── SARM_5.ic.k50.niml.dset
+│   │   │       │   ├── SARM_5.ICoC.k167.gii
+│   │   │       │   ├── SARM_5.ICoC.k167.niml.dset
+│   │   │       │   ├── SARM_5.icp.k243.gii
+│   │   │       │   ├── SARM_5.icp.k243.niml.dset
+│   │   │       │   ├── SARM_5.ILL-VLL.k223.gii
+│   │   │       │   ├── SARM_5.ILL-VLL.k223.niml.dset
+│   │   │       │   ├── SARM_5.IMD.k121.gii
+│   │   │       │   ├── SARM_5.IMD.k121.niml.dset
+│   │   │       │   ├── SARM_5.Int.k247.gii
+│   │   │       │   ├── SARM_5.Int.k247.niml.dset
+│   │   │       │   ├── SARM_5.IO.k313.gii
+│   │   │       │   ├── SARM_5.IO.k313.niml.dset
+│   │   │       │   ├── SARM_5.IPAC.k40.gii
+│   │   │       │   ├── SARM_5.IPAC.k40.niml.dset
+│   │   │       │   ├── SARM_5.IP.k201.gii
+│   │   │       │   ├── SARM_5.IP.k201.niml.dset
+│   │   │       │   ├── SARM_5.IPul.k148.gii
+│   │   │       │   ├── SARM_5.IPul.k148.niml.dset
+│   │   │       │   ├── SARM_5.La.k23.gii
+│   │   │       │   ├── SARM_5.La.k23.niml.dset
+│   │   │       │   ├── SARM_5.Lat.k246.gii
+│   │   │       │   ├── SARM_5.Lat.k246.niml.dset
+│   │   │       │   ├── SARM_5.LCbCx.k276.gii
+│   │   │       │   ├── SARM_5.LCbCx.k276.niml.dset
+│   │   │       │   ├── SARM_5.LC-Me5.k213.gii
+│   │   │       │   ├── SARM_5.LC-Me5.k213.niml.dset
+│   │   │       │   ├── SARM_5.LD.k143.gii
+│   │   │       │   ├── SARM_5.LD.k143.niml.dset
+│   │   │       │   ├── SARM_5.LDTg.k217.gii
+│   │   │       │   ├── SARM_5.LDTg.k217.niml.dset
+│   │   │       │   ├── SARM_5.LHy.k87.gii
+│   │   │       │   ├── SARM_5.LHy.k87.niml.dset
+│   │   │       │   ├── SARM_5.Lim.k118.gii
+│   │   │       │   ├── SARM_5.Lim.k118.niml.dset
+│   │   │       │   ├── SARM_5.LiR.k192.gii
+│   │   │       │   ├── SARM_5.LiR.k192.niml.dset
+│   │   │       │   ├── SARM_5.ll.k221.gii
+│   │   │       │   ├── SARM_5.ll.k221.niml.dset
+│   │   │       │   ├── SARM_5.LP.k142.gii
+│   │   │       │   ├── SARM_5.LP.k142.niml.dset
+│   │   │       │   ├── SARM_5.LPul.k147.gii
+│   │   │       │   ├── SARM_5.LPul.k147.niml.dset
+│   │   │       │   ├── SARM_5.LRt.k314.gii
+│   │   │       │   ├── SARM_5.LRt.k314.niml.dset
+│   │   │       │   ├── SARM_5.LTer-VOLT.k73.gii
+│   │   │       │   ├── SARM_5.LTer-VOLT.k73.niml.dset
+│   │   │       │   ├── SARM_5.MD.k119.gii
+│   │   │       │   ├── SARM_5.MD.k119.niml.dset
+│   │   │       │   ├── SARM_5.MdRt.k307.gii
+│   │   │       │   ├── SARM_5.MdRt.k307.niml.dset
+│   │   │       │   ├── SARM_5.MDTg.k218.gii
+│   │   │       │   ├── SARM_5.MDTg.k218.niml.dset
+│   │   │       │   ├── SARM_5.me5.k214.gii
+│   │   │       │   ├── SARM_5.me5.k214.niml.dset
+│   │   │       │   ├── SARM_5.Me.k36.gii
+│   │   │       │   ├── SARM_5.Me.k36.niml.dset
+│   │   │       │   ├── SARM_5.MEm.k81.gii
+│   │   │       │   ├── SARM_5.MEm.k81.niml.dset
+│   │   │       │   ├── SARM_5.MG.k152.gii
+│   │   │       │   ├── SARM_5.MG.k152.niml.dset
+│   │   │       │   ├── SARM_5.MiTg.k176.gii
+│   │   │       │   ├── SARM_5.MiTg.k176.niml.dset
+│   │   │       │   ├── SARM_5.mlf.k188.gii
+│   │   │       │   ├── SARM_5.mlf.k188.niml.dset
+│   │   │       │   ├── SARM_5.ml.k233.gii
+│   │   │       │   ├── SARM_5.ml.k233.niml.dset
+│   │   │       │   ├── SARM_5.MM-RM.k97.gii
+│   │   │       │   ├── SARM_5.MM-RM.k97.niml.dset
+│   │   │       │   ├── SARM_5.MPul.k146.gii
+│   │   │       │   ├── SARM_5.MPul.k146.niml.dset
+│   │   │       │   ├── SARM_5.MR.k190.gii
+│   │   │       │   ├── SARM_5.MR.k190.niml.dset
+│   │   │       │   ├── SARM_5.mRt.k183.gii
+│   │   │       │   ├── SARM_5.mRt.k183.niml.dset
+│   │   │       │   ├── SARM_5.n3.k202.gii
+│   │   │       │   ├── SARM_5.n3.k202.niml.dset
+│   │   │       │   ├── SARM_5.n4.k171.gii
+│   │   │       │   ├── SARM_5.n4.k171.niml.dset
+│   │   │       │   ├── SARM_5.n8.k285.gii
+│   │   │       │   ├── SARM_5.n8.k285.niml.dset
+│   │   │       │   ├── SARM_5.Nu10-12.k298.gii
+│   │   │       │   ├── SARM_5.Nu10-12.k298.niml.dset
+│   │   │       │   ├── SARM_5.Nu5.k288.gii
+│   │   │       │   ├── SARM_5.Nu5.k288.niml.dset
+│   │   │       │   ├── SARM_5.Nu6.k301.gii
+│   │   │       │   ├── SARM_5.Nu6.k301.niml.dset
+│   │   │       │   ├── SARM_5.Nu7.k302.gii
+│   │   │       │   ├── SARM_5.Nu7.k302.niml.dset
+│   │   │       │   ├── SARM_5.obex.k296.gii
+│   │   │       │   ├── SARM_5.obex.k296.niml.dset
+│   │   │       │   ├── SARM_5.oc.k244.gii
+│   │   │       │   ├── SARM_5.oc.k244.niml.dset
+│   │   │       │   ├── SARM_5.OM.k187.gii
+│   │   │       │   ├── SARM_5.OM.k187.niml.dset
+│   │   │       │   ├── SARM_5.opt.k70.gii
+│   │   │       │   ├── SARM_5.opt.k70.niml.dset
+│   │   │       │   ├── SARM_5.p1Rt.k161.gii
+│   │   │       │   ├── SARM_5.p1Rt.k161.niml.dset
+│   │   │       │   ├── SARM_5.PAG.k172.gii
+│   │   │       │   ├── SARM_5.PAG.k172.niml.dset
+│   │   │       │   ├── SARM_5.Pa.k78.gii
+│   │   │       │   ├── SARM_5.Pa.k78.niml.dset
+│   │   │       │   ├── SARM_5.PaL.k31.gii
+│   │   │       │   ├── SARM_5.PaL.k31.niml.dset
+│   │   │       │   ├── SARM_5.PBC.k207.gii
+│   │   │       │   ├── SARM_5.PBC.k207.niml.dset
+│   │   │       │   ├── SARM_5.PBG.k175.gii
+│   │   │       │   ├── SARM_5.PBG.k175.niml.dset
+│   │   │       │   ├── SARM_5.PCIRt.k304.gii
+│   │   │       │   ├── SARM_5.PCIRt.k304.niml.dset
+│   │   │       │   ├── SARM_5.PCR.k157.gii
+│   │   │       │   ├── SARM_5.PCR.k157.niml.dset
+│   │   │       │   ├── SARM_5.PeF.k96.gii
+│   │   │       │   ├── SARM_5.PeF.k96.niml.dset
+│   │   │       │   ├── SARM_5.PH.k94.gii
+│   │   │       │   ├── SARM_5.PH.k94.niml.dset
+│   │   │       │   ├── SARM_5.Pi.k154.gii
+│   │   │       │   ├── SARM_5.Pi.k154.niml.dset
+│   │   │       │   ├── SARM_5.Pir.k9.gii
+│   │   │       │   ├── SARM_5.Pir.k9.niml.dset
+│   │   │       │   ├── SARM_5.PnC.k230.gii
+│   │   │       │   ├── SARM_5.PnC.k230.niml.dset
+│   │   │       │   ├── SARM_5.Pn.k236.gii
+│   │   │       │   ├── SARM_5.Pn.k236.niml.dset
+│   │   │       │   ├── SARM_5.PnO.k229.gii
+│   │   │       │   ├── SARM_5.PnO.k229.niml.dset
+│   │   │       │   ├── SARM_5.PO.k72.gii
+│   │   │       │   ├── SARM_5.PO.k72.niml.dset
+│   │   │       │   ├── SARM_5.PPit.k102.gii
+│   │   │       │   ├── SARM_5.PPit.k102.niml.dset
+│   │   │       │   ├── SARM_5.Pr5.k289.gii
+│   │   │       │   ├── SARM_5.Pr5.k289.niml.dset
+│   │   │       │   ├── SARM_5.PrCnF.k177.gii
+│   │   │       │   ├── SARM_5.PrCnF.k177.niml.dset
+│   │   │       │   ├── SARM_5.Pr.k286.gii
+│   │   │       │   ├── SARM_5.Pr.k286.niml.dset
+│   │   │       │   ├── SARM_5.PTg.k180.gii
+│   │   │       │   ├── SARM_5.PTg.k180.niml.dset
+│   │   │       │   ├── SARM_5.PT-PV-sm.k122.gii
+│   │   │       │   ├── SARM_5.PT-PV-sm.k122.niml.dset
+│   │   │       │   ├── SARM_5.Pu.k48.gii
+│   │   │       │   ├── SARM_5.Pu.k48.niml.dset
+│   │   │       │   ├── SARM_5.PVA.k124.gii
+│   │   │       │   ├── SARM_5.PVA.k124.niml.dset
+│   │   │       │   ├── SARM_5.PVCbCx.k262.gii
+│   │   │       │   ├── SARM_5.PVCbCx.k262.niml.dset
+│   │   │       │   ├── SARM_5.PVP.k123.gii
+│   │   │       │   ├── SARM_5.PVP.k123.niml.dset
+│   │   │       │   ├── SARM_5.py.k316.gii
+│   │   │       │   ├── SARM_5.py.k316.niml.dset
+│   │   │       │   ├── SARM_5.pyx.k317.gii
+│   │   │       │   ├── SARM_5.pyx.k317.niml.dset
+│   │   │       │   ├── SARM_5.Re-Rh-Xi.k127.gii
+│   │   │       │   ├── SARM_5.Re-Rh-Xi.k127.niml.dset
+│   │   │       │   ├── SARM_5.RF.k198.gii
+│   │   │       │   ├── SARM_5.RF.k198.niml.dset
+│   │   │       │   ├── SARM_5.RIs.k184.gii
+│   │   │       │   ├── SARM_5.RIs.k184.niml.dset
+│   │   │       │   ├── SARM_5.R+.k194.gii
+│   │   │       │   ├── SARM_5.R+.k194.niml.dset
+│   │   │       │   ├── SARM_5.RMg.k309.gii
+│   │   │       │   ├── SARM_5.RMg.k309.niml.dset
+│   │   │       │   ├── SARM_5.ROb.k310.gii
+│   │   │       │   ├── SARM_5.ROb.k310.niml.dset
+│   │   │       │   ├── SARM_5.Rt.k106.gii
+│   │   │       │   ├── SARM_5.Rt.k106.niml.dset
+│   │   │       │   ├── SARM_5.RtTg.k227.gii
+│   │   │       │   ├── SARM_5.RtTg.k227.niml.dset
+│   │   │       │   ├── SARM_5.SC.k166.gii
+│   │   │       │   ├── SARM_5.SC.k166.niml.dset
+│   │   │       │   ├── SARM_5.SDB.k68.gii
+│   │   │       │   ├── SARM_5.SDB.k68.niml.dset
+│   │   │       │   ├── SARM_5.SFi.k67.gii
+│   │   │       │   ├── SARM_5.SFi.k67.niml.dset
+│   │   │       │   ├── SARM_5.SG.k117.gii
+│   │   │       │   ├── SARM_5.SG.k117.niml.dset
+│   │   │       │   ├── SARM_5.S.k13.gii
+│   │   │       │   ├── SARM_5.S.k13.niml.dset
+│   │   │       │   ├── SARM_5.SN.k199.gii
+│   │   │       │   ├── SARM_5.SN.k199.niml.dset
+│   │   │       │   ├── SARM_5.SO.k232.gii
+│   │   │       │   ├── SARM_5.SO.k232.niml.dset
+│   │   │       │   ├── SARM_5.Sol.k297.gii
+│   │   │       │   ├── SARM_5.Sol.k297.niml.dset
+│   │   │       │   ├── SARM_5.SOpt.k84.gii
+│   │   │       │   ├── SARM_5.SOpt.k84.niml.dset
+│   │   │       │   ├── SARM_5.Sp5.k290.gii
+│   │   │       │   ├── SARM_5.Sp5.k290.niml.dset
+│   │   │       │   ├── SARM_5.SPFC.k115.gii
+│   │   │       │   ├── SARM_5.SPFC.k115.niml.dset
+│   │   │       │   ├── SARM_5.spf.k237.gii
+│   │   │       │   ├── SARM_5.spf.k237.niml.dset
+│   │   │       │   ├── SARM_5.STh.k91.gii
+│   │   │       │   ├── SARM_5.STh.k91.niml.dset
+│   │   │       │   ├── SARM_5.STIA.k41.gii
+│   │   │       │   ├── SARM_5.STIA.k41.niml.dset
+│   │   │       │   ├── SARM_5.ST.k65.gii
+│   │   │       │   ├── SARM_5.ST.k65.niml.dset
+│   │   │       │   ├── SARM_5.SubC.k226.gii
+│   │   │       │   ├── SARM_5.SubC.k226.niml.dset
+│   │   │       │   ├── SARM_5.Tu.k53.gii
+│   │   │       │   ├── SARM_5.Tu.k53.niml.dset
+│   │   │       │   ├── SARM_5.tz.k234.gii
+│   │   │       │   ├── SARM_5.tz.k234.niml.dset
+│   │   │       │   ├── SARM_5.VA.k130.gii
+│   │   │       │   ├── SARM_5.VA.k130.niml.dset
+│   │   │       │   ├── SARM_5.VCo.k20.gii
+│   │   │       │   ├── SARM_5.VCo.k20.niml.dset
+│   │   │       │   ├── SARM_5.Ve.k283.gii
+│   │   │       │   ├── SARM_5.Ve.k283.niml.dset
+│   │   │       │   ├── SARM_5.VEn.k8.gii
+│   │   │       │   ├── SARM_5.VEn.k8.niml.dset
+│   │   │       │   ├── SARM_5.VLA.k131.gii
+│   │   │       │   ├── SARM_5.VLA.k131.niml.dset
+│   │   │       │   ├── SARM_5.VLPD.k135.gii
+│   │   │       │   ├── SARM_5.VLPD.k135.niml.dset
+│   │   │       │   ├── SARM_5.VLPV.k134.gii
+│   │   │       │   ├── SARM_5.VLPV.k134.niml.dset
+│   │   │       │   ├── SARM_5.VLTg.k179.gii
+│   │   │       │   ├── SARM_5.VLTg.k179.niml.dset
+│   │   │       │   ├── SARM_5.VLX.k133.gii
+│   │   │       │   ├── SARM_5.VLX.k133.niml.dset
+│   │   │       │   ├── SARM_5.VMH.k80.gii
+│   │   │       │   ├── SARM_5.VMH.k80.niml.dset
+│   │   │       │   ├── SARM_5.VM.k140.gii
+│   │   │       │   ├── SARM_5.VM.k140.niml.dset
+│   │   │       │   ├── SARM_5.VMPo-VMB.k138.gii
+│   │   │       │   ├── SARM_5.VMPo-VMB.k138.niml.dset
+│   │   │       │   ├── SARM_5.VPI.k139.gii
+│   │   │       │   ├── SARM_5.VPI.k139.niml.dset
+│   │   │       │   ├── SARM_5.VP.k60.gii
+│   │   │       │   ├── SARM_5.VP.k60.niml.dset
+│   │   │       │   ├── SARM_5.VPM-VPL.k137.gii
+│   │   │       │   ├── SARM_5.VPM-VPL.k137.niml.dset
+│   │   │       │   ├── SARM_5.VTA.k200.gii
+│   │   │       │   ├── SARM_5.VTA.k200.niml.dset
+│   │   │       │   ├── SARM_5.xscp.k228.gii
+│   │   │       │   ├── SARM_5.xscp.k228.niml.dset
+│   │   │       │   ├── SARM_5.ZI-H.k104.gii
+│   │   │       │   └── SARM_5.ZI-H.k104.niml.dset
+│   │   │       └── Level_6
+│   │   │           ├── SARM_6.AA.k37.gii
+│   │   │           ├── SARM_6.AA.k37.niml.dset
+│   │   │           ├── SARM_6.Acb.k52.gii
+│   │   │           ├── SARM_6.Acb.k52.niml.dset
+│   │   │           ├── SARM_6.ac.k59.gii
+│   │   │           ├── SARM_6.ac.k59.niml.dset
+│   │   │           ├── SARM_6.AHi.k21.gii
+│   │   │           ├── SARM_6.AHi.k21.niml.dset
+│   │   │           ├── SARM_6.AH.k85.gii
+│   │   │           ├── SARM_6.AH.k85.niml.dset
+│   │   │           ├── SARM_6.A.k110.gii
+│   │   │           ├── SARM_6.A.k110.niml.dset
+│   │   │           ├── SARM_6.al.k58.gii
+│   │   │           ├── SARM_6.al.k58.niml.dset
+│   │   │           ├── SARM_6.APir.k26.gii
+│   │   │           ├── SARM_6.APir.k26.niml.dset
+│   │   │           ├── SARM_6.APit.k101.gii
+│   │   │           ├── SARM_6.APit.k101.niml.dset
+│   │   │           ├── SARM_6.APul.k145.gii
+│   │   │           ├── SARM_6.APul.k145.niml.dset
+│   │   │           ├── SARM_6.Arc.k82.gii
+│   │   │           ├── SARM_6.Arc.k82.niml.dset
+│   │   │           ├── SARM_6.ASt.k49.gii
+│   │   │           ├── SARM_6.ASt.k49.niml.dset
+│   │   │           ├── SARM_6.ATg.k181.gii
+│   │   │           ├── SARM_6.ATg.k181.niml.dset
+│   │   │           ├── SARM_6.B.k64.gii
+│   │   │           ├── SARM_6.B.k64.niml.dset
+│   │   │           ├── SARM_6.BLD.k28.gii
+│   │   │           ├── SARM_6.BLD.k28.niml.dset
+│   │   │           ├── SARM_6.BLI.k29.gii
+│   │   │           ├── SARM_6.BLI.k29.niml.dset
+│   │   │           ├── SARM_6.BLV.k30.gii
+│   │   │           ├── SARM_6.BLV.k30.niml.dset
+│   │   │           ├── SARM_6.BM.k19.gii
+│   │   │           ├── SARM_6.BM.k19.niml.dset
+│   │   │           ├── SARM_6.bsc.k149.gii
+│   │   │           ├── SARM_6.bsc.k149.niml.dset
+│   │   │           ├── SARM_6.cap.k111.gii
+│   │   │           ├── SARM_6.cap.k111.niml.dset
+│   │   │           ├── SARM_6.Cb10V.k267.gii
+│   │   │           ├── SARM_6.Cb10V.k267.niml.dset
+│   │   │           ├── SARM_6.Cb1V.k257.gii
+│   │   │           ├── SARM_6.Cb1V.k257.niml.dset
+│   │   │           ├── SARM_6.Cb2V.k258.gii
+│   │   │           ├── SARM_6.Cb2V.k258.niml.dset
+│   │   │           ├── SARM_6.Cb3I.k269.gii
+│   │   │           ├── SARM_6.Cb3I.k269.niml.dset
+│   │   │           ├── SARM_6.Cb3V.k259.gii
+│   │   │           ├── SARM_6.Cb3V.k259.niml.dset
+│   │   │           ├── SARM_6.Cb4I.k270.gii
+│   │   │           ├── SARM_6.Cb4I.k270.niml.dset
+│   │   │           ├── SARM_6.Cb4V.k260.gii
+│   │   │           ├── SARM_6.Cb4V.k260.niml.dset
+│   │   │           ├── SARM_6.Cb5I.k271.gii
+│   │   │           ├── SARM_6.Cb5I.k271.niml.dset
+│   │   │           ├── SARM_6.Cb5V.k261.gii
+│   │   │           ├── SARM_6.Cb5V.k261.niml.dset
+│   │   │           ├── SARM_6.Cb6I.k272.gii
+│   │   │           ├── SARM_6.Cb6I.k272.niml.dset
+│   │   │           ├── SARM_6.Cb6V.k263.gii
+│   │   │           ├── SARM_6.Cb6V.k263.niml.dset
+│   │   │           ├── SARM_6.Cb7V.k264.gii
+│   │   │           ├── SARM_6.Cb7V.k264.niml.dset
+│   │   │           ├── SARM_6.Cb8V.k265.gii
+│   │   │           ├── SARM_6.Cb8V.k265.niml.dset
+│   │   │           ├── SARM_6.Cb9V.k266.gii
+│   │   │           ├── SARM_6.Cb9V.k266.niml.dset
+│   │   │           ├── SARM_6.CdH.k46.gii
+│   │   │           ├── SARM_6.CdH.k46.niml.dset
+│   │   │           ├── SARM_6.CdT.k47.gii
+│   │   │           ├── SARM_6.CdT.k47.niml.dset
+│   │   │           ├── SARM_6.Ce.k34.gii
+│   │   │           ├── SARM_6.Ce.k34.niml.dset
+│   │   │           ├── SARM_6.CG.k215.gii
+│   │   │           ├── SARM_6.CG.k215.niml.dset
+│   │   │           ├── SARM_6.Cl.k4.gii
+│   │   │           ├── SARM_6.Cl.k4.niml.dset
+│   │   │           ├── SARM_6.CL-PC.k113.gii
+│   │   │           ├── SARM_6.CL-PC.k113.niml.dset
+│   │   │           ├── SARM_6.CM.k126.gii
+│   │   │           ├── SARM_6.CM.k126.niml.dset
+│   │   │           ├── SARM_6.CMn-PF.k114.gii
+│   │   │           ├── SARM_6.CMn-PF.k114.niml.dset
+│   │   │           ├── SARM_6.CnF.k178.gii
+│   │   │           ├── SARM_6.CnF.k178.niml.dset
+│   │   │           ├── SARM_6.Cop.k273.gii
+│   │   │           ├── SARM_6.Cop.k273.niml.dset
+│   │   │           ├── SARM_6.cp.k203.gii
+│   │   │           ├── SARM_6.cp.k203.niml.dset
+│   │   │           ├── SARM_6.Crus1.k277.gii
+│   │   │           ├── SARM_6.Crus1.k277.niml.dset
+│   │   │           ├── SARM_6.Crus2.k278.gii
+│   │   │           ├── SARM_6.Crus2.k278.niml.dset
+│   │   │           ├── SARM_6.cst.k318.gii
+│   │   │           ├── SARM_6.cst.k318.niml.dset
+│   │   │           ├── SARM_6.CuGr.k295.gii
+│   │   │           ├── SARM_6.CuGr.k295.niml.dset
+│   │   │           ├── SARM_6.DEn.k7.gii
+│   │   │           ├── SARM_6.DEn.k7.niml.dset
+│   │   │           ├── SARM_6.DLG.k151.gii
+│   │   │           ├── SARM_6.DLG.k151.niml.dset
+│   │   │           ├── SARM_6.DLL.k222.gii
+│   │   │           ├── SARM_6.DLL.k222.niml.dset
+│   │   │           ├── SARM_6.DM.k86.gii
+│   │   │           ├── SARM_6.DM.k86.niml.dset
+│   │   │           ├── SARM_6.DPGi.k305.gii
+│   │   │           ├── SARM_6.DPGi.k305.niml.dset
+│   │   │           ├── SARM_6.DR.k191.gii
+│   │   │           ├── SARM_6.DR.k191.niml.dset
+│   │   │           ├── SARM_6.DVC.k284.gii
+│   │   │           ├── SARM_6.DVC.k284.niml.dset
+│   │   │           ├── SARM_6.EA.k39.gii
+│   │   │           ├── SARM_6.EA.k39.niml.dset
+│   │   │           ├── SARM_6.EGP.k56.gii
+│   │   │           ├── SARM_6.EGP.k56.niml.dset
+│   │   │           ├── SARM_6.Fas.k250.gii
+│   │   │           ├── SARM_6.Fas.k250.niml.dset
+│   │   │           ├── SARM_6.fi.k14.gii
+│   │   │           ├── SARM_6.fi.k14.niml.dset
+│   │   │           ├── SARM_6.f.k15.gii
+│   │   │           ├── SARM_6.f.k15.niml.dset
+│   │   │           ├── SARM_6.Fl.k253.gii
+│   │   │           ├── SARM_6.Fl.k253.niml.dset
+│   │   │           ├── SARM_6.Gi.k306.gii
+│   │   │           ├── SARM_6.Gi.k306.niml.dset
+│   │   │           ├── SARM_6.Hb.k155.gii
+│   │   │           ├── SARM_6.Hb.k155.niml.dset
+│   │   │           ├── SARM_6.Hi.k12.gii
+│   │   │           ├── SARM_6.Hi.k12.niml.dset
+│   │   │           ├── SARM_6.IAM.k125.gii
+│   │   │           ├── SARM_6.IAM.k125.niml.dset
+│   │   │           ├── SARM_6.ic.k50.gii
+│   │   │           ├── SARM_6.ic.k50.niml.dset
+│   │   │           ├── SARM_6.ICo.k168.gii
+│   │   │           ├── SARM_6.ICo.k168.niml.dset
+│   │   │           ├── SARM_6.icp.k243.gii
+│   │   │           ├── SARM_6.icp.k243.niml.dset
+│   │   │           ├── SARM_6.IGP.k57.gii
+│   │   │           ├── SARM_6.IGP.k57.niml.dset
+│   │   │           ├── SARM_6.ILL-VLL.k223.gii
+│   │   │           ├── SARM_6.ILL-VLL.k223.niml.dset
+│   │   │           ├── SARM_6.IMD.k121.gii
+│   │   │           ├── SARM_6.IMD.k121.niml.dset
+│   │   │           ├── SARM_6.IntA.k248.gii
+│   │   │           ├── SARM_6.IntA.k248.niml.dset
+│   │   │           ├── SARM_6.IntP.k249.gii
+│   │   │           ├── SARM_6.IntP.k249.niml.dset
+│   │   │           ├── SARM_6.IO.k313.gii
+│   │   │           ├── SARM_6.IO.k313.niml.dset
+│   │   │           ├── SARM_6.IPAC.k40.gii
+│   │   │           ├── SARM_6.IPAC.k40.niml.dset
+│   │   │           ├── SARM_6.IP.k201.gii
+│   │   │           ├── SARM_6.IP.k201.niml.dset
+│   │   │           ├── SARM_6.IPul.k148.gii
+│   │   │           ├── SARM_6.IPul.k148.niml.dset
+│   │   │           ├── SARM_6.JPLH.k89.gii
+│   │   │           ├── SARM_6.JPLH.k89.niml.dset
+│   │   │           ├── SARM_6.KF.k211.gii
+│   │   │           ├── SARM_6.KF.k211.niml.dset
+│   │   │           ├── SARM_6.LaD.k24.gii
+│   │   │           ├── SARM_6.LaD.k24.niml.dset
+│   │   │           ├── SARM_6.Lat.k246.gii
+│   │   │           ├── SARM_6.Lat.k246.niml.dset
+│   │   │           ├── SARM_6.LaV.k25.gii
+│   │   │           ├── SARM_6.LaV.k25.niml.dset
+│   │   │           ├── SARM_6.LC-Me5.k213.gii
+│   │   │           ├── SARM_6.LC-Me5.k213.niml.dset
+│   │   │           ├── SARM_6.LD.k143.gii
+│   │   │           ├── SARM_6.LD.k143.niml.dset
+│   │   │           ├── SARM_6.LDTg.k217.gii
+│   │   │           ├── SARM_6.LDTg.k217.niml.dset
+│   │   │           ├── SARM_6.LH.k88.gii
+│   │   │           ├── SARM_6.LH.k88.niml.dset
+│   │   │           ├── SARM_6.Lim.k118.gii
+│   │   │           ├── SARM_6.Lim.k118.niml.dset
+│   │   │           ├── SARM_6.LiR.k192.gii
+│   │   │           ├── SARM_6.LiR.k192.niml.dset
+│   │   │           ├── SARM_6.ll.k221.gii
+│   │   │           ├── SARM_6.ll.k221.niml.dset
+│   │   │           ├── SARM_6.LPB.k208.gii
+│   │   │           ├── SARM_6.LPB.k208.niml.dset
+│   │   │           ├── SARM_6.LP.k142.gii
+│   │   │           ├── SARM_6.LP.k142.niml.dset
+│   │   │           ├── SARM_6.LPul.k147.gii
+│   │   │           ├── SARM_6.LPul.k147.niml.dset
+│   │   │           ├── SARM_6.LRt.k314.gii
+│   │   │           ├── SARM_6.LRt.k314.niml.dset
+│   │   │           ├── SARM_6.LTer-VOLT.k73.gii
+│   │   │           ├── SARM_6.LTer-VOLT.k73.niml.dset
+│   │   │           ├── SARM_6.mcp.k240.gii
+│   │   │           ├── SARM_6.mcp.k240.niml.dset
+│   │   │           ├── SARM_6.MD.k119.gii
+│   │   │           ├── SARM_6.MD.k119.niml.dset
+│   │   │           ├── SARM_6.MdRt.k307.gii
+│   │   │           ├── SARM_6.MdRt.k307.niml.dset
+│   │   │           ├── SARM_6.MDTg.k218.gii
+│   │   │           ├── SARM_6.MDTg.k218.niml.dset
+│   │   │           ├── SARM_6.me5.k214.gii
+│   │   │           ├── SARM_6.me5.k214.niml.dset
+│   │   │           ├── SARM_6.Me.k36.gii
+│   │   │           ├── SARM_6.Me.k36.niml.dset
+│   │   │           ├── SARM_6.MEm.k81.gii
+│   │   │           ├── SARM_6.MEm.k81.niml.dset
+│   │   │           ├── SARM_6.MG.k152.gii
+│   │   │           ├── SARM_6.MG.k152.niml.dset
+│   │   │           ├── SARM_6.MiTg.k176.gii
+│   │   │           ├── SARM_6.MiTg.k176.niml.dset
+│   │   │           ├── SARM_6.mlf.k188.gii
+│   │   │           ├── SARM_6.mlf.k188.niml.dset
+│   │   │           ├── SARM_6.ml.k233.gii
+│   │   │           ├── SARM_6.ml.k233.niml.dset
+│   │   │           ├── SARM_6.MM.k99.gii
+│   │   │           ├── SARM_6.MM.k99.niml.dset
+│   │   │           ├── SARM_6.MPB.k209.gii
+│   │   │           ├── SARM_6.MPB.k209.niml.dset
+│   │   │           ├── SARM_6.MPul.k146.gii
+│   │   │           ├── SARM_6.MPul.k146.niml.dset
+│   │   │           ├── SARM_6.MR.k190.gii
+│   │   │           ├── SARM_6.MR.k190.niml.dset
+│   │   │           ├── SARM_6.mRt.k183.gii
+│   │   │           ├── SARM_6.mRt.k183.niml.dset
+│   │   │           ├── SARM_6.n3.k202.gii
+│   │   │           ├── SARM_6.n3.k202.niml.dset
+│   │   │           ├── SARM_6.n4.k171.gii
+│   │   │           ├── SARM_6.n4.k171.niml.dset
+│   │   │           ├── SARM_6.n8.k285.gii
+│   │   │           ├── SARM_6.n8.k285.niml.dset
+│   │   │           ├── SARM_6.Nu10-12.k298.gii
+│   │   │           ├── SARM_6.Nu10-12.k298.niml.dset
+│   │   │           ├── SARM_6.Nu5.k288.gii
+│   │   │           ├── SARM_6.Nu5.k288.niml.dset
+│   │   │           ├── SARM_6.Nu6.k301.gii
+│   │   │           ├── SARM_6.Nu6.k301.niml.dset
+│   │   │           ├── SARM_6.Nu7.k302.gii
+│   │   │           ├── SARM_6.Nu7.k302.niml.dset
+│   │   │           ├── SARM_6.obex.k296.gii
+│   │   │           ├── SARM_6.obex.k296.niml.dset
+│   │   │           ├── SARM_6.oc.k244.gii
+│   │   │           ├── SARM_6.oc.k244.niml.dset
+│   │   │           ├── SARM_6.OM.k187.gii
+│   │   │           ├── SARM_6.OM.k187.niml.dset
+│   │   │           ├── SARM_6.opt.k70.gii
+│   │   │           ├── SARM_6.opt.k70.niml.dset
+│   │   │           ├── SARM_6.p1Rt.k161.gii
+│   │   │           ├── SARM_6.p1Rt.k161.niml.dset
+│   │   │           ├── SARM_6.PAG.k172.gii
+│   │   │           ├── SARM_6.PAG.k172.niml.dset
+│   │   │           ├── SARM_6.Pa.k78.gii
+│   │   │           ├── SARM_6.Pa.k78.niml.dset
+│   │   │           ├── SARM_6.PaL.k31.gii
+│   │   │           ├── SARM_6.PaL.k31.niml.dset
+│   │   │           ├── SARM_6.PBG.k175.gii
+│   │   │           ├── SARM_6.PBG.k175.niml.dset
+│   │   │           ├── SARM_6.PCIRt.k304.gii
+│   │   │           ├── SARM_6.PCIRt.k304.niml.dset
+│   │   │           ├── SARM_6.pc.k158.gii
+│   │   │           ├── SARM_6.pc.k158.niml.dset
+│   │   │           ├── SARM_6.PCom_MCPC.k160.gii
+│   │   │           ├── SARM_6.PCom_MCPC.k160.niml.dset
+│   │   │           ├── SARM_6.PeB.k63.gii
+│   │   │           ├── SARM_6.PeB.k63.niml.dset
+│   │   │           ├── SARM_6.PeF.k96.gii
+│   │   │           ├── SARM_6.PeF.k96.niml.dset
+│   │   │           ├── SARM_6.PFl.k254.gii
+│   │   │           ├── SARM_6.PFl.k254.niml.dset
+│   │   │           ├── SARM_6.PH.k94.gii
+│   │   │           ├── SARM_6.PH.k94.niml.dset
+│   │   │           ├── SARM_6.Pi.k154.gii
+│   │   │           ├── SARM_6.Pi.k154.niml.dset
+│   │   │           ├── SARM_6.Pir.k9.gii
+│   │   │           ├── SARM_6.Pir.k9.niml.dset
+│   │   │           ├── SARM_6.PLH.k90.gii
+│   │   │           ├── SARM_6.PLH.k90.niml.dset
+│   │   │           ├── SARM_6.PM.k275.gii
+│   │   │           ├── SARM_6.PM.k275.niml.dset
+│   │   │           ├── SARM_6.PnC.k230.gii
+│   │   │           ├── SARM_6.PnC.k230.niml.dset
+│   │   │           ├── SARM_6.Pn.k236.gii
+│   │   │           ├── SARM_6.Pn.k236.niml.dset
+│   │   │           ├── SARM_6.PnO.k229.gii
+│   │   │           ├── SARM_6.PnO.k229.niml.dset
+│   │   │           ├── SARM_6.PO.k72.gii
+│   │   │           ├── SARM_6.PO.k72.niml.dset
+│   │   │           ├── SARM_6.PPit.k102.gii
+│   │   │           ├── SARM_6.PPit.k102.niml.dset
+│   │   │           ├── SARM_6.Pr5.k289.gii
+│   │   │           ├── SARM_6.Pr5.k289.niml.dset
+│   │   │           ├── SARM_6.PrC.k159.gii
+│   │   │           ├── SARM_6.PrC.k159.niml.dset
+│   │   │           ├── SARM_6.PrCnF.k177.gii
+│   │   │           ├── SARM_6.PrCnF.k177.niml.dset
+│   │   │           ├── SARM_6.Pr.k286.gii
+│   │   │           ├── SARM_6.Pr.k286.niml.dset
+│   │   │           ├── SARM_6.PR-RI.k196.gii
+│   │   │           ├── SARM_6.PR-RI.k196.niml.dset
+│   │   │           ├── SARM_6.PTg.k180.gii
+│   │   │           ├── SARM_6.PTg.k180.niml.dset
+│   │   │           ├── SARM_6.PT-PV-sm.k122.gii
+│   │   │           ├── SARM_6.PT-PV-sm.k122.niml.dset
+│   │   │           ├── SARM_6.Pu.k48.gii
+│   │   │           ├── SARM_6.Pu.k48.niml.dset
+│   │   │           ├── SARM_6.PVA.k124.gii
+│   │   │           ├── SARM_6.PVA.k124.niml.dset
+│   │   │           ├── SARM_6.PVP.k123.gii
+│   │   │           ├── SARM_6.PVP.k123.niml.dset
+│   │   │           ├── SARM_6.py.k316.gii
+│   │   │           ├── SARM_6.py.k316.niml.dset
+│   │   │           ├── SARM_6.pyx.k317.gii
+│   │   │           ├── SARM_6.pyx.k317.niml.dset
+│   │   │           ├── SARM_6.Re-Rh-Xi.k127.gii
+│   │   │           ├── SARM_6.Re-Rh-Xi.k127.niml.dset
+│   │   │           ├── SARM_6.RF.k198.gii
+│   │   │           ├── SARM_6.RF.k198.niml.dset
+│   │   │           ├── SARM_6.RIs.k184.gii
+│   │   │           ├── SARM_6.RIs.k184.niml.dset
+│   │   │           ├── SARM_6.R.k195.gii
+│   │   │           ├── SARM_6.R.k195.niml.dset
+│   │   │           ├── SARM_6.RMg.k309.gii
+│   │   │           ├── SARM_6.RMg.k309.niml.dset
+│   │   │           ├── SARM_6.RM.k98.gii
+│   │   │           ├── SARM_6.RM.k98.niml.dset
+│   │   │           ├── SARM_6.ROb.k310.gii
+│   │   │           ├── SARM_6.ROb.k310.niml.dset
+│   │   │           ├── SARM_6.Rt.k106.gii
+│   │   │           ├── SARM_6.Rt.k106.niml.dset
+│   │   │           ├── SARM_6.RtTg.k227.gii
+│   │   │           ├── SARM_6.RtTg.k227.niml.dset
+│   │   │           ├── SARM_6.s5.k238.gii
+│   │   │           ├── SARM_6.s5.k238.niml.dset
+│   │   │           ├── SARM_6.Sag-RL.k169.gii
+│   │   │           ├── SARM_6.Sag-RL.k169.niml.dset
+│   │   │           ├── SARM_6.SC.k166.gii
+│   │   │           ├── SARM_6.SC.k166.niml.dset
+│   │   │           ├── SARM_6.scp.k210.gii
+│   │   │           ├── SARM_6.scp.k210.niml.dset
+│   │   │           ├── SARM_6.SDB.k68.gii
+│   │   │           ├── SARM_6.SDB.k68.niml.dset
+│   │   │           ├── SARM_6.SFi.k67.gii
+│   │   │           ├── SARM_6.SFi.k67.niml.dset
+│   │   │           ├── SARM_6.SG.k117.gii
+│   │   │           ├── SARM_6.SG.k117.niml.dset
+│   │   │           ├── SARM_6.Sim.k274.gii
+│   │   │           ├── SARM_6.Sim.k274.niml.dset
+│   │   │           ├── SARM_6.S.k13.gii
+│   │   │           ├── SARM_6.S.k13.niml.dset
+│   │   │           ├── SARM_6.SN.k199.gii
+│   │   │           ├── SARM_6.SN.k199.niml.dset
+│   │   │           ├── SARM_6.SO.k232.gii
+│   │   │           ├── SARM_6.SO.k232.niml.dset
+│   │   │           ├── SARM_6.Sol.k297.gii
+│   │   │           ├── SARM_6.Sol.k297.niml.dset
+│   │   │           ├── SARM_6.SOpt.k84.gii
+│   │   │           ├── SARM_6.SOpt.k84.niml.dset
+│   │   │           ├── SARM_6.Sp5C.k293.gii
+│   │   │           ├── SARM_6.Sp5C.k293.niml.dset
+│   │   │           ├── SARM_6.Sp5I.k292.gii
+│   │   │           ├── SARM_6.Sp5I.k292.niml.dset
+│   │   │           ├── SARM_6.Sp5O.k291.gii
+│   │   │           ├── SARM_6.Sp5O.k291.niml.dset
+│   │   │           ├── SARM_6.SPFPC.k116.gii
+│   │   │           ├── SARM_6.SPFPC.k116.niml.dset
+│   │   │           ├── SARM_6.STh.k91.gii
+│   │   │           ├── SARM_6.STh.k91.niml.dset
+│   │   │           ├── SARM_6.STIA.k41.gii
+│   │   │           ├── SARM_6.STIA.k41.niml.dset
+│   │   │           ├── SARM_6.ST.k65.gii
+│   │   │           ├── SARM_6.ST.k65.niml.dset
+│   │   │           ├── SARM_6.SubC.k226.gii
+│   │   │           ├── SARM_6.SubC.k226.niml.dset
+│   │   │           ├── SARM_6.tfp.k239.gii
+│   │   │           ├── SARM_6.tfp.k239.niml.dset
+│   │   │           ├── SARM_6.Tu.k53.gii
+│   │   │           ├── SARM_6.Tu.k53.niml.dset
+│   │   │           ├── SARM_6.tz.k234.gii
+│   │   │           ├── SARM_6.tz.k234.niml.dset
+│   │   │           ├── SARM_6.VA.k130.gii
+│   │   │           ├── SARM_6.VA.k130.niml.dset
+│   │   │           ├── SARM_6.VCo.k20.gii
+│   │   │           ├── SARM_6.VCo.k20.niml.dset
+│   │   │           ├── SARM_6.Ve.k283.gii
+│   │   │           ├── SARM_6.Ve.k283.niml.dset
+│   │   │           ├── SARM_6.VEn.k8.gii
+│   │   │           ├── SARM_6.VEn.k8.niml.dset
+│   │   │           ├── SARM_6.VLA.k131.gii
+│   │   │           ├── SARM_6.VLA.k131.niml.dset
+│   │   │           ├── SARM_6.VLPD.k135.gii
+│   │   │           ├── SARM_6.VLPD.k135.niml.dset
+│   │   │           ├── SARM_6.VLPV.k134.gii
+│   │   │           ├── SARM_6.VLPV.k134.niml.dset
+│   │   │           ├── SARM_6.VLTg.k179.gii
+│   │   │           ├── SARM_6.VLTg.k179.niml.dset
+│   │   │           ├── SARM_6.VLX.k133.gii
+│   │   │           ├── SARM_6.VLX.k133.niml.dset
+│   │   │           ├── SARM_6.VMH.k80.gii
+│   │   │           ├── SARM_6.VMH.k80.niml.dset
+│   │   │           ├── SARM_6.VM.k140.gii
+│   │   │           ├── SARM_6.VM.k140.niml.dset
+│   │   │           ├── SARM_6.VMPo-VMB.k138.gii
+│   │   │           ├── SARM_6.VMPo-VMB.k138.niml.dset
+│   │   │           ├── SARM_6.VPI.k139.gii
+│   │   │           ├── SARM_6.VPI.k139.niml.dset
+│   │   │           ├── SARM_6.VP.k60.gii
+│   │   │           ├── SARM_6.VP.k60.niml.dset
+│   │   │           ├── SARM_6.VPM-VPL.k137.gii
+│   │   │           ├── SARM_6.VPM-VPL.k137.niml.dset
+│   │   │           ├── SARM_6.VTA.k200.gii
+│   │   │           ├── SARM_6.VTA.k200.niml.dset
+│   │   │           ├── SARM_6.xscp.k228.gii
+│   │   │           ├── SARM_6.xscp.k228.niml.dset
+│   │   │           ├── SARM_6.ZI-H.k104.gii
+│   │   │           └── SARM_6.ZI-H.k104.niml.dset
+│   │   ├── lh.gray_surface.inf_300.rsl.gii
+│   │   ├── lh.gray_surface.rsl.gii
+│   │   ├── lh.mid_surface.inf_300.rsl.gii
+│   │   ├── lh.mid_surface.rsl.gii
+│   │   ├── lh.white_surface.inf_300.rsl.gii
+│   │   ├── lh.white_surface.rsl.gii
+│   │   ├── NMT_v2.0_sym_both.spec
+│   │   ├── NMT_v2.0_sym_lh.spec
+│   │   ├── NMT_v2.0_sym_rh.spec
+│   │   ├── rh.gray_surface.inf_300.rsl.gii
+│   │   ├── rh.gray_surface.rsl.gii
+│   │   ├── rh.mid_surface.inf_300.rsl.gii
+│   │   ├── rh.mid_surface.rsl.gii
+│   │   ├── rh.white_surface.inf_300.rsl.gii
+│   │   └── rh.white_surface.rsl.gii
+│   ├── readme.md
+│   ├── tables_CHARM
+│   │   ├── CHARM_key_1.txt
+│   │   ├── CHARM_key_2.txt
+│   │   ├── CHARM_key_3.txt
+│   │   ├── CHARM_key_4.txt
+│   │   ├── CHARM_key_5.txt
+│   │   ├── CHARM_key_6.txt
+│   │   ├── CHARM_key_all.txt
+│   │   ├── CHARM_key_table.csv
+│   │   └── hue_CHARM_cmap.pal
+│   ├── tables_D99
+│   │   └── D99_labeltable.txt
+│   └── tables_SARM
+│       ├── SARM_key_1.txt
+│       ├── SARM_key_2.txt
+│       ├── SARM_key_3.txt
+│       ├── SARM_key_4.txt
+│       ├── SARM_key_5.txt
+│       ├── SARM_key_6.txt
+│       ├── SARM_key_all.txt
+│       └── SARM_key_table.csv
+├── QC_sub-000
+│   ├── apqc_sub-000.json
+│   ├── extra_info
+│   │   ├── out.ss_review_uvars.json
+│   │   └── styles.css
+│   ├── help.html
+│   ├── index.html
+│   └── media
+│       ├── __page_title.json
+│       ├── qc_00_vorig_EPI.axi.jpg
+│       ├── qc_00_vorig_EPI.axi.json
+│       ├── qc_00_vorig_EPI.cor.jpg
+│       ├── qc_00_vorig_EPI.pbar.jpg
+│       ├── qc_00_vorig_EPI.pbar.json
+│       ├── qc_00_vorig_EPI.pbar.txt
+│       ├── qc_00_vorig_EPI.sag.jpg
+│       ├── qc_00_vorig_EPI.sag.json
+│       ├── qc_01_ve2a_epi2anat.axi.jpg
+│       ├── qc_01_ve2a_epi2anat.axi.json
+│       ├── qc_01_ve2a_epi2anat.cor.jpg
+│       ├── qc_01_ve2a_epi2anat.sag.jpg
+│       ├── qc_01_ve2a_epi2anat.sag.json
+│       ├── qc_02_va2t_anat2temp.axi.jpg
+│       ├── qc_02_va2t_anat2temp.axi.json
+│       ├── qc_02_va2t_anat2temp.cor.jpg
+│       ├── qc_02_va2t_anat2temp.sag.jpg
+│       ├── qc_02_va2t_anat2temp.sag.json
+│       ├── qc_03_vstat_Full_Fstat.axi.jpg
+│       ├── qc_03_vstat_Full_Fstat.axi.json
+│       ├── qc_03_vstat_Full_Fstat.cor.jpg
+│       ├── qc_03_vstat_Full_Fstat.pbar.jpg
+│       ├── qc_03_vstat_Full_Fstat.pbar.json
+│       ├── qc_03_vstat_Full_Fstat.pbar.txt
+│       ├── qc_03_vstat_Full_Fstat.sag.jpg
+│       ├── qc_03_vstat_Full_Fstat.sag.json
+│       ├── qc_04_mot_enormoutlr.jpg
+│       ├── qc_04_mot_enormoutlr.json
+│       ├── qc_05_mot_VR6.jpg
+│       ├── qc_05_mot_VR6.json
+│       ├── qc_06_regr_ideal.jpg
+│       ├── qc_06_regr_ideal.json
+│       ├── qc_07_regr_stims.jpg
+│       ├── qc_07_regr_stims.json
+│       ├── qc_08_regr_df.dat
+│       ├── qc_08_regr_df.json
+│       ├── qc_09_regr_corr_errts.axi.jpg
+│       ├── qc_09_regr_corr_errts.axi.json
+│       ├── qc_09_regr_corr_errts.cor.jpg
+│       ├── qc_09_regr_corr_errts.pbar.jpg
+│       ├── qc_09_regr_corr_errts.pbar.json
+│       ├── qc_09_regr_corr_errts.pbar.txt
+│       ├── qc_09_regr_corr_errts.sag.jpg
+│       ├── qc_09_regr_corr_errts.sag.json
+│       ├── qc_10_regr_grayplot.jpg
+│       ├── qc_10_regr_grayplot.json
+│       ├── qc_10_regr_grayplot.pbar.jpg
+│       ├── qc_10_regr_grayplot.pbar.json
+│       ├── qc_10_regr_grayplot.pbar.txt
+│       ├── qc_11_warns_xmat.dat
+│       ├── qc_11_warns_xmat.json
+│       ├── qc_12_warns_cen_total.dat
+│       ├── qc_12_warns_cen_total.json
+│       ├── qc_13_warns_cen_stim.dat
+│       ├── qc_13_warns_cen_stim.json
+│       ├── qc_14_warns_press.dat
+│       ├── qc_14_warns_press.json
+│       ├── qc_15_radcor_rc_tcat_r01.axi.jpg
+│       ├── qc_15_radcor_rc_tcat_r01.axi.json
+│       ├── qc_15_radcor_rc_tcat_r01.cor.jpg
+│       ├── qc_15_radcor_rc_tcat_r01.pbar.jpg
+│       ├── qc_15_radcor_rc_tcat_r01.pbar.json
+│       ├── qc_15_radcor_rc_tcat_r01.pbar.txt
+│       ├── qc_15_radcor_rc_tcat_r01.sag.jpg
+│       ├── qc_15_radcor_rc_tcat_r02.axi.jpg
+│       ├── qc_15_radcor_rc_tcat_r02.axi.json
+│       ├── qc_15_radcor_rc_tcat_r02.cor.jpg
+│       ├── qc_15_radcor_rc_tcat_r02.pbar.jpg
+│       ├── qc_15_radcor_rc_tcat_r02.pbar.json
+│       ├── qc_15_radcor_rc_tcat_r02.pbar.txt
+│       ├── qc_15_radcor_rc_tcat_r02.sag.jpg
+│       ├── qc_15_radcor_rc_tcat_r03.axi.jpg
+│       ├── qc_15_radcor_rc_tcat_r03.axi.json
+│       ├── qc_15_radcor_rc_tcat_r03.cor.jpg
+│       ├── qc_15_radcor_rc_tcat_r03.pbar.jpg
+│       ├── qc_15_radcor_rc_tcat_r03.pbar.json
+│       ├── qc_15_radcor_rc_tcat_r03.pbar.txt
+│       ├── qc_15_radcor_rc_tcat_r03.sag.jpg
+│       ├── qc_15_radcor_rc_tcat_r04.axi.jpg
+│       ├── qc_15_radcor_rc_tcat_r04.axi.json
+│       ├── qc_15_radcor_rc_tcat_r04.cor.jpg
+│       ├── qc_15_radcor_rc_tcat_r04.pbar.jpg
+│       ├── qc_15_radcor_rc_tcat_r04.pbar.json
+│       ├── qc_15_radcor_rc_tcat_r04.pbar.txt
+│       ├── qc_15_radcor_rc_tcat_r04.sag.jpg
+│       ├── qc_16_radcor_rc_volreg_r01.axi.jpg
+│       ├── qc_16_radcor_rc_volreg_r01.axi.json
+│       ├── qc_16_radcor_rc_volreg_r01.cor.jpg
+│       ├── qc_16_radcor_rc_volreg_r01.pbar.jpg
+│       ├── qc_16_radcor_rc_volreg_r01.pbar.json
+│       ├── qc_16_radcor_rc_volreg_r01.pbar.txt
+│       ├── qc_16_radcor_rc_volreg_r01.sag.jpg
+│       ├── qc_16_radcor_rc_volreg_r02.axi.jpg
+│       ├── qc_16_radcor_rc_volreg_r02.axi.json
+│       ├── qc_16_radcor_rc_volreg_r02.cor.jpg
+│       ├── qc_16_radcor_rc_volreg_r02.pbar.jpg
+│       ├── qc_16_radcor_rc_volreg_r02.pbar.json
+│       ├── qc_16_radcor_rc_volreg_r02.pbar.txt
+│       ├── qc_16_radcor_rc_volreg_r02.sag.jpg
+│       ├── qc_16_radcor_rc_volreg_r03.axi.jpg
+│       ├── qc_16_radcor_rc_volreg_r03.axi.json
+│       ├── qc_16_radcor_rc_volreg_r03.cor.jpg
+│       ├── qc_16_radcor_rc_volreg_r03.pbar.jpg
+│       ├── qc_16_radcor_rc_volreg_r03.pbar.json
+│       ├── qc_16_radcor_rc_volreg_r03.pbar.txt
+│       ├── qc_16_radcor_rc_volreg_r03.sag.jpg
+│       ├── qc_16_radcor_rc_volreg_r04.axi.jpg
+│       ├── qc_16_radcor_rc_volreg_r04.axi.json
+│       ├── qc_16_radcor_rc_volreg_r04.cor.jpg
+│       ├── qc_16_radcor_rc_volreg_r04.pbar.jpg
+│       ├── qc_16_radcor_rc_volreg_r04.pbar.json
+│       ├── qc_16_radcor_rc_volreg_r04.pbar.txt
+│       ├── qc_16_radcor_rc_volreg_r04.sag.jpg
+│       ├── qc_17_qsumm_ssrev.dat
+│       └── qc_17_qsumm_ssrev.json
+├── QC_sub-000_full
+│   ├── apqc_sub-000.json
+│   ├── extra_info
+│   │   ├── out.ss_review_uvars.json
+│   │   └── styles.css
+│   ├── help.html
+│   ├── index.html
+│   └── media
+│       ├── __page_title.json
+│       ├── qc_00_vorig_EPI.axi.jpg
+│       ├── qc_00_vorig_EPI.axi.json
+│       ├── qc_00_vorig_EPI.cor.jpg
+│       ├── qc_00_vorig_EPI.pbar.jpg
+│       ├── qc_00_vorig_EPI.pbar.json
+│       ├── qc_00_vorig_EPI.pbar.txt
+│       ├── qc_00_vorig_EPI.sag.jpg
+│       ├── qc_00_vorig_EPI.sag.json
+│       ├── qc_01_ve2a_epi2anat.axi.jpg
+│       ├── qc_01_ve2a_epi2anat.axi.json
+│       ├── qc_01_ve2a_epi2anat.cor.jpg
+│       ├── qc_01_ve2a_epi2anat.sag.jpg
+│       ├── qc_01_ve2a_epi2anat.sag.json
+│       ├── qc_02_va2t_anat2temp.axi.jpg
+│       ├── qc_02_va2t_anat2temp.axi.json
+│       ├── qc_02_va2t_anat2temp.cor.jpg
+│       ├── qc_02_va2t_anat2temp.sag.jpg
+│       ├── qc_02_va2t_anat2temp.sag.json
+│       ├── qc_03_vstat_Full_Fstat.axi.jpg
+│       ├── qc_03_vstat_Full_Fstat.axi.json
+│       ├── qc_03_vstat_Full_Fstat.cor.jpg
+│       ├── qc_03_vstat_Full_Fstat.pbar.jpg
+│       ├── qc_03_vstat_Full_Fstat.pbar.json
+│       ├── qc_03_vstat_Full_Fstat.pbar.txt
+│       ├── qc_03_vstat_Full_Fstat.sag.jpg
+│       ├── qc_03_vstat_Full_Fstat.sag.json
+│       ├── qc_04_mot_enormoutlr.jpg
+│       ├── qc_04_mot_enormoutlr.json
+│       ├── qc_05_mot_VR6.jpg
+│       ├── qc_05_mot_VR6.json
+│       ├── qc_06_regr_ideal.jpg
+│       ├── qc_06_regr_ideal.json
+│       ├── qc_07_regr_stims.jpg
+│       ├── qc_07_regr_stims.json
+│       ├── qc_08_regr_df.dat
+│       ├── qc_08_regr_df.json
+│       ├── qc_09_regr_corr_errts.axi.jpg
+│       ├── qc_09_regr_corr_errts.axi.json
+│       ├── qc_09_regr_corr_errts.cor.jpg
+│       ├── qc_09_regr_corr_errts.pbar.jpg
+│       ├── qc_09_regr_corr_errts.pbar.json
+│       ├── qc_09_regr_corr_errts.pbar.txt
+│       ├── qc_09_regr_corr_errts.sag.jpg
+│       ├── qc_09_regr_corr_errts.sag.json
+│       ├── qc_10_regr_grayplot.jpg
+│       ├── qc_10_regr_grayplot.json
+│       ├── qc_10_regr_grayplot.pbar.jpg
+│       ├── qc_10_regr_grayplot.pbar.json
+│       ├── qc_10_regr_grayplot.pbar.txt
+│       ├── qc_11_warns_xmat.dat
+│       ├── qc_11_warns_xmat.json
+│       ├── qc_12_warns_cen_total.dat
+│       ├── qc_12_warns_cen_total.json
+│       ├── qc_13_warns_cen_stim.dat
+│       ├── qc_13_warns_cen_stim.json
+│       ├── qc_14_warns_press.dat
+│       ├── qc_14_warns_press.json
+│       ├── qc_15_radcor_rc_tcat_r01.axi.jpg
+│       ├── qc_15_radcor_rc_tcat_r01.axi.json
+│       ├── qc_15_radcor_rc_tcat_r01.cor.jpg
+│       ├── qc_15_radcor_rc_tcat_r01.pbar.jpg
+│       ├── qc_15_radcor_rc_tcat_r01.pbar.json
+│       ├── qc_15_radcor_rc_tcat_r01.pbar.txt
+│       ├── qc_15_radcor_rc_tcat_r01.sag.jpg
+│       ├── qc_15_radcor_rc_tcat_r02.axi.jpg
+│       ├── qc_15_radcor_rc_tcat_r02.axi.json
+│       ├── qc_15_radcor_rc_tcat_r02.cor.jpg
+│       ├── qc_15_radcor_rc_tcat_r02.pbar.jpg
+│       ├── qc_15_radcor_rc_tcat_r02.pbar.json
+│       ├── qc_15_radcor_rc_tcat_r02.pbar.txt
+│       ├── qc_15_radcor_rc_tcat_r02.sag.jpg
+│       ├── qc_15_radcor_rc_tcat_r03.axi.jpg
+│       ├── qc_15_radcor_rc_tcat_r03.axi.json
+│       ├── qc_15_radcor_rc_tcat_r03.cor.jpg
+│       ├── qc_15_radcor_rc_tcat_r03.pbar.jpg
+│       ├── qc_15_radcor_rc_tcat_r03.pbar.json
+│       ├── qc_15_radcor_rc_tcat_r03.pbar.txt
+│       ├── qc_15_radcor_rc_tcat_r03.sag.jpg
+│       ├── qc_15_radcor_rc_tcat_r04.axi.jpg
+│       ├── qc_15_radcor_rc_tcat_r04.axi.json
+│       ├── qc_15_radcor_rc_tcat_r04.cor.jpg
+│       ├── qc_15_radcor_rc_tcat_r04.pbar.jpg
+│       ├── qc_15_radcor_rc_tcat_r04.pbar.json
+│       ├── qc_15_radcor_rc_tcat_r04.pbar.txt
+│       ├── qc_15_radcor_rc_tcat_r04.sag.jpg
+│       ├── qc_15_radcor_rc_tcat_r05.axi.jpg
+│       ├── qc_15_radcor_rc_tcat_r05.axi.json
+│       ├── qc_15_radcor_rc_tcat_r05.cor.jpg
+│       ├── qc_15_radcor_rc_tcat_r05.pbar.jpg
+│       ├── qc_15_radcor_rc_tcat_r05.pbar.json
+│       ├── qc_15_radcor_rc_tcat_r05.pbar.txt
+│       ├── qc_15_radcor_rc_tcat_r05.sag.jpg
+│       ├── qc_15_radcor_rc_tcat_r06.axi.jpg
+│       ├── qc_15_radcor_rc_tcat_r06.axi.json
+│       ├── qc_15_radcor_rc_tcat_r06.cor.jpg
+│       ├── qc_15_radcor_rc_tcat_r06.pbar.jpg
+│       ├── qc_15_radcor_rc_tcat_r06.pbar.json
+│       ├── qc_15_radcor_rc_tcat_r06.pbar.txt
+│       ├── qc_15_radcor_rc_tcat_r06.sag.jpg
+│       ├── qc_15_radcor_rc_tcat_r07.axi.jpg
+│       ├── qc_15_radcor_rc_tcat_r07.axi.json
+│       ├── qc_15_radcor_rc_tcat_r07.cor.jpg
+│       ├── qc_15_radcor_rc_tcat_r07.pbar.jpg
+│       ├── qc_15_radcor_rc_tcat_r07.pbar.json
+│       ├── qc_15_radcor_rc_tcat_r07.pbar.txt
+│       ├── qc_15_radcor_rc_tcat_r07.sag.jpg
+│       ├── qc_15_radcor_rc_tcat_r08.axi.jpg
+│       ├── qc_15_radcor_rc_tcat_r08.axi.json
+│       ├── qc_15_radcor_rc_tcat_r08.cor.jpg
+│       ├── qc_15_radcor_rc_tcat_r08.pbar.jpg
+│       ├── qc_15_radcor_rc_tcat_r08.pbar.json
+│       ├── qc_15_radcor_rc_tcat_r08.pbar.txt
+│       ├── qc_15_radcor_rc_tcat_r08.sag.jpg
+│       ├── qc_15_radcor_rc_tcat_r09.axi.jpg
+│       ├── qc_15_radcor_rc_tcat_r09.axi.json
+│       ├── qc_15_radcor_rc_tcat_r09.cor.jpg
+│       ├── qc_15_radcor_rc_tcat_r09.pbar.jpg
+│       ├── qc_15_radcor_rc_tcat_r09.pbar.json
+│       ├── qc_15_radcor_rc_tcat_r09.pbar.txt
+│       ├── qc_15_radcor_rc_tcat_r09.sag.jpg
+│       ├── qc_15_radcor_rc_tcat_r10.axi.jpg
+│       ├── qc_15_radcor_rc_tcat_r10.axi.json
+│       ├── qc_15_radcor_rc_tcat_r10.cor.jpg
+│       ├── qc_15_radcor_rc_tcat_r10.pbar.jpg
+│       ├── qc_15_radcor_rc_tcat_r10.pbar.json
+│       ├── qc_15_radcor_rc_tcat_r10.pbar.txt
+│       ├── qc_15_radcor_rc_tcat_r10.sag.jpg
+│       ├── qc_15_radcor_rc_tcat_r11.axi.jpg
+│       ├── qc_15_radcor_rc_tcat_r11.axi.json
+│       ├── qc_15_radcor_rc_tcat_r11.cor.jpg
+│       ├── qc_15_radcor_rc_tcat_r11.pbar.jpg
+│       ├── qc_15_radcor_rc_tcat_r11.pbar.json
+│       ├── qc_15_radcor_rc_tcat_r11.pbar.txt
+│       ├── qc_15_radcor_rc_tcat_r11.sag.jpg
+│       ├── qc_15_radcor_rc_tcat_r12.axi.jpg
+│       ├── qc_15_radcor_rc_tcat_r12.axi.json
+│       ├── qc_15_radcor_rc_tcat_r12.cor.jpg
+│       ├── qc_15_radcor_rc_tcat_r12.pbar.jpg
+│       ├── qc_15_radcor_rc_tcat_r12.pbar.json
+│       ├── qc_15_radcor_rc_tcat_r12.pbar.txt
+│       ├── qc_15_radcor_rc_tcat_r12.sag.jpg
+│       ├── qc_15_radcor_rc_tcat_r13.axi.jpg
+│       ├── qc_15_radcor_rc_tcat_r13.axi.json
+│       ├── qc_15_radcor_rc_tcat_r13.cor.jpg
+│       ├── qc_15_radcor_rc_tcat_r13.pbar.jpg
+│       ├── qc_15_radcor_rc_tcat_r13.pbar.json
+│       ├── qc_15_radcor_rc_tcat_r13.pbar.txt
+│       ├── qc_15_radcor_rc_tcat_r13.sag.jpg
+│       ├── qc_15_radcor_rc_tcat_r14.axi.jpg
+│       ├── qc_15_radcor_rc_tcat_r14.axi.json
+│       ├── qc_15_radcor_rc_tcat_r14.cor.jpg
+│       ├── qc_15_radcor_rc_tcat_r14.pbar.jpg
+│       ├── qc_15_radcor_rc_tcat_r14.pbar.json
+│       ├── qc_15_radcor_rc_tcat_r14.pbar.txt
+│       ├── qc_15_radcor_rc_tcat_r14.sag.jpg
+│       ├── qc_15_radcor_rc_tcat_r15.axi.jpg
+│       ├── qc_15_radcor_rc_tcat_r15.axi.json
+│       ├── qc_15_radcor_rc_tcat_r15.cor.jpg
+│       ├── qc_15_radcor_rc_tcat_r15.pbar.jpg
+│       ├── qc_15_radcor_rc_tcat_r15.pbar.json
+│       ├── qc_15_radcor_rc_tcat_r15.pbar.txt
+│       ├── qc_15_radcor_rc_tcat_r15.sag.jpg
+│       ├── qc_16_radcor_rc_volreg_r01.axi.jpg
+│       ├── qc_16_radcor_rc_volreg_r01.axi.json
+│       ├── qc_16_radcor_rc_volreg_r01.cor.jpg
+│       ├── qc_16_radcor_rc_volreg_r01.pbar.jpg
+│       ├── qc_16_radcor_rc_volreg_r01.pbar.json
+│       ├── qc_16_radcor_rc_volreg_r01.pbar.txt
+│       ├── qc_16_radcor_rc_volreg_r01.sag.jpg
+│       ├── qc_16_radcor_rc_volreg_r02.axi.jpg
+│       ├── qc_16_radcor_rc_volreg_r02.axi.json
+│       ├── qc_16_radcor_rc_volreg_r02.cor.jpg
+│       ├── qc_16_radcor_rc_volreg_r02.pbar.jpg
+│       ├── qc_16_radcor_rc_volreg_r02.pbar.json
+│       ├── qc_16_radcor_rc_volreg_r02.pbar.txt
+│       ├── qc_16_radcor_rc_volreg_r02.sag.jpg
+│       ├── qc_16_radcor_rc_volreg_r03.axi.jpg
+│       ├── qc_16_radcor_rc_volreg_r03.axi.json
+│       ├── qc_16_radcor_rc_volreg_r03.cor.jpg
+│       ├── qc_16_radcor_rc_volreg_r03.pbar.jpg
+│       ├── qc_16_radcor_rc_volreg_r03.pbar.json
+│       ├── qc_16_radcor_rc_volreg_r03.pbar.txt
+│       ├── qc_16_radcor_rc_volreg_r03.sag.jpg
+│       ├── qc_16_radcor_rc_volreg_r04.axi.jpg
+│       ├── qc_16_radcor_rc_volreg_r04.axi.json
+│       ├── qc_16_radcor_rc_volreg_r04.cor.jpg
+│       ├── qc_16_radcor_rc_volreg_r04.pbar.jpg
+│       ├── qc_16_radcor_rc_volreg_r04.pbar.json
+│       ├── qc_16_radcor_rc_volreg_r04.pbar.txt
+│       ├── qc_16_radcor_rc_volreg_r04.sag.jpg
+│       ├── qc_16_radcor_rc_volreg_r05.axi.jpg
+│       ├── qc_16_radcor_rc_volreg_r05.axi.json
+│       ├── qc_16_radcor_rc_volreg_r05.cor.jpg
+│       ├── qc_16_radcor_rc_volreg_r05.pbar.jpg
+│       ├── qc_16_radcor_rc_volreg_r05.pbar.json
+│       ├── qc_16_radcor_rc_volreg_r05.pbar.txt
+│       ├── qc_16_radcor_rc_volreg_r05.sag.jpg
+│       ├── qc_16_radcor_rc_volreg_r06.axi.jpg
+│       ├── qc_16_radcor_rc_volreg_r06.axi.json
+│       ├── qc_16_radcor_rc_volreg_r06.cor.jpg
+│       ├── qc_16_radcor_rc_volreg_r06.pbar.jpg
+│       ├── qc_16_radcor_rc_volreg_r06.pbar.json
+│       ├── qc_16_radcor_rc_volreg_r06.pbar.txt
+│       ├── qc_16_radcor_rc_volreg_r06.sag.jpg
+│       ├── qc_16_radcor_rc_volreg_r07.axi.jpg
+│       ├── qc_16_radcor_rc_volreg_r07.axi.json
+│       ├── qc_16_radcor_rc_volreg_r07.cor.jpg
+│       ├── qc_16_radcor_rc_volreg_r07.pbar.jpg
+│       ├── qc_16_radcor_rc_volreg_r07.pbar.json
+│       ├── qc_16_radcor_rc_volreg_r07.pbar.txt
+│       ├── qc_16_radcor_rc_volreg_r07.sag.jpg
+│       ├── qc_16_radcor_rc_volreg_r08.axi.jpg
+│       ├── qc_16_radcor_rc_volreg_r08.axi.json
+│       ├── qc_16_radcor_rc_volreg_r08.cor.jpg
+│       ├── qc_16_radcor_rc_volreg_r08.pbar.jpg
+│       ├── qc_16_radcor_rc_volreg_r08.pbar.json
+│       ├── qc_16_radcor_rc_volreg_r08.pbar.txt
+│       ├── qc_16_radcor_rc_volreg_r08.sag.jpg
+│       ├── qc_16_radcor_rc_volreg_r09.axi.jpg
+│       ├── qc_16_radcor_rc_volreg_r09.axi.json
+│       ├── qc_16_radcor_rc_volreg_r09.cor.jpg
+│       ├── qc_16_radcor_rc_volreg_r09.pbar.jpg
+│       ├── qc_16_radcor_rc_volreg_r09.pbar.json
+│       ├── qc_16_radcor_rc_volreg_r09.pbar.txt
+│       ├── qc_16_radcor_rc_volreg_r09.sag.jpg
+│       ├── qc_16_radcor_rc_volreg_r10.axi.jpg
+│       ├── qc_16_radcor_rc_volreg_r10.axi.json
+│       ├── qc_16_radcor_rc_volreg_r10.cor.jpg
+│       ├── qc_16_radcor_rc_volreg_r10.pbar.jpg
+│       ├── qc_16_radcor_rc_volreg_r10.pbar.json
+│       ├── qc_16_radcor_rc_volreg_r10.pbar.txt
+│       ├── qc_16_radcor_rc_volreg_r10.sag.jpg
+│       ├── qc_16_radcor_rc_volreg_r11.axi.jpg
+│       ├── qc_16_radcor_rc_volreg_r11.axi.json
+│       ├── qc_16_radcor_rc_volreg_r11.cor.jpg
+│       ├── qc_16_radcor_rc_volreg_r11.pbar.jpg
+│       ├── qc_16_radcor_rc_volreg_r11.pbar.json
+│       ├── qc_16_radcor_rc_volreg_r11.pbar.txt
+│       ├── qc_16_radcor_rc_volreg_r11.sag.jpg
+│       ├── qc_16_radcor_rc_volreg_r12.axi.jpg
+│       ├── qc_16_radcor_rc_volreg_r12.axi.json
+│       ├── qc_16_radcor_rc_volreg_r12.cor.jpg
+│       ├── qc_16_radcor_rc_volreg_r12.pbar.jpg
+│       ├── qc_16_radcor_rc_volreg_r12.pbar.json
+│       ├── qc_16_radcor_rc_volreg_r12.pbar.txt
+│       ├── qc_16_radcor_rc_volreg_r12.sag.jpg
+│       ├── qc_16_radcor_rc_volreg_r13.axi.jpg
+│       ├── qc_16_radcor_rc_volreg_r13.axi.json
+│       ├── qc_16_radcor_rc_volreg_r13.cor.jpg
+│       ├── qc_16_radcor_rc_volreg_r13.pbar.jpg
+│       ├── qc_16_radcor_rc_volreg_r13.pbar.json
+│       ├── qc_16_radcor_rc_volreg_r13.pbar.txt
+│       ├── qc_16_radcor_rc_volreg_r13.sag.jpg
+│       ├── qc_16_radcor_rc_volreg_r14.axi.jpg
+│       ├── qc_16_radcor_rc_volreg_r14.axi.json
+│       ├── qc_16_radcor_rc_volreg_r14.cor.jpg
+│       ├── qc_16_radcor_rc_volreg_r14.pbar.jpg
+│       ├── qc_16_radcor_rc_volreg_r14.pbar.json
+│       ├── qc_16_radcor_rc_volreg_r14.pbar.txt
+│       ├── qc_16_radcor_rc_volreg_r14.sag.jpg
+│       ├── qc_16_radcor_rc_volreg_r15.axi.jpg
+│       ├── qc_16_radcor_rc_volreg_r15.axi.json
+│       ├── qc_16_radcor_rc_volreg_r15.cor.jpg
+│       ├── qc_16_radcor_rc_volreg_r15.pbar.jpg
+│       ├── qc_16_radcor_rc_volreg_r15.pbar.json
+│       ├── qc_16_radcor_rc_volreg_r15.pbar.txt
+│       ├── qc_16_radcor_rc_volreg_r15.sag.jpg
+│       ├── qc_17_qsumm_ssrev.dat
+│       └── qc_17_qsumm_ssrev.json
+├── README.txt
+├── s00_warp_skullstrip.tcsh
+├── s01_ap.tcsh
+├── s11_ap_ALLEPI.tcsh
+├── sub-000
+│   ├── anat-sub-000.nii.gz
+│   ├── epi-r09-sub-000.nii.gz
+│   ├── epi-r10-sub-000.nii.gz
+│   ├── epi-r11-sub-000.nii.gz
+│   ├── epi-r12-sub-000.nii.gz
+│   ├── epi-r13-sub-000.nii.gz
+│   ├── epi-r14-sub-000.nii.gz
+│   ├── epi-r15-sub-000.nii.gz
+│   ├── epi-r16-sub-000.nii.gz
+│   ├── epi-r17-sub-000.nii.gz
+│   ├── epi-r18-sub-000.nii.gz
+│   ├── epi-r19-sub-000.nii.gz
+│   ├── epi-r20-sub-000.nii.gz
+│   ├── epi-r21-sub-000.nii.gz
+│   ├── epi-r22-sub-000.nii.gz
+│   ├── epi-r23-sub-000.nii.gz
+│   ├── stim_face.1D
+│   ├── stim_obj.1D
+│   ├── stim_scram_face.1D
+│   └── stim_scram_obj.1D
+└── sub-000.warped
+    ├── animal_outs.txt
+    ├── CHARM_in_NMT_v2.0_sym_05mm.nii.gz
+    ├── CHARM_in_sub-000_anat.nii.gz
+    ├── intermediate
+    │   ├── CHARM_in_sub-000_anat_PRE.nii.gz
+    │   ├── NMT2_in_sub-000_anat_aniso_clust.nii.gz
+    │   ├── NMT2_in_sub-000_anat_aniso.nii.gz
+    │   ├── NMT_v2.0_sym_05mm_SS_al2std_mat.aff12.1D
+    │   ├── SEG_in_sub-000_anat_PRE.nii.gz
+    │   ├── sub-000_anat_pshft.1D
+    │   ├── sub-000_anat_pshft_al2std_mat.aff12.1D
+    │   ├── sub-000_anat_pshft_al2std_mat_TR.aff12.1D
+    │   ├── sub-000_anat_pshft_al2std_mat_TR_INV.aff12.1D
+    │   ├── sub-000_anat_pshft_al2std.nii.gz
+    │   ├── sub-000_anat_pshft_inv.1D
+    │   ├── sub-000_anat_pshft.nii.gz
+    │   ├── sub-000_anat_shft.1D
+    │   ├── sub-000_anat_shft_aff.nii.gz
+    │   ├── sub-000_anat_shft_al2std_mat.aff12.1D
+    │   ├── sub-000_anat_shft_base2osh_WARP.nii.gz
+    │   ├── sub-000_anat_shft_inv.1D
+    │   ├── sub-000_anat_shft_inv_al2std_mat.aff12.1D
+    │   ├── sub-000_anat_shft.nii.gz
+    │   └── sub-000_anat_shft_osh2base_WARP.nii.gz
+    ├── NMT2_in_sub-000_anat.nii.gz
+    ├── NMT_v2.0_sym_05mm_brainmask.nii.gz
+    ├── NMT_v2.0_sym_05mm_SS.nii.gz
+    ├── QC
+    │   ├── init_qc_00_overlap_uinp_obase.jpg
+    │   ├── qc_00_e_base+wrpd_input.axi.png
+    │   ├── qc_00_e_base+wrpd_input.cor.png
+    │   ├── qc_00_e_base+wrpd_input.jpg
+    │   ├── qc_00_e_base+wrpd_input.sag.png
+    │   ├── qc_00_e_base+wrpd_input.txt
+    │   ├── qc_01_e_wrpd_base+input.axi.png
+    │   ├── qc_01_e_wrpd_base+input.cor.png
+    │   ├── qc_01_e_wrpd_base+input.jpg
+    │   ├── qc_01_e_wrpd_base+input.sag.png
+    │   ├── qc_01_e_wrpd_base+input.txt
+    │   ├── qc_02_input+mask.axi.png
+    │   ├── qc_02_input+mask.cor.png
+    │   ├── qc_02_input+mask.jpg
+    │   ├── qc_02_input+mask.sag.png
+    │   ├── qc_02_input+mask.txt
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_00.axi.png
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_00.cor.png
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_00.jpg
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_00.sag.png
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_00.txt
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_01.axi.png
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_01.cor.png
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_01.jpg
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_01.sag.png
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_01.txt
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_02.axi.png
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_02.cor.png
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_02.jpg
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_02.sag.png
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_02.txt
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_03.axi.png
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_03.cor.png
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_03.jpg
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_03.sag.png
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_03.txt
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_04.axi.png
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_04.cor.png
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_04.jpg
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_04.sag.png
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_04.txt
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_05.axi.png
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_05.cor.png
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_05.jpg
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_05.sag.png
+    │   ├── qc_03_ee_input+wrpd_ATL_CHARM_05.txt
+    │   ├── qc_03_ee_input+wrpd_SEG_SEG.axi.png
+    │   ├── qc_03_ee_input+wrpd_SEG_SEG.cor.png
+    │   ├── qc_03_ee_input+wrpd_SEG_SEG.jpg
+    │   ├── qc_03_ee_input+wrpd_SEG_SEG.sag.png
+    │   ├── qc_03_ee_input+wrpd_SEG_SEG.txt
+    │   ├── report_CHARM_00.1D
+    │   ├── report_CHARM_01.1D
+    │   ├── report_CHARM_02.1D
+    │   ├── report_CHARM_03.1D
+    │   ├── report_CHARM_04.1D
+    │   ├── report_CHARM_05.1D
+    │   └── report_SEG.1D
+    ├── SEG_in_sub-000_anat.nii.gz
+    ├── sub-000_anat_composite_linear_to_template.1D
+    ├── sub-000_anat_composite_linear_to_template_inv.1D
+    ├── sub-000_anat_mask.nii.gz
+    ├── sub-000_anat.nii.gz
+    ├── sub-000_anat_ns.nii.gz
+    ├── sub-000_anat_nsu.nii.gz
+    ├── sub-000_anat_shft_WARPINV.nii.gz
+    ├── sub-000_anat_shft_WARP.nii.gz
+    ├── sub-000_anat_warp2std.nii.gz
+    ├── sub-000_anat_warp2std_ns.nii.gz
+    ├── sub-000_anat_warp2std_nsu.nii.gz
+    └── surfaces
+        ├── do_view_isosurf_NMT2_in_sub-000_anat.tcsh
+        ├── do_view_surfaces_CHARM_00.tcsh
+        ├── do_view_surfaces_CHARM_01.tcsh
+        ├── do_view_surfaces_CHARM_02.tcsh
+        ├── do_view_surfaces_CHARM_03.tcsh
+        ├── do_view_surfaces_CHARM_04.tcsh
+        ├── do_view_surfaces_CHARM_05.tcsh
+        ├── do_view_surfaces_SEG.tcsh
+        ├── NMT2_in_sub-000_anat.gii
+        ├── surfaces_CHARM_00
+        │   ├── native.Frontal.k1.gii
+        │   ├── native.Frontal.k1.niml.dset
+        │   ├── native.Occipital.k231.gii
+        │   ├── native.Occipital.k231.niml.dset
+        │   ├── native.Parietal.k90.gii
+        │   ├── native.Parietal.k90.niml.dset
+        │   ├── native.Temporal.k138.gii
+        │   └── native.Temporal.k138.niml.dset
+        ├── surfaces_CHARM_01
+        │   ├── native.ACgG.k2.gii
+        │   ├── native.ACgG.k2.niml.dset
+        │   ├── native.core-belt.k204.gii
+        │   ├── native.core-belt.k204.niml.dset
+        │   ├── native.floor_of_ls.k224.gii
+        │   ├── native.floor_of_ls.k224.niml.dset
+        │   ├── native.IPL.k112.gii
+        │   ├── native.IPL.k112.niml.dset
+        │   ├── native.ITC.k175.gii
+        │   ├── native.ITC.k175.niml.dset
+        │   ├── native.lat_PFC.k50.gii
+        │   ├── native.lat_PFC.k50.niml.dset
+        │   ├── native.motor.k77.gii
+        │   ├── native.motor.k77.niml.dset
+        │   ├── native.MT.k232.gii
+        │   ├── native.MT.k232.niml.dset
+        │   ├── native.MTL.k139.gii
+        │   ├── native.MTL.k139.niml.dset
+        │   ├── native.OFC.k16.gii
+        │   ├── native.OFC.k16.niml.dset
+        │   ├── native.PMC.k125.gii
+        │   ├── native.PMC.k125.niml.dset
+        │   ├── native.SI-SII.k91.gii
+        │   ├── native.SI-SII.k91.niml.dset
+        │   ├── native.SPL.k96.gii
+        │   ├── native.SPL.k96.niml.dset
+        │   ├── native.STG-STSd.k193.gii
+        │   ├── native.STG-STSd.k193.niml.dset
+        │   ├── native.TG.k165.gii
+        │   ├── native.TG.k165.niml.dset
+        │   ├── native.V1.k246.gii
+        │   ├── native.V1.k246.niml.dset
+        │   ├── native.V2-V4.k233.gii
+        │   └── native.V2-V4.k233.niml.dset
+        ├── surfaces_CHARM_02
+        │   ├── native.ACC.k3.gii
+        │   ├── native.ACC.k3.niml.dset
+        │   ├── native.area_5.k102.gii
+        │   ├── native.area_5.k102.niml.dset
+        │   ├── native.area_7_in_IPL.k120.gii
+        │   ├── native.area_7_in_IPL.k120.niml.dset
+        │   ├── native.area_7m.k126.gii
+        │   ├── native.area_7m.k126.niml.dset
+        │   ├── native.area_8A.k51.gii
+        │   ├── native.area_8A.k51.niml.dset
+        │   ├── native.belt.k205.gii
+        │   ├── native.belt.k205.niml.dset
+        │   ├── native.caudal_OFC.k37.gii
+        │   ├── native.caudal_OFC.k37.niml.dset
+        │   ├── native.core.k219.gii
+        │   ├── native.core.k219.niml.dset
+        │   ├── native.dlPFC.k54.gii
+        │   ├── native.dlPFC.k54.niml.dset
+        │   ├── native.floor_of_ls.k224.gii
+        │   ├── native.floor_of_ls.k224.niml.dset
+        │   ├── native.lat_IPS.k113.gii
+        │   ├── native.lat_IPS.k113.niml.dset
+        │   ├── native.lat_OFC.k25.gii
+        │   ├── native.lat_OFC.k25.niml.dset
+        │   ├── native.M1-PM.k78.gii
+        │   ├── native.M1-PM.k78.niml.dset
+        │   ├── native.MCC.k11.gii
+        │   ├── native.MCC.k11.niml.dset
+        │   ├── native.med_OFC.k17.gii
+        │   ├── native.med_OFC.k17.niml.dset
+        │   ├── native.MST.k119.gii
+        │   ├── native.MST.k119.niml.dset
+        │   ├── native.MT.k232.gii
+        │   ├── native.MT.k232.niml.dset
+        │   ├── native.paraHipp.k148.gii
+        │   ├── native.paraHipp.k148.niml.dset
+        │   ├── native.PCgG.k127.gii
+        │   ├── native.PCgG.k127.niml.dset
+        │   ├── native.Rh.k153.gii
+        │   ├── native.Rh.k153.niml.dset
+        │   ├── native.RTp.k218.gii
+        │   ├── native.RTp.k218.niml.dset
+        │   ├── native.SII.k95.gii
+        │   ├── native.SII.k95.niml.dset
+        │   ├── native.SI.k92.gii
+        │   ├── native.SI.k92.niml.dset
+        │   ├── native.SMA-preSMA.k87.gii
+        │   ├── native.SMA-preSMA.k87.niml.dset
+        │   ├── native.STGc.k199.gii
+        │   ├── native.STGc.k199.niml.dset
+        │   ├── native.STGr-STSd.k194.gii
+        │   ├── native.STGr-STSd.k194.niml.dset
+        │   ├── native.STSf.k188.gii
+        │   ├── native.STSf.k188.niml.dset
+        │   ├── native.TE.k177.gii
+        │   ├── native.TE.k177.niml.dset
+        │   ├── native.TEO.k176.gii
+        │   ├── native.TEO.k176.niml.dset
+        │   ├── native.TG.k165.gii
+        │   ├── native.TG.k165.niml.dset
+        │   ├── native.V1.k246.gii
+        │   ├── native.V1.k246.niml.dset
+        │   ├── native.V2-V3.k237.gii
+        │   ├── native.V2-V3.k237.niml.dset
+        │   ├── native.V4.k234.gii
+        │   ├── native.V4.k234.niml.dset
+        │   ├── native.V6-V6A.k97.gii
+        │   ├── native.V6-V6A.k97.niml.dset
+        │   ├── native.vlPFC.k64.gii
+        │   ├── native.vlPFC.k64.niml.dset
+        │   ├── native.vm_IPS.k107.gii
+        │   └── native.vm_IPS.k107.niml.dset
+        ├── surfaces_CHARM_03
+        │   ├── native.area_10.k18.gii
+        │   ├── native.area_10.k18.niml.dset
+        │   ├── native.area_12m-o.k34.gii
+        │   ├── native.area_12m-o.k34.niml.dset
+        │   ├── native.area_14.k22.gii
+        │   ├── native.area_14.k22.niml.dset
+        │   ├── native.area_24.k6.gii
+        │   ├── native.area_24.k6.niml.dset
+        │   ├── native.area_25.k5.gii
+        │   ├── native.area_25.k5.niml.dset
+        │   ├── native.area_32.k4.gii
+        │   ├── native.area_32.k4.niml.dset
+        │   ├── native.area_5.k102.gii
+        │   ├── native.area_5.k102.niml.dset
+        │   ├── native.area_7_in_IPL.k120.gii
+        │   ├── native.area_7_in_IPL.k120.niml.dset
+        │   ├── native.area_7m.k126.gii
+        │   ├── native.area_7m.k126.niml.dset
+        │   ├── native.area_8A.k51.gii
+        │   ├── native.area_8A.k51.niml.dset
+        │   ├── native.area_8B.k55.gii
+        │   ├── native.area_8B.k55.niml.dset
+        │   ├── native.areas_11-13.k26.gii
+        │   ├── native.areas_11-13.k26.niml.dset
+        │   ├── native.caudal_vlPFC.k72.gii
+        │   ├── native.caudal_vlPFC.k72.niml.dset
+        │   ├── native.cl_OFC.k47.gii
+        │   ├── native.cl_OFC.k47.niml.dset
+        │   ├── native.core.k219.gii
+        │   ├── native.core.k219.niml.dset
+        │   ├── native.ERh.k154.gii
+        │   ├── native.ERh.k154.niml.dset
+        │   ├── native.gyral_TE.k178.gii
+        │   ├── native.gyral_TE.k178.niml.dset
+        │   ├── native.Ins-Pi.k225.gii
+        │   ├── native.Ins-Pi.k225.niml.dset
+        │   ├── native.lat_belt.k206.gii
+        │   ├── native.lat_belt.k206.niml.dset
+        │   ├── native.lat_IPS.k113.gii
+        │   ├── native.lat_IPS.k113.niml.dset
+        │   ├── native.M1.k79.gii
+        │   ├── native.M1.k79.niml.dset
+        │   ├── native.MCC.k11.gii
+        │   ├── native.MCC.k11.niml.dset
+        │   ├── native.med_belt.k213.gii
+        │   ├── native.med_belt.k213.niml.dset
+        │   ├── native.MST.k119.gii
+        │   ├── native.MST.k119.niml.dset
+        │   ├── native.MT.k232.gii
+        │   ├── native.MT.k232.niml.dset
+        │   ├── native.OFa-p.k38.gii
+        │   ├── native.OFa-p.k38.niml.dset
+        │   ├── native.OLF.k44.gii
+        │   ├── native.OLF.k44.niml.dset
+        │   ├── native.paraHipp.k148.gii
+        │   ├── native.paraHipp.k148.niml.dset
+        │   ├── native.PCC.k128.gii
+        │   ├── native.PCC.k128.niml.dset
+        │   ├── native.PM.k80.gii
+        │   ├── native.PM.k80.niml.dset
+        │   ├── native.PRh.k160.gii
+        │   ├── native.PRh.k160.niml.dset
+        │   ├── native.Ri.k230.gii
+        │   ├── native.Ri.k230.niml.dset
+        │   ├── native.rostral_dlPFC.k59.gii
+        │   ├── native.rostral_dlPFC.k59.niml.dset
+        │   ├── native.rostral_vlPFC.k65.gii
+        │   ├── native.rostral_vlPFC.k65.niml.dset
+        │   ├── native.RSC.k135.gii
+        │   ├── native.RSC.k135.niml.dset
+        │   ├── native.RTp.k218.gii
+        │   ├── native.RTp.k218.niml.dset
+        │   ├── native.SII.k95.gii
+        │   ├── native.SII.k95.niml.dset
+        │   ├── native.SI.k92.gii
+        │   ├── native.SI.k92.niml.dset
+        │   ├── native.SMA-preSMA.k87.gii
+        │   ├── native.SMA-preSMA.k87.niml.dset
+        │   ├── native.STGc.k199.gii
+        │   ├── native.STGc.k199.niml.dset
+        │   ├── native.STGr.k198.gii
+        │   ├── native.STGr.k198.niml.dset
+        │   ├── native.STSd.k195.gii
+        │   ├── native.STSd.k195.niml.dset
+        │   ├── native.STSf.k188.gii
+        │   ├── native.STSf.k188.niml.dset
+        │   ├── native.TE_in_STSv.k185.gii
+        │   ├── native.TE_in_STSv.k185.niml.dset
+        │   ├── native.TEO.k176.gii
+        │   ├── native.TEO.k176.niml.dset
+        │   ├── native.TGa.k166.gii
+        │   ├── native.TGa.k166.niml.dset
+        │   ├── native.TGg-TGd.k167.gii
+        │   ├── native.TGg-TGd.k167.niml.dset
+        │   ├── native.V1.k246.gii
+        │   ├── native.V1.k246.niml.dset
+        │   ├── native.V2.k243.gii
+        │   ├── native.V2.k243.niml.dset
+        │   ├── native.V3.k238.gii
+        │   ├── native.V3.k238.niml.dset
+        │   ├── native.V4.k234.gii
+        │   ├── native.V4.k234.niml.dset
+        │   ├── native.V6A.k99.gii
+        │   ├── native.V6A.k99.niml.dset
+        │   ├── native.V6.k98.gii
+        │   ├── native.V6.k98.niml.dset
+        │   ├── native.vm_IPS.k107.gii
+        │   └── native.vm_IPS.k107.niml.dset
+        ├── surfaces_CHARM_04
+        │   ├── native.AI.k223.gii
+        │   ├── native.AI.k223.niml.dset
+        │   ├── native.AIP.k114.gii
+        │   ├── native.AIP.k114.niml.dset
+        │   ├── native.AL-RTL.k210.gii
+        │   ├── native.AL-RTL.k210.niml.dset
+        │   ├── native.ant_STSf.k189.gii
+        │   ├── native.ant_STSf.k189.niml.dset
+        │   ├── native.ant_TE.k182.gii
+        │   ├── native.ant_TE.k182.niml.dset
+        │   ├── native.area_10.k18.gii
+        │   ├── native.area_10.k18.niml.dset
+        │   ├── native.area_11.k27.gii
+        │   ├── native.area_11.k27.niml.dset
+        │   ├── native.area_12m-o.k34.gii
+        │   ├── native.area_12m-o.k34.niml.dset
+        │   ├── native.area_12r-l.k69.gii
+        │   ├── native.area_12r-l.k69.niml.dset
+        │   ├── native.area_13.k30.gii
+        │   ├── native.area_13.k30.niml.dset
+        │   ├── native.area_14.k22.gii
+        │   ├── native.area_14.k22.niml.dset
+        │   ├── native.area_23.k130.gii
+        │   ├── native.area_23.k130.niml.dset
+        │   ├── native.area_24a-b.k7.gii
+        │   ├── native.area_24a-b.k7.niml.dset
+        │   ├── native.area_24a-b_prime.k12.gii
+        │   ├── native.area_24a-b_prime.k12.niml.dset
+        │   ├── native.area_24c.k10.gii
+        │   ├── native.area_24c.k10.niml.dset
+        │   ├── native.area_24c_prime.k15.gii
+        │   ├── native.area_24c_prime.k15.niml.dset
+        │   ├── native.area_25.k5.gii
+        │   ├── native.area_25.k5.niml.dset
+        │   ├── native.area_29.k136.gii
+        │   ├── native.area_29.k136.niml.dset
+        │   ├── native.area_30.k137.gii
+        │   ├── native.area_30.k137.niml.dset
+        │   ├── native.area_31.k129.gii
+        │   ├── native.area_31.k129.niml.dset
+        │   ├── native.area_32.k4.gii
+        │   ├── native.area_32.k4.niml.dset
+        │   ├── native.area_35.k161.gii
+        │   ├── native.area_35.k161.niml.dset
+        │   ├── native.area_36.k162.gii
+        │   ├── native.area_36.k162.niml.dset
+        │   ├── native.area_3a-b.k93.gii
+        │   ├── native.area_3a-b.k93.niml.dset
+        │   ├── native.area_44.k76.gii
+        │   ├── native.area_44.k76.niml.dset
+        │   ├── native.area_45.k73.gii
+        │   ├── native.area_45.k73.niml.dset
+        │   ├── native.area_46d.k63.gii
+        │   ├── native.area_46d.k63.niml.dset
+        │   ├── native.area_46v-f.k66.gii
+        │   ├── native.area_46v-f.k66.niml.dset
+        │   ├── native.area_5d.k103.gii
+        │   ├── native.area_5d.k103.niml.dset
+        │   ├── native.area_7a-b.k121.gii
+        │   ├── native.area_7a-b.k121.niml.dset
+        │   ├── native.area_7m.k126.gii
+        │   ├── native.area_7m.k126.niml.dset
+        │   ├── native.area_7op.k124.gii
+        │   ├── native.area_7op.k124.niml.dset
+        │   ├── native.area_8A.k51.gii
+        │   ├── native.area_8A.k51.niml.dset
+        │   ├── native.area_8B.k55.gii
+        │   ├── native.area_8B.k55.niml.dset
+        │   ├── native.area_9.k60.gii
+        │   ├── native.area_9.k60.niml.dset
+        │   ├── native.areas_1-2.k94.gii
+        │   ├── native.areas_1-2.k94.niml.dset
+        │   ├── native.area_v23.k134.gii
+        │   ├── native.area_v23.k134.niml.dset
+        │   ├── native.caudal_ERh.k155.gii
+        │   ├── native.caudal_ERh.k155.niml.dset
+        │   ├── native.CL-ML.k207.gii
+        │   ├── native.CL-ML.k207.niml.dset
+        │   ├── native.CM.k214.gii
+        │   ├── native.CM.k214.niml.dset
+        │   ├── native.FST.k192.gii
+        │   ├── native.FST.k192.niml.dset
+        │   ├── native.fundus_IPS.k109.gii
+        │   ├── native.fundus_IPS.k109.niml.dset
+        │   ├── native.G.k48.gii
+        │   ├── native.G.k48.niml.dset
+        │   ├── native.Iam-Iapm.k39.gii
+        │   ├── native.Iam-Iapm.k39.niml.dset
+        │   ├── native.Ins.k227.gii
+        │   ├── native.Ins.k227.niml.dset
+        │   ├── native.lat_Ia.k40.gii
+        │   ├── native.lat_Ia.k40.niml.dset
+        │   ├── native.LIP.k115.gii
+        │   ├── native.LIP.k115.niml.dset
+        │   ├── native.LOP.k118.gii
+        │   ├── native.LOP.k118.niml.dset
+        │   ├── native.M1.k79.gii
+        │   ├── native.M1.k79.niml.dset
+        │   ├── native.mid_ERh.k158.gii
+        │   ├── native.mid_ERh.k158.niml.dset
+        │   ├── native.MIP.k108.gii
+        │   ├── native.MIP.k108.niml.dset
+        │   ├── native.MST.k119.gii
+        │   ├── native.MST.k119.niml.dset
+        │   ├── native.MT.k232.gii
+        │   ├── native.MT.k232.niml.dset
+        │   ├── native.OLF.k44.gii
+        │   ├── native.OLF.k44.niml.dset
+        │   ├── native.parabelt.k201.gii
+        │   ├── native.parabelt.k201.niml.dset
+        │   ├── native.PEa.k106.gii
+        │   ├── native.PEa.k106.niml.dset
+        │   ├── native.Pi.k226.gii
+        │   ├── native.Pi.k226.niml.dset
+        │   ├── native.PMd.k81.gii
+        │   ├── native.PMd.k81.niml.dset
+        │   ├── native.PMv.k84.gii
+        │   ├── native.PMv.k84.niml.dset
+        │   ├── native.post_TE.k179.gii
+        │   ├── native.post_TE.k179.niml.dset
+        │   ├── native.PrCO.k49.gii
+        │   ├── native.PrCO.k49.niml.dset
+        │   ├── native.preSMA.k88.gii
+        │   ├── native.preSMA.k88.niml.dset
+        │   ├── native.Ri.k230.gii
+        │   ├── native.Ri.k230.niml.dset
+        │   ├── native.RM-RTM.k215.gii
+        │   ├── native.RM-RTM.k215.niml.dset
+        │   ├── native.rostral_ERh.k159.gii
+        │   ├── native.rostral_ERh.k159.niml.dset
+        │   ├── native.R-RT.k220.gii
+        │   ├── native.R-RT.k220.niml.dset
+        │   ├── native.RTp.k218.gii
+        │   ├── native.RTp.k218.niml.dset
+        │   ├── native.SII.k95.gii
+        │   ├── native.SII.k95.niml.dset
+        │   ├── native.SMA.k89.gii
+        │   ├── native.SMA.k89.niml.dset
+        │   ├── native.STGr.k198.gii
+        │   ├── native.STGr.k198.niml.dset
+        │   ├── native.TAa.k197.gii
+        │   ├── native.TAa.k197.niml.dset
+        │   ├── native.TE_in_STSv.k185.gii
+        │   ├── native.TE_in_STSv.k185.niml.dset
+        │   ├── native.TEO.k176.gii
+        │   ├── native.TEO.k176.niml.dset
+        │   ├── native.TF-TFO.k149.gii
+        │   ├── native.TF-TFO.k149.niml.dset
+        │   ├── native.TGa.k166.gii
+        │   ├── native.TGa.k166.niml.dset
+        │   ├── native.TGd.k168.gii
+        │   ├── native.TGd.k168.niml.dset
+        │   ├── native.TGg.k171.gii
+        │   ├── native.TGg.k171.niml.dset
+        │   ├── native.TH.k152.gii
+        │   ├── native.TH.k152.niml.dset
+        │   ├── native.TPO.k196.gii
+        │   ├── native.TPO.k196.niml.dset
+        │   ├── native.Tpt.k200.gii
+        │   ├── native.Tpt.k200.niml.dset
+        │   ├── native.V1.k246.gii
+        │   ├── native.V1.k246.niml.dset
+        │   ├── native.V2.k243.gii
+        │   ├── native.V2.k243.niml.dset
+        │   ├── native.V3d-V3A.k239.gii
+        │   ├── native.V3d-V3A.k239.niml.dset
+        │   ├── native.V3v.k242.gii
+        │   ├── native.V3v.k242.niml.dset
+        │   ├── native.V4d.k235.gii
+        │   ├── native.V4d.k235.niml.dset
+        │   ├── native.V4v.k236.gii
+        │   ├── native.V4v.k236.niml.dset
+        │   ├── native.V6A.k99.gii
+        │   ├── native.V6A.k99.niml.dset
+        │   ├── native.V6.k98.gii
+        │   └── native.V6.k98.niml.dset
+        ├── surfaces_CHARM_05
+        │   ├── native.AI.k223.gii
+        │   ├── native.AI.k223.niml.dset
+        │   ├── native.AIP.k114.gii
+        │   ├── native.AIP.k114.niml.dset
+        │   ├── native.AL.k211.gii
+        │   ├── native.AL.k211.niml.dset
+        │   ├── native.AON-TTv.k45.gii
+        │   ├── native.AON-TTv.k45.niml.dset
+        │   ├── native.area_10mc.k20.gii
+        │   ├── native.area_10mc.k20.niml.dset
+        │   ├── native.area_10mr.k19.gii
+        │   ├── native.area_10mr.k19.niml.dset
+        │   ├── native.area_10o.k21.gii
+        │   ├── native.area_10o.k21.niml.dset
+        │   ├── native.area_11l.k29.gii
+        │   ├── native.area_11l.k29.niml.dset
+        │   ├── native.area_11m.k28.gii
+        │   ├── native.area_11m.k28.niml.dset
+        │   ├── native.area_12l.k70.gii
+        │   ├── native.area_12l.k70.niml.dset
+        │   ├── native.area_12m.k35.gii
+        │   ├── native.area_12m.k35.niml.dset
+        │   ├── native.area_12o.k36.gii
+        │   ├── native.area_12o.k36.niml.dset
+        │   ├── native.area_12r.k71.gii
+        │   ├── native.area_12r.k71.niml.dset
+        │   ├── native.area_13a-b.k31.gii
+        │   ├── native.area_13a-b.k31.niml.dset
+        │   ├── native.area_13l.k33.gii
+        │   ├── native.area_13l.k33.niml.dset
+        │   ├── native.area_13m.k32.gii
+        │   ├── native.area_13m.k32.niml.dset
+        │   ├── native.area_14c.k24.gii
+        │   ├── native.area_14c.k24.niml.dset
+        │   ├── native.area_14r.k23.gii
+        │   ├── native.area_14r.k23.niml.dset
+        │   ├── native.area_23a.k131.gii
+        │   ├── native.area_23a.k131.niml.dset
+        │   ├── native.area_23b.k132.gii
+        │   ├── native.area_23b.k132.niml.dset
+        │   ├── native.area_23c.k133.gii
+        │   ├── native.area_23c.k133.niml.dset
+        │   ├── native.area_24a.k8.gii
+        │   ├── native.area_24a.k8.niml.dset
+        │   ├── native.area_24a_prime.k13.gii
+        │   ├── native.area_24a_prime.k13.niml.dset
+        │   ├── native.area_24b.k9.gii
+        │   ├── native.area_24b.k9.niml.dset
+        │   ├── native.area_24b_prime.k14.gii
+        │   ├── native.area_24b_prime.k14.niml.dset
+        │   ├── native.area_24c.k10.gii
+        │   ├── native.area_24c.k10.niml.dset
+        │   ├── native.area_24c_prime.k15.gii
+        │   ├── native.area_24c_prime.k15.niml.dset
+        │   ├── native.area_25.k5.gii
+        │   ├── native.area_25.k5.niml.dset
+        │   ├── native.area_29.k136.gii
+        │   ├── native.area_29.k136.niml.dset
+        │   ├── native.area_30.k137.gii
+        │   ├── native.area_30.k137.niml.dset
+        │   ├── native.area_31.k129.gii
+        │   ├── native.area_31.k129.niml.dset
+        │   ├── native.area_32.k4.gii
+        │   ├── native.area_32.k4.niml.dset
+        │   ├── native.area_35.k161.gii
+        │   ├── native.area_35.k161.niml.dset
+        │   ├── native.area_36c.k163.gii
+        │   ├── native.area_36c.k163.niml.dset
+        │   ├── native.area_36r-p.k164.gii
+        │   ├── native.area_36r-p.k164.niml.dset
+        │   ├── native.area_3a-b.k93.gii
+        │   ├── native.area_3a-b.k93.niml.dset
+        │   ├── native.area_44.k76.gii
+        │   ├── native.area_44.k76.niml.dset
+        │   ├── native.area_45a.k74.gii
+        │   ├── native.area_45a.k74.niml.dset
+        │   ├── native.area_45b.k75.gii
+        │   ├── native.area_45b.k75.niml.dset
+        │   ├── native.area_46d.k63.gii
+        │   ├── native.area_46d.k63.niml.dset
+        │   ├── native.area_46f.k67.gii
+        │   ├── native.area_46f.k67.niml.dset
+        │   ├── native.area_46v.k68.gii
+        │   ├── native.area_46v.k68.niml.dset
+        │   ├── native.area_7a.k122.gii
+        │   ├── native.area_7a.k122.niml.dset
+        │   ├── native.area_7b.k123.gii
+        │   ├── native.area_7b.k123.niml.dset
+        │   ├── native.area_7m.k126.gii
+        │   ├── native.area_7m.k126.niml.dset
+        │   ├── native.area_7op.k124.gii
+        │   ├── native.area_7op.k124.niml.dset
+        │   ├── native.area_8Ad.k52.gii
+        │   ├── native.area_8Ad.k52.niml.dset
+        │   ├── native.area_8Av.k53.gii
+        │   ├── native.area_8Av.k53.niml.dset
+        │   ├── native.area_8Bd.k56.gii
+        │   ├── native.area_8Bd.k56.niml.dset
+        │   ├── native.area_8Bm.k57.gii
+        │   ├── native.area_8Bm.k57.niml.dset
+        │   ├── native.area_8Bs.k58.gii
+        │   ├── native.area_8Bs.k58.niml.dset
+        │   ├── native.area_9d.k61.gii
+        │   ├── native.area_9d.k61.niml.dset
+        │   ├── native.area_9m.k62.gii
+        │   ├── native.area_9m.k62.niml.dset
+        │   ├── native.areas_1-2.k94.gii
+        │   ├── native.areas_1-2.k94.niml.dset
+        │   ├── native.area_v23.k134.gii
+        │   ├── native.area_v23.k134.niml.dset
+        │   ├── native.clearly_V2.k245.gii
+        │   ├── native.clearly_V2.k245.niml.dset
+        │   ├── native.CL.k208.gii
+        │   ├── native.CL.k208.niml.dset
+        │   ├── native.CM.k214.gii
+        │   ├── native.CM.k214.niml.dset
+        │   ├── native.CPB.k202.gii
+        │   ├── native.CPB.k202.niml.dset
+        │   ├── native.EC.k156.gii
+        │   ├── native.EC.k156.niml.dset
+        │   ├── native.ECL.k157.gii
+        │   ├── native.ECL.k157.niml.dset
+        │   ├── native.F4.k85.gii
+        │   ├── native.F4.k85.niml.dset
+        │   ├── native.F5.k86.gii
+        │   ├── native.F5.k86.niml.dset
+        │   ├── native.FST.k192.gii
+        │   ├── native.FST.k192.niml.dset
+        │   ├── native.G.k48.gii
+        │   ├── native.G.k48.niml.dset
+        │   ├── native.Ia-Id.k228.gii
+        │   ├── native.Ia-Id.k228.niml.dset
+        │   ├── native.Iai.k41.gii
+        │   ├── native.Iai.k41.niml.dset
+        │   ├── native.Ial.k42.gii
+        │   ├── native.Ial.k42.niml.dset
+        │   ├── native.Iam-Iapm.k39.gii
+        │   ├── native.Iam-Iapm.k39.niml.dset
+        │   ├── native.Iapl.k43.gii
+        │   ├── native.Iapl.k43.niml.dset
+        │   ├── native.Ig.k229.gii
+        │   ├── native.Ig.k229.niml.dset
+        │   ├── native.IPa.k190.gii
+        │   ├── native.IPa.k190.niml.dset
+        │   ├── native.LIPd.k116.gii
+        │   ├── native.LIPd.k116.niml.dset
+        │   ├── native.LIPv.k117.gii
+        │   ├── native.LIPv.k117.niml.dset
+        │   ├── native.LOP.k118.gii
+        │   ├── native.LOP.k118.niml.dset
+        │   ├── native.M1.k79.gii
+        │   ├── native.M1.k79.niml.dset
+        │   ├── native.mid_ERh.k158.gii
+        │   ├── native.mid_ERh.k158.niml.dset
+        │   ├── native.MIP.k108.gii
+        │   ├── native.MIP.k108.niml.dset
+        │   ├── native.ML.k209.gii
+        │   ├── native.ML.k209.niml.dset
+        │   ├── native.MST.k119.gii
+        │   ├── native.MST.k119.niml.dset
+        │   ├── native.MT.k232.gii
+        │   ├── native.MT.k232.niml.dset
+        │   ├── native.OT-Pir.k46.gii
+        │   ├── native.OT-Pir.k46.niml.dset
+        │   ├── native.PEa.k106.gii
+        │   ├── native.PEa.k106.niml.dset
+        │   ├── native.PEc-PEci.k104.gii
+        │   ├── native.PEc-PEci.k104.niml.dset
+        │   ├── native.PE.k105.gii
+        │   ├── native.PE.k105.niml.dset
+        │   ├── native.PGa.k191.gii
+        │   ├── native.PGa.k191.niml.dset
+        │   ├── native.Pi.k226.gii
+        │   ├── native.Pi.k226.niml.dset
+        │   ├── native.PIP.k111.gii
+        │   ├── native.PIP.k111.niml.dset
+        │   ├── native.PMdc.k82.gii
+        │   ├── native.PMdc.k82.niml.dset
+        │   ├── native.PMdr.k83.gii
+        │   ├── native.PMdr.k83.niml.dset
+        │   ├── native.possibly_V2.k244.gii
+        │   ├── native.possibly_V2.k244.niml.dset
+        │   ├── native.PrCO.k49.gii
+        │   ├── native.PrCO.k49.niml.dset
+        │   ├── native.preSMA.k88.gii
+        │   ├── native.preSMA.k88.niml.dset
+        │   ├── native.Ri.k230.gii
+        │   ├── native.Ri.k230.niml.dset
+        │   ├── native.R.k221.gii
+        │   ├── native.R.k221.niml.dset
+        │   ├── native.RM.k216.gii
+        │   ├── native.RM.k216.niml.dset
+        │   ├── native.rostral_ERh.k159.gii
+        │   ├── native.rostral_ERh.k159.niml.dset
+        │   ├── native.RPB.k203.gii
+        │   ├── native.RPB.k203.niml.dset
+        │   ├── native.RT.k222.gii
+        │   ├── native.RT.k222.niml.dset
+        │   ├── native.RTL.k212.gii
+        │   ├── native.RTL.k212.niml.dset
+        │   ├── native.RTM.k217.gii
+        │   ├── native.RTM.k217.niml.dset
+        │   ├── native.RTp.k218.gii
+        │   ├── native.RTp.k218.niml.dset
+        │   ├── native.SII.k95.gii
+        │   ├── native.SII.k95.niml.dset
+        │   ├── native.SMA.k89.gii
+        │   ├── native.SMA.k89.niml.dset
+        │   ├── native.STGr.k198.gii
+        │   ├── native.STGr.k198.niml.dset
+        │   ├── native.TAa.k197.gii
+        │   ├── native.TAa.k197.niml.dset
+        │   ├── native.TEad.k184.gii
+        │   ├── native.TEad.k184.niml.dset
+        │   ├── native.TEa.k187.gii
+        │   ├── native.TEa.k187.niml.dset
+        │   ├── native.TEav.k183.gii
+        │   ├── native.TEav.k183.niml.dset
+        │   ├── native.TEm.k186.gii
+        │   ├── native.TEm.k186.niml.dset
+        │   ├── native.TEO.k176.gii
+        │   ├── native.TEO.k176.niml.dset
+        │   ├── native.TEpd.k181.gii
+        │   ├── native.TEpd.k181.niml.dset
+        │   ├── native.TEpv.k180.gii
+        │   ├── native.TEpv.k180.niml.dset
+        │   ├── native.TF.k151.gii
+        │   ├── native.TF.k151.niml.dset
+        │   ├── native.TFO.k150.gii
+        │   ├── native.TFO.k150.niml.dset
+        │   ├── native.TGa.k166.gii
+        │   ├── native.TGa.k166.niml.dset
+        │   ├── native.TGdd.k169.gii
+        │   ├── native.TGdd.k169.niml.dset
+        │   ├── native.TGdg.k172.gii
+        │   ├── native.TGdg.k172.niml.dset
+        │   ├── native.TGsts.k174.gii
+        │   ├── native.TGsts.k174.niml.dset
+        │   ├── native.TGvd.k170.gii
+        │   ├── native.TGvd.k170.niml.dset
+        │   ├── native.TGvg.k173.gii
+        │   ├── native.TGvg.k173.niml.dset
+        │   ├── native.TH.k152.gii
+        │   ├── native.TH.k152.niml.dset
+        │   ├── native.TPO.k196.gii
+        │   ├── native.TPO.k196.niml.dset
+        │   ├── native.Tpt.k200.gii
+        │   ├── native.Tpt.k200.niml.dset
+        │   ├── native.V1.k246.gii
+        │   ├── native.V1.k246.niml.dset
+        │   ├── native.V3A.k240.gii
+        │   ├── native.V3A.k240.niml.dset
+        │   ├── native.V3d.k241.gii
+        │   ├── native.V3d.k241.niml.dset
+        │   ├── native.V3v.k242.gii
+        │   ├── native.V3v.k242.niml.dset
+        │   ├── native.V4d.k235.gii
+        │   ├── native.V4d.k235.niml.dset
+        │   ├── native.V4v.k236.gii
+        │   ├── native.V4v.k236.niml.dset
+        │   ├── native.V6Ad.k101.gii
+        │   ├── native.V6Ad.k101.niml.dset
+        │   ├── native.V6Av.k100.gii
+        │   ├── native.V6Av.k100.niml.dset
+        │   ├── native.V6.k98.gii
+        │   ├── native.V6.k98.niml.dset
+        │   ├── native.VIP.k110.gii
+        │   └── native.VIP.k110.niml.dset
+        └── surfaces_SEG
+            ├── native.BV.k5.gii
+            ├── native.BV.k5.niml.dset
+            ├── native.CSF.k1.gii
+            ├── native.CSF.k1.niml.dset
+            ├── native.GM.k2.gii
+            ├── native.GM.k2.niml.dset
+            ├── native.scGM.k3.gii
+            ├── native.scGM.k3.niml.dset
+            ├── native.WM.k4.gii
+            └── native.WM.k4.niml.dset
+
+50 directories, 2974 files
