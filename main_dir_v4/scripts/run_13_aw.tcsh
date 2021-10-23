@@ -23,6 +23,11 @@ set dir_log       = ${dir_inroot}/logs
 
 # --------------------------------------------------------------------------
 
+# make directory for storing text files to log the processing
+\mkdir -p ${dir_log}
+
+# --------------------------------------------------------------------------
+
 # run command script (verbosely and stop at any failure); log terminal text.
 
 tcsh -xef do_${cmd}.tcsh  ${subj} ${ses}                           \
