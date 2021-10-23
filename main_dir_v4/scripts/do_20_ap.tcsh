@@ -109,7 +109,7 @@ cat <<EOF >! ${ap_cmd}
 #
 # + This script processes 4 out of 15 EPI dsets in the sub-000/
 #   directory, choosing a subset just for speed reasons.  The other
-#   "s11*.tcsh" script can be run to process all 15.
+#   "do_21_ap_all.tcsh" script can be run to process all 15.
 
 #   - Because the full data has 15 runs, the stimulus timing files
 #     have 15 rows; when you run this AP command, you see see the
