@@ -224,6 +224,11 @@ QC SAMPLES
 Demo Version history
 --------------------
 
+ver  = 4.1; date = Oct 23, 2021
+
++ Remove old/unuseful file from scripts/ directory
+
+---------------------------------------------------------------------------
 ver  = 4.0; date = Oct 23, 2021
 
 + Now using NMT v2.1
