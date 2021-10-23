@@ -163,12 +163,6 @@ SCRIPTS
        processing *all* the EPIs).
 
        See "QC SAMPLES" below.
-       NB: the QC HTML of an earlier run of this data is distributed
-       in the main directory, for quick viewing, and can be opened
-       with any browser, such as via:
-
-           afni_open -b QC_sub-000__FOUREPI/index.html
-      
 
    + do_20_ap_all.tcsh, via run_21_ap_all.tcsh (to be run)
 
@@ -176,11 +170,6 @@ SCRIPTS
        do_20_ap.tcsh, but this will process all 15 EPI dsets.
 
        See "QC SAMPLES" below.
-
-       The QC HTML of an earlier run of this data can be opened with 
-       any browser, such as via:
-
-           afni_open -b QC_sub-000__ALLEPI/index.html
 
 --------------------------------------------------------------------------
 
