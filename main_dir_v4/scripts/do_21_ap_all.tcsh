@@ -12,6 +12,7 @@
 # labels
 set subj           = $1
 set ses            = $2
+set ap_label       = 21_ap_all
 
 # upper directories
 set dir_inroot     = ${PWD:h}                        # one dir above scripts/
@@ -20,18 +21,14 @@ set dir_ref        = ${dir_inroot}/NMT_v2.1_sym/NMT_v2.1_sym_05mm
 
 set dir_basic      = ${dir_inroot}/data_00_basic
 set dir_aw         = ${dir_inroot}/data_13_aw
-
-set dir_ap         = ${dir_inroot}/data_20_ap
-set dir_ap_all     = ${dir_inroot}/data_21_ap_all
+set dir_ap         = ${dir_inroot}/data_${ap_label}
 
 # subject directories
 set sdir_basic     = ${dir_basic}/${subj}/${ses}
 set sdir_anat      = ${sdir_basic}/anat
 set sdir_epi       = ${sdir_basic}/func
 set sdir_aw        = ${dir_aw}/${subj}/${ses}
-
 set sdir_ap        = ${dir_ap}/${subj}/${ses}
-set sdir_ap_all    = ${dir_ap_all}/${subj}/${ses}
 
 # --------------------------------------------------------------------------
 # data and control variables
@@ -55,8 +52,6 @@ set ref_mask     = ${dir_ref}/NMT_v2.1_sym_05mm_brainmask.nii.gz
 set ref_mask_ab  = MASK
 
 # AP files
-set sdir_this_ap  = ${sdir_ap_all}                   # pick AP dir (and cmd)
-
 set dsets_epi    = ( ${sdir_epi}/epi-*-${subj}.nii.gz )
 
 set anat_cp      = ${sdir_aw}/${anat_orig_ab}_ns.nii.gz
@@ -73,7 +68,6 @@ set stim_files   = ( ${sdir_epi}/stim_face.1D          \
 set stim_labs    = ( FACE  OBJ  SFACE  SOBJ )
 
 # control variables
-
 set nt_rm        = 4
 set blur_size    = 2.0
 set final_dxyz   = 1.5      # can test against inputs
@@ -97,9 +91,9 @@ setenv AFNI_COMPRESSOR GZIP
 # run programs
 # ---------------------------------------------------------------------------
 
-set ap_cmd = ${sdir_this_ap}/ap.cmd.${subj}
+set ap_cmd = ${sdir_ap}/ap.cmd.${subj}
 
-\mkdir -p ${sdir_this_ap}
+\mkdir -p ${sdir_ap}
 
 # write AP command to file
 cat <<EOF >! ${ap_cmd}
@@ -155,7 +149,7 @@ afni_proc.py                                                              \
 
 EOF
 
-cd ${sdir_this_ap}
+cd ${sdir_ap}
 
 # execute AP command to make processing script
 tcsh -xef ${ap_cmd} |& tee output.ap.cmd.${subj}
@@ -163,6 +157,6 @@ tcsh -xef ${ap_cmd} |& tee output.ap.cmd.${subj}
 # execute the proc script, saving text info
 time tcsh -xef proc.${subj} |& tee output.proc.${subj}
 
-echo "++ FINISHED AP"
+echo "++ FINISHED AP: ${ap_label}"
 
 exit 0
