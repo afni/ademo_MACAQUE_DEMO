@@ -213,6 +213,11 @@ QC SAMPLES
 Demo Version history
 --------------------
 
+ver  = 4.2; date = Nov 8, 2021
+
++ Update do*tcsh scripts to be simpler (really!)
+
+---------------------------------------------------------------------------
 ver  = 4.1; date = Oct 23, 2021
 
 + Remove old/unuseful file from scripts/ directory
