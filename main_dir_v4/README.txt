@@ -213,6 +213,12 @@ QC SAMPLES
 Demo Version history
 --------------------
 
+ver  = 4.2.1; date = Nov 15, 2021
+
++ Minor update in do*tcsh scripts: ASC gets num of cpu more easily
+
+--------------------
+
 ver  = 4.2; date = Nov 8, 2021
 
 + Update do*tcsh scripts to be simpler (really!)
